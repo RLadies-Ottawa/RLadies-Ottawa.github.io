@@ -2,18 +2,37 @@ project:
   type: website
 
 website:
-  title: "RLadies-Ottawa.github.io"
-  navbar:
-    left:
+  title: "R-Ladies Ottawa"
+  favicon: images/favicon.ico
+  page-navigation: true
+  site-url: https://www.rladies-ottawa.github.io/
+  reader-mode: true
+  repo-url: https://github.com/RLadies-Ottawa/rladies-ottawa.github.io
+  repo-actions: [edit, source, issue]
+  page-footer:
+    center:
       - href: index.qmd
         text: Home
-      - about.qmd
-
+  sidebar:
+    title: R-Ladies Ottawa
+    style: "docked"
+    search: true
+    collapse-level: 1
+    logo: images/logo.png
+    contents:
+      - href: index.qmd
+        text: About
+      - href: sponsors.qmd
+        text: Sponsors
+      - section: Events
+        contents:
+        - href: iwd_2024.qmd
+          text: "International Women's Day Coding Challenge"
+        
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: [minty, custom_light.scss]
+      dark: [darkly, custom_dark.scss]
     css: styles.css
     toc: true
-
-
-

@@ -1,11 +1,31 @@
 ---
-title: "RLadies-Ottawa.github.io"
+title: "R-Ladies Ottawa"
 ---
 
-This is a Quarto website.
+## About R-Ladies
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+[R-Ladies](https://www.rladies.org) is a worldwide organization whose mission is to promote gender diversity in the R community. The R community suffers from an under-representation of minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators, or users.
+
+## About the Ottawa Chapter
 
 ```{r}
-1 + 1
+#| echo: false
+#| include: false
+# Scrape the number from the website
 ```
+
+This website is for the Ottawa chapter of R-Ladies. The Ottawa chapter was founded in 2018. After the pandemic, R-Ladies Ottawa "rebooted" in September 2023. As of February 2024, the Ottawa chapter has 672 members on [Meetup](https://www.meetup.com/rladies-ottawa/)!
+
+## Interested in joining?
+
+:::{.callout-important}
+
+## Important
+
+**Please note that the mission of R-Ladies is to increase gender diversity in the R community.** While our Meetup Group is open to anyone to join, and while we welcome allies to our events as guests, our events are intended to provide a safe space for women and gender minorities.
+
+:::
+
+The best way to keep up to date with our upcoming events is to join [our Meetup Group](https://www.meetup.com/rladies-ottawa/). We post announcements regularly here!
+
+If you are a woman or gender minority, we also recommend joining the [global R-Ladies directory](https://www.rladies.org/directory/) and the [R-Ladies Community Slack](https://guide.rladies.org/comm/slack/). This is a great way to connect with R-Ladies from other chapters!

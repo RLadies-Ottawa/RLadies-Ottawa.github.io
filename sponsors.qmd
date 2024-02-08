@@ -1,0 +1,12 @@
+---
+title: "Sponsors"
+---
+
+Sponsoring R-Ladies Ottawa is a great way to show your support for gender diversity in our community. You can support our local chapter with:
+
+* Venue space
+* Food and beverages
+* Prizes for coding challenges
+* Funding for any of the above
+
+If you're interested in sponsoring us, please contact the organizers via a direct message on our [Meetup Group](https://www.meetup.com/rladies-ottawa/).

@@ -26,8 +26,10 @@ website:
         text: Sponsors
       - section: Events
         contents:
-        - href: events/iwd_2024.qmd
+        - href: events/2024/iwd.qmd
           text: "International Women's Day Coding Challenge"
+        - href: events/2024/intro_to_r.qmd
+          text: "Introduction to R Workshop Series"
         
 format:
   html:

@@ -1,0 +1,51 @@
+---
+title: "International Women's Day Data Challenge 2024"
+---
+
+International Women's Day takes place on March 8th, 2024. The theme for this year is "Invest in women: Accelerate progress".
+
+In honour of this theme, R-Ladies Ottawa is hosting a data challenge!
+
+![](images/data_challenge_2024.png)
+
+## Challenge
+
+Details will be posted soon.
+
+## Guidelines
+
+Although this challenge is hosted by *R-Ladies* Ottawa, you don't have to use R to participate. You could use R, Python, a combination of the two, or anything you're comfortable with! 
+
+No previous programming experience is required! If you're interested in participating, but aren't sure where to start, check out the recordings from our [Introduction to R workshops](https://www.rladies-ottawa.gitub.io/events/2024/intro_to_r.html) that we hosted in early 2024. The workshops will give you a solid foundation in data analysis and data visualization using R.
+
+While anyone is welcome to participate in the challenge and submit an entry, **only submissions by women and gender minorities who reside in Canada will be eligible for the prizes.**
+
+You can participate individually, or in teams of up to 5 people!
+
+## Need help finding a team member?
+
+If you're interested in participating in the challenge as part of a team, but need help finding team members, come to our [International Women's Day Networking Event and Data Challenge Kickoff]() on March 8th!
+
+![](images/iwd_2024.png)
+
+## Prizes
+
+There will be a prize for each of the following categories:
+
+* Crowd favourite solution
+* Most innovative solution
+* Most aesthetically pleasing solution
+
+Prize details will be released at a later date.
+
+## How to submit an entry
+
+Details will be added soon.
+
+## How will winners be decided?
+
+After the submission deadline, a voting link will be sent to the [R-Ladies Ottawa Meetup Group](https://www.meetup.com/rladies-ottawa/). One vote per member of the group will be allowed.
+
+## Showcasing your analysis
+
+In **May 2024**, R-Ladies Ottawa will host a virtual event where participants can showcase their work (Date and time will be announced soon). This is a great way to learn from one another and to connect with other like-minded individuals!

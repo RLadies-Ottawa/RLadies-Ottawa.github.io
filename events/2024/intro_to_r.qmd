@@ -1,0 +1,15 @@
+---
+title: "Introduction to R Workshop Series"
+---
+
+In January and February 2024, R-Ladies Ottawa hosted a 3-part Introduction to R workshop series.
+
+![](images/workshop_series.png)
+
+You can find the materials from the workshops below:
+
+1. Introduction to R and RStudio [[Event](https://www.meetup.com/rladies-ottawa/events/298042625/)] [[Recording](https://www.youtube.com/watch?v=1DwmSjbR7cs&pp=ygUNcmVpa28gb2thbW90bw%3D%3D)] [[Code](https://github.com/RLadies-Ottawa/2024-01-25_intro-to-R)]
+
+2. Data Visualization I [[Event](https://www.meetup.com/rladies-ottawa/events/298042652/)] [[Recording](https://www.youtube.com/watch?v=lFjjD0EEWX0&pp=ygUNcmVpa28gb2thbW90bw%3D%3D)] [[Code](https://github.com/RLadies-Ottawa/2024-02-01_ggplot2-part-01)]
+
+3. Data Visualization II [[Event]()] [[Recording]()] [[Code](https://github.com/RLadies-Ottawa/2024-02-22_ggplot2-part-02)]

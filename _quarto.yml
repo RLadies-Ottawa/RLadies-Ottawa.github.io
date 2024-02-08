@@ -26,7 +26,7 @@ website:
         text: Sponsors
       - section: Events
         contents:
-        - href: iwd_2024.qmd
+        - href: events/iwd_2024.qmd
           text: "International Women's Day Coding Challenge"
         
 format:
@@ -34,5 +34,4 @@ format:
     theme: 
       light: [minty, custom_light.scss]
       dark: [darkly, custom_dark.scss]
-    css: styles.css
     toc: true

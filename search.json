@@ -1,21 +1,24 @@
 [
   {
-    "objectID": "events/iwd_2024.html",
-    "href": "events/iwd_2024.html",
-    "title": "International Women’s Day Coding Challenge",
+    "objectID": "events/2024/intro_to_r.html",
+    "href": "events/2024/intro_to_r.html",
+    "title": "Introduction to R Workshop Series",
     "section": "",
-    "text": "IWD Coding Challenge\nMore details coming soon.",
+    "text": "In January and February 2024, R-Ladies Ottawa hosted a 3-part Introduction to R workshop series.\n\nYou can find the materials from the workshops below:\n\nIntroduction to R and RStudio [Event] [Recording] [Code]\nData Visualization I [Event] [Recording] [Code]\nData Visualization II [Event] [Recording] [Code]",
     "crumbs": [
       "Events",
-      "International Women's Day Coding Challenge"
+      "Introduction to R Workshop Series"
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "sponsors.html",
+    "href": "sponsors.html",
+    "title": "Sponsors",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Sponsoring R-Ladies Ottawa is a great way to show your support for gender diversity in our community. You can support our local chapter with:\n\nVenue space\nFood and beverages\nPrizes for coding challenges\nFunding for any of the above\n\nIf you’re interested in sponsoring us, please contact the organizers via a direct message on our Meetup Group.",
+    "crumbs": [
+      "Sponsors"
+    ]
   },
   {
     "objectID": "index.html",
@@ -58,13 +61,91 @@
     ]
   },
   {
-    "objectID": "sponsors.html",
-    "href": "sponsors.html",
-    "title": "Sponsors",
+    "objectID": "events/2024/iwd.html",
+    "href": "events/2024/iwd.html",
+    "title": "International Women’s Day Data Challenge 2024",
     "section": "",
-    "text": "Sponsoring R-Ladies Ottawa is a great way to show your support for gender diversity in our community. You can support our local chapter with:\n\nVenue space\nFood and beverages\nPrizes for coding challenges\nFunding for any of the above\n\nIf you’re interested in sponsoring us, please contact the organizers via a direct message on our Meetup Group.",
+    "text": "International Women’s Day takes place on March 8th, 2024. The theme for this year is “Invest in women: Accelerate progress”.\nIn honour of this theme, R-Ladies Ottawa is hosting a data challenge!",
     "crumbs": [
-      "Sponsors"
+      "Events",
+      "International Women's Day Coding Challenge"
+    ]
+  },
+  {
+    "objectID": "events/2024/iwd.html#challenge",
+    "href": "events/2024/iwd.html#challenge",
+    "title": "International Women’s Day Data Challenge 2024",
+    "section": "Challenge",
+    "text": "Challenge\nDetails will be posted soon.",
+    "crumbs": [
+      "Events",
+      "International Women's Day Coding Challenge"
+    ]
+  },
+  {
+    "objectID": "events/2024/iwd.html#guidelines",
+    "href": "events/2024/iwd.html#guidelines",
+    "title": "International Women’s Day Data Challenge 2024",
+    "section": "Guidelines",
+    "text": "Guidelines\nAlthough this challenge is hosted by R-Ladies Ottawa, you don’t have to use R to participate. You could use R, Python, a combination of the two, or anything you’re comfortable with!\nNo previous programming experience is required! If you’re interested in participating, but aren’t sure where to start, check out the recordings from our Introduction to R workshops that we hosted in early 2024. The workshops will give you a solid foundation in data analysis and data visualization using R.\nWhile anyone is welcome to participate in the challenge and submit an entry, only submissions by women and gender minorities who reside in Canada will be eligible for the prizes.\nYou can participate individually, or in teams of up to 5 people!",
+    "crumbs": [
+      "Events",
+      "International Women's Day Coding Challenge"
+    ]
+  },
+  {
+    "objectID": "events/2024/iwd.html#need-help-finding-a-team-member",
+    "href": "events/2024/iwd.html#need-help-finding-a-team-member",
+    "title": "International Women’s Day Data Challenge 2024",
+    "section": "Need help finding a team member?",
+    "text": "Need help finding a team member?\nIf you’re interested in participating in the challenge as part of a team, but need help finding team members, come to our International Women’s Day Networking Event and Data Challenge Kickoff on March 8th!",
+    "crumbs": [
+      "Events",
+      "International Women's Day Coding Challenge"
+    ]
+  },
+  {
+    "objectID": "events/2024/iwd.html#prizes",
+    "href": "events/2024/iwd.html#prizes",
+    "title": "International Women’s Day Data Challenge 2024",
+    "section": "Prizes",
+    "text": "Prizes\nThere will be a prize for each of the following categories:\n\nCrowd favourite solution\nMost innovative solution\nMost aesthetically pleasing solution\n\nPrize details will be released at a later date.",
+    "crumbs": [
+      "Events",
+      "International Women's Day Coding Challenge"
+    ]
+  },
+  {
+    "objectID": "events/2024/iwd.html#how-to-submit-an-entry",
+    "href": "events/2024/iwd.html#how-to-submit-an-entry",
+    "title": "International Women’s Day Data Challenge 2024",
+    "section": "How to submit an entry",
+    "text": "How to submit an entry\nDetails will be added soon.",
+    "crumbs": [
+      "Events",
+      "International Women's Day Coding Challenge"
+    ]
+  },
+  {
+    "objectID": "events/2024/iwd.html#how-will-winners-be-decided",
+    "href": "events/2024/iwd.html#how-will-winners-be-decided",
+    "title": "International Women’s Day Data Challenge 2024",
+    "section": "How will winners be decided?",
+    "text": "How will winners be decided?\nAfter the submission deadline, a voting link will be sent to the R-Ladies Ottawa Meetup Group. One vote per member of the group will be allowed.",
+    "crumbs": [
+      "Events",
+      "International Women's Day Coding Challenge"
+    ]
+  },
+  {
+    "objectID": "events/2024/iwd.html#showcasing-your-analysis",
+    "href": "events/2024/iwd.html#showcasing-your-analysis",
+    "title": "International Women’s Day Data Challenge 2024",
+    "section": "Showcasing your analysis",
+    "text": "Showcasing your analysis\nIn May 2024, R-Ladies Ottawa will host a virtual event where participants can showcase their work (Date and time will be announced soon). This is a great way to learn from one another and to connect with other like-minded individuals!",
+    "crumbs": [
+      "Events",
+      "International Women's Day Coding Challenge"
     ]
   }
 ]

@@ -1,1 +1,1 @@
-Sitemap: https://RLadies-Ottawa.github.io/sitemap.xml
+Sitemap: https://www.rladies-ottawa.github.io/sitemap.xml

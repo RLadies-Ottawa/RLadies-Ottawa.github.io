@@ -1,5 +1,16 @@
 [
   {
+    "objectID": "iwd_2024.html",
+    "href": "iwd_2024.html",
+    "title": "International Women’s Day Coding Challenge",
+    "section": "",
+    "text": "IWD Coding Challenge\nMore details coming soon.",
+    "crumbs": [
+      "Events",
+      "International Women's Day Coding Challenge"
+    ]
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -9,8 +20,51 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "RLadies-Ottawa.github.io",
+    "title": "R-Ladies Ottawa",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "R-Ladies is a worldwide organization whose mission is to promote gender diversity in the R community. The R community suffers from an under-representation of minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators, or users.",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "index.html#about-r-ladies",
+    "href": "index.html#about-r-ladies",
+    "title": "R-Ladies Ottawa",
+    "section": "",
+    "text": "R-Ladies is a worldwide organization whose mission is to promote gender diversity in the R community. The R community suffers from an under-representation of minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators, or users.",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "index.html#about-the-ottawa-chapter",
+    "href": "index.html#about-the-ottawa-chapter",
+    "title": "R-Ladies Ottawa",
+    "section": "About the Ottawa Chapter",
+    "text": "About the Ottawa Chapter\nThis website is for the Ottawa chapter of R-Ladies. The Ottawa chapter was founded in 2018. After the pandemic, R-Ladies Ottawa “rebooted” in September 2023. As of February 2024, the Ottawa chapter has 672 members on Meetup!",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "index.html#interested-in-joining",
+    "href": "index.html#interested-in-joining",
+    "title": "R-Ladies Ottawa",
+    "section": "Interested in joining?",
+    "text": "Interested in joining?\n\n\n\n\n\n\nImportant\n\n\n\nPlease note that the mission of R-Ladies is to increase gender diversity in the R community. While our Meetup Group is open to anyone to join, and while we welcome allies to our events as guests, our events are intended to provide a safe space for women and gender minorities.\n\n\nThe best way to keep up to date with our upcoming events is to join our Meetup Group. We post announcements regularly here!\nIf you are a woman or gender minority, we also recommend joining the global R-Ladies directory and the R-Ladies Community Slack. This is a great way to connect with R-Ladies from other chapters!",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "sponsors.html",
+    "href": "sponsors.html",
+    "title": "Sponsors",
+    "section": "",
+    "text": "Sponsoring R-Ladies Ottawa is a great way to show your support for gender diversity in our community. You can support our local chapter with:\n\nVenue space\nFood and beverages\nPrizes for coding challenges\nFunding for any of the above\n\nIf you’re interested in sponsoring us, please contact the organizers via a direct message on our Meetup Group.",
+    "crumbs": [
+      "Sponsors"
+    ]
   }
 ]

@@ -8,7 +8,19 @@ title: "R-Ladies Ottawa"
 
 ## About the Ottawa Chapter
 
-This website is for the Ottawa chapter of R-Ladies. The Ottawa chapter was founded in 2018. After the pandemic, R-Ladies Ottawa "rebooted" in September 2023. As of February 2024, the Ottawa chapter has 672 members on [Meetup](https://www.meetup.com/rladies-ottawa/)!
+```{r}
+#| echo: false
+#| include: false
+# Get the current number of members on Meetup
+library(rvest)
+rladies <- read_html("https://www.meetup.com/rladies-ottawa/")
+num_members <- rladies %>% 
+  html_elements("h2#members-section") %>%
+  html_text()
+num_members <- as.numeric(gsub("\\D", "", num_members))
+```
+
+This website is for the Ottawa chapter of R-Ladies. The Ottawa chapter was founded in 2018. After the pandemic, R-Ladies Ottawa "rebooted" in September 2023. Today, the Ottawa chapter has `r num_members` members on [Meetup](https://www.meetup.com/rladies-ottawa/)!
 
 ## Interested in joining?
 
@@ -16,7 +28,7 @@ This website is for the Ottawa chapter of R-Ladies. The Ottawa chapter was found
 
 ## Important
 
-**Please note that the mission of R-Ladies is to increase gender diversity in the R community.** While our Meetup Group is open to anyone to join, and while we welcome allies to our events as guests, our events are intended to provide a safe space for women and gender minorities.
+**Please note that the mission of R-Ladies is to increase gender diversity in the R community.** While our Meetup Group is open to anyone to join, our events are intended to provide a safe space for women and gender minorities. Male allies may attend our in-person events **if they are invited by and accompanied by a woman or gender minority.**
 
 :::
 

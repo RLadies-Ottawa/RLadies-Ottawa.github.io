@@ -10,13 +10,25 @@ In honour of this theme, R-Ladies Ottawa is hosting a data challenge!
 
 ## Challenge
 
-Details will be posted soon.
+The objective of this data challenge is to analyze *investing in women*. This is a very open-ended challenge, so be as creative as you'd like!
+
+Some examples include:
+
+* Analyze venture capital investment data to understand trends in funding for women-led startups.
+* Analyze businesses or organizations that promote women's empowerment.
+* Analyze data on gender diversity in leadership positions.
+
+You can use any data source, but the following are examples:
+
+* [Measuring the value of women's contribution to the Canadian economy: New insights based on recent work](https://www150.statcan.gc.ca/n1/pub/36-28-0001/2023002/article/00001-eng.htm)
+* [Statistics Canada's *Gender, Diversity and Inclusion Statistics Hub*](https://www.statcan.gc.ca/en/topics-start/gender_diversity_and_inclusion)
+* [Statistics Canada's *Average percentage of women and men in management positions* tables](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3310066001)
 
 ## Guidelines
 
 Although this challenge is hosted by *R-Ladies* Ottawa, you don't have to use R to participate. You could use R, Python, a combination of the two, or anything you're comfortable with! 
 
-No previous programming experience is required! If you're interested in participating, but aren't sure where to start, check out the recordings from our [Introduction to R workshops](https://www.rladies-ottawa.gitub.io/events/2024/intro_to_r.html) that we hosted in early 2024. The workshops will give you a solid foundation in data analysis and data visualization using R.
+No previous programming experience is required! If you're interested in participating, but aren't sure where to start, check out the recordings from our [Introduction to R workshops](https://rladies-ottawa.gitub.io/events/2024/intro_to_r.html) that we hosted in early 2024. The workshops will give you a solid foundation in data analysis and data visualization using R.
 
 While anyone is welcome to participate in the challenge and submit an entry, **only submissions by women and gender minorities who reside in Canada will be eligible for the prizes.**
 
@@ -24,28 +36,29 @@ You can participate individually, or in teams of up to 5 people!
 
 ## Need help finding a team member?
 
-If you're interested in participating in the challenge as part of a team, but need help finding team members, come to our [International Women's Day Networking Event and Data Challenge Kickoff]() on March 8th!
+If you're interested in participating in the challenge as part of a team, but need help finding team members, come to our [International Women's Day Networking Event and Data Challenge Kickoff](https://www.meetup.com/rladies-ottawa/events/299173960/) on March 8th!
 
 ![](images/iwd_2024.png)
 
 ## Prizes
 
-There will be a prize for each of the following categories:
-
-* Crowd favourite solution
-* Most innovative solution
-* Most aesthetically pleasing solution
-
 Prize details will be released at a later date.
 
 ## How to submit an entry
 
-Details will be added soon.
+This will be a month-long data challenge, and you'll have until **April 7th** to submit your entry. Your submission can be in any form you like -- it can be a Quarto document, an image, a link to a webpage, or a link to a video, for example.
 
-## How will winners be decided?
+There are two options for submitting an entry: 
 
-After the submission deadline, a voting link will be sent to the [R-Ladies Ottawa Meetup Group](https://www.meetup.com/rladies-ottawa/). One vote per member of the group will be allowed.
+* Option 1 (preferred option): If you have experience with GitHub and Quarto, you can create a pull request on [this repository](https://github.com/RLadies-Ottawa/rladies-ottawa.github.io) and add your submission to the ["Submissions"](iwd.qmd#submissions) part of this page
+* Option 2: If you don't have experience with GitHub, you can email ottawa@rladies.org a link to your submission materials and we will add the link to the ["Submissions"](iwd.qmd#submissions) part of this page
 
 ## Showcasing your analysis
 
-In **May 2024**, R-Ladies Ottawa will host a virtual event where participants can showcase their work (Date and time will be announced soon). This is a great way to learn from one another and to connect with other like-minded individuals!
+After the submission deadline, R-Ladies Ottawa will host an event where participants can showcase their work. This is a great way to learn from one another and to connect with other like-minded individuals!
+
+The date and time of the showcase event will be determined by sending out a poll after the submission deadline, to those who wish to participate.
+
+## Submissions
+
+Please use this section of the page to submit your entries. You can create a subheading with your name and include any materials you'd like to share with others!

@@ -6,7 +6,7 @@ International Women's Day takes place on March 8th, 2024. The theme for this yea
 
 In honour of this theme, R-Ladies Ottawa is hosting a data challenge!
 
-![](images/data_challenge_2024.png)
+![](images/data_challenge_2024.svg)
 
 ## Challenge
 
@@ -38,7 +38,7 @@ You can participate individually, or in teams of up to 5 people!
 
 If you're interested in participating in the challenge as part of a team, but need help finding team members, come to our [International Women's Day Networking Event and Data Challenge Kickoff](https://www.meetup.com/rladies-ottawa/events/299173960/) on March 8th!
 
-![](images/iwd_2024.png)
+![](images/iwd_2024.svg)
 
 ## Prizes
 

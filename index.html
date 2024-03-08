@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.16">
+<meta name="generator" content="quarto-1.5.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -131,6 +131,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Sponsors</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./feedback.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Feedback</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
@@ -198,7 +204,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="about-the-ottawa-chapter" class="level2">
 <h2 class="anchored" data-anchor-id="about-the-ottawa-chapter">About the Ottawa Chapter</h2>
-<p>This website is for the Ottawa chapter of R-Ladies. The Ottawa chapter was founded in 2018. After the pandemic, R-Ladies Ottawa “rebooted” in September 2023. Today, the Ottawa chapter has 698 members on <a href="https://www.meetup.com/rladies-ottawa/">Meetup</a>!</p>
+<p>This website is for the Ottawa chapter of R-Ladies. The Ottawa chapter was founded in 2018. After the pandemic, R-Ladies Ottawa “rebooted” in September 2023. Today, the Ottawa chapter has 716 members on <a href="https://www.meetup.com/rladies-ottawa/">Meetup</a>!</p>
 </section>
 <section id="interested-in-joining" class="level2">
 <h2 class="anchored" data-anchor-id="interested-in-joining">Interested in joining?</h2>
@@ -217,6 +223,7 @@ Important
 </div>
 <p>The best way to keep up to date with our upcoming events is to join <a href="https://www.meetup.com/rladies-ottawa/">our Meetup Group</a>. We post announcements regularly here!</p>
 <p>If you are a woman or gender minority, we also recommend joining the <a href="https://www.rladies.org/directory/">global R-Ladies directory</a> and the <a href="https://guide.rladies.org/comm/slack/">R-Ladies Community Slack</a>. This is a great way to connect with R-Ladies from other chapters!</p>
+<p>If you’re interested in being an organizer for R-Ladies Ottawa, please contact us through a direct message on our Meetup.</p>
 
 
 </section>
@@ -445,6 +452,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/www\.rladies-ottawa\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -479,7 +504,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');

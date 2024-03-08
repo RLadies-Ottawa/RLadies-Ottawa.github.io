@@ -1,16 +1,5 @@
 [
   {
-    "objectID": "events/2024/intro_to_r.html",
-    "href": "events/2024/intro_to_r.html",
-    "title": "Introduction to R Workshop Series",
-    "section": "",
-    "text": "In January and February 2024, R-Ladies Ottawa hosted a 3-part Introduction to R workshop series.\n\nYou can find the materials from the workshops below:\n\nIntroduction to R and RStudio [Event] [Recording] [Code]\nData Visualization I [Event] [Recording] [Code]\nData Visualization II [Event] [Recording] [Code]",
-    "crumbs": [
-      "Events",
-      "Introduction to R Workshop Series"
-    ]
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "R-Ladies Ottawa",
@@ -35,7 +24,7 @@
     "href": "index.html#about-the-ottawa-chapter",
     "title": "R-Ladies Ottawa",
     "section": "About the Ottawa Chapter",
-    "text": "About the Ottawa Chapter\nThis website is for the Ottawa chapter of R-Ladies. The Ottawa chapter was founded in 2018. After the pandemic, R-Ladies Ottawa “rebooted” in September 2023. Today, the Ottawa chapter has 698 members on Meetup!",
+    "text": "About the Ottawa Chapter\nThis website is for the Ottawa chapter of R-Ladies. The Ottawa chapter was founded in 2018. After the pandemic, R-Ladies Ottawa “rebooted” in September 2023. Today, the Ottawa chapter has 716 members on Meetup!",
     "crumbs": [
       "About"
     ]
@@ -45,7 +34,7 @@
     "href": "index.html#interested-in-joining",
     "title": "R-Ladies Ottawa",
     "section": "Interested in joining?",
-    "text": "Interested in joining?\n\n\n\n\n\n\nImportant\n\n\n\nPlease note that the mission of R-Ladies is to increase gender diversity in the R community. While our Meetup Group is open to anyone to join, our events are intended to provide a safe space for women and gender minorities. Male allies may attend our in-person events if they are invited by and accompanied by a woman or gender minority.\n\n\nThe best way to keep up to date with our upcoming events is to join our Meetup Group. We post announcements regularly here!\nIf you are a woman or gender minority, we also recommend joining the global R-Ladies directory and the R-Ladies Community Slack. This is a great way to connect with R-Ladies from other chapters!",
+    "text": "Interested in joining?\n\n\n\n\n\n\nImportant\n\n\n\nPlease note that the mission of R-Ladies is to increase gender diversity in the R community. While our Meetup Group is open to anyone to join, our events are intended to provide a safe space for women and gender minorities. Male allies may attend our in-person events if they are invited by and accompanied by a woman or gender minority.\n\n\nThe best way to keep up to date with our upcoming events is to join our Meetup Group. We post announcements regularly here!\nIf you are a woman or gender minority, we also recommend joining the global R-Ladies directory and the R-Ladies Community Slack. This is a great way to connect with R-Ladies from other chapters!\nIf you’re interested in being an organizer for R-Ladies Ottawa, please contact us through a direct message on our Meetup.",
     "crumbs": [
       "About"
     ]
@@ -146,6 +135,27 @@
     "crumbs": [
       "Events",
       "International Women's Day Coding Challenge"
+    ]
+  },
+  {
+    "objectID": "events/2024/intro_to_r.html",
+    "href": "events/2024/intro_to_r.html",
+    "title": "Introduction to R Workshop Series",
+    "section": "",
+    "text": "In January and February 2024, R-Ladies Ottawa hosted a 3-part Introduction to R workshop series.\n\nYou can find the materials from the workshops below:\n\nIntroduction to R and RStudio [Event] [Recording] [Code]\nData Visualization I [Event] [Recording] [Code]\nData Visualization II [Event] [Recording] [Code]",
+    "crumbs": [
+      "Events",
+      "Introduction to R Workshop Series"
+    ]
+  },
+  {
+    "objectID": "feedback.html",
+    "href": "feedback.html",
+    "title": "Feedback",
+    "section": "",
+    "text": "We’re always looking to improve our events! Use the form below to let us know what’s working well, what we could do to improve, and any ideas you might have.\n\nLoading…",
+    "crumbs": [
+      "Feedback"
     ]
   }
 ]

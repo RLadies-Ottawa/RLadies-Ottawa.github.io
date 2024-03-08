@@ -39,6 +39,11 @@ You can participate individually, or in teams of up to 5 people!
 If you're interested in participating in the challenge as part of a team, but need help finding team members, come to our [International Women's Day Networking Event and Data Challenge Kickoff](https://www.meetup.com/rladies-ottawa/events/299173960/) on March 8th!
 
 ![](images/iwd_2024.svg)
+<br>
+
+The slides from our March 8th event can be found below.
+
+{{< pdf images/iwd.pdf width=100% height=350 >}}
 
 ## Prizes
 

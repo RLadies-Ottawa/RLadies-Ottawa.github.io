@@ -12,4 +12,4 @@ You can find the materials from the workshops below:
 
 2. Data Visualization I [[Event](https://www.meetup.com/rladies-ottawa/events/298042652/)] [[Recording](https://www.youtube.com/watch?v=lFjjD0EEWX0&pp=ygUNcmVpa28gb2thbW90bw%3D%3D)] [[Code](https://github.com/RLadies-Ottawa/2024-02-01_ggplot2-part-01)]
 
-3. Data Visualization II [[Event](https://www.meetup.com/rladies-ottawa/events/298042671/)] [[Recording]()] [[Code](https://github.com/RLadies-Ottawa/2024-02-22_ggplot2-part-02)]
+3. Data Visualization II [[Event](https://www.meetup.com/rladies-ottawa/events/298042671/)] [[Recording](https://www.youtube.com/watch?v=ieLQQgYVO_s)] [[Code](https://github.com/RLadies-Ottawa/2024-02-22_ggplot2-part-02)]

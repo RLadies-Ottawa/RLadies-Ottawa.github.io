@@ -24,6 +24,8 @@ website:
         text: About
       - href: sponsors.qmd
         text: Sponsors
+      - href: feedback.qmd
+        text: Feedback
       - section: Events
         contents:
         - href: events/2024/iwd.qmd

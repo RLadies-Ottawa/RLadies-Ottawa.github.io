@@ -35,3 +35,5 @@ This website is for the Ottawa chapter of R-Ladies. The Ottawa chapter was found
 The best way to keep up to date with our upcoming events is to join [our Meetup Group](https://www.meetup.com/rladies-ottawa/). We post announcements regularly here!
 
 If you are a woman or gender minority, we also recommend joining the [global R-Ladies directory](https://www.rladies.org/directory/) and the [R-Ladies Community Slack](https://guide.rladies.org/comm/slack/). This is a great way to connect with R-Ladies from other chapters!
+
+If you're interested in being an organizer for R-Ladies Ottawa, please contact us through a direct message on our Meetup.

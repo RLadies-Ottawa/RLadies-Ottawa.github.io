@@ -24,7 +24,7 @@
     "href": "index.html#about-the-ottawa-chapter",
     "title": "R-Ladies Ottawa",
     "section": "About the Ottawa Chapter",
-    "text": "About the Ottawa Chapter\nThis website is for the Ottawa chapter of R-Ladies. The Ottawa chapter was founded in 2018. After the pandemic, R-Ladies Ottawa “rebooted” in September 2023. Today, the Ottawa chapter has 716 members on Meetup!",
+    "text": "About the Ottawa Chapter\nThis website is for the Ottawa chapter of R-Ladies. The Ottawa chapter was founded in 2018. After the pandemic, R-Ladies Ottawa “rebooted” in September 2023. Today, the Ottawa chapter has 719 members on Meetup!",
     "crumbs": [
       "About"
     ]
@@ -40,6 +40,17 @@
     ]
   },
   {
+    "objectID": "events/2024/intro_to_r.html",
+    "href": "events/2024/intro_to_r.html",
+    "title": "Introduction to R Workshop Series",
+    "section": "",
+    "text": "In January and February 2024, R-Ladies Ottawa hosted a 3-part Introduction to R workshop series.\n\nYou can find the materials from the workshops below:\n\nIntroduction to R and RStudio [Event] [Recording] [Code]\nData Visualization I [Event] [Recording] [Code]\nData Visualization II [Event] [Recording] [Code]",
+    "crumbs": [
+      "Events",
+      "Introduction to R Workshop Series"
+    ]
+  },
+  {
     "objectID": "sponsors.html",
     "href": "sponsors.html",
     "title": "Sponsors",
@@ -47,6 +58,16 @@
     "text": "Sponsoring R-Ladies Ottawa is a great way to show your support for gender diversity in our community. You can support our local chapter with:\n\nVenue space\nFood and beverages\nPrizes for coding challenges\nFunding for any of the above\n\nIf you’re interested in sponsoring us, please contact the organizers via a direct message on our Meetup Group.",
     "crumbs": [
       "Sponsors"
+    ]
+  },
+  {
+    "objectID": "feedback.html",
+    "href": "feedback.html",
+    "title": "Feedback",
+    "section": "",
+    "text": "We’re always looking to improve our events! Use the form below to let us know what’s working well, what we could do to improve, and any ideas you might have.\n\nLoading…",
+    "crumbs": [
+      "Feedback"
     ]
   },
   {
@@ -120,7 +141,7 @@
     "href": "events/2024/iwd.html#showcasing-your-analysis",
     "title": "International Women’s Day Data Challenge 2024",
     "section": "Showcasing your analysis",
-    "text": "Showcasing your analysis\nAfter the submission deadline, R-Ladies Ottawa will host an event where participants can showcase their work. This is a great way to learn from one another and to connect with other like-minded individuals!\nThe date and time of the showcase event will be determined by sending out a poll after the submission deadline, to those who wish to participate.",
+    "text": "Showcasing your analysis\nAfter the submission deadline, R-Ladies Ottawa will host a virtual event where participants can showcase their work. This is a great way to learn from one another and to connect with other like-minded individuals!\nThe date and time of the showcase event will be announced soon.",
     "crumbs": [
       "Events",
       "International Women's Day Coding Challenge"
@@ -135,27 +156,6 @@
     "crumbs": [
       "Events",
       "International Women's Day Coding Challenge"
-    ]
-  },
-  {
-    "objectID": "events/2024/intro_to_r.html",
-    "href": "events/2024/intro_to_r.html",
-    "title": "Introduction to R Workshop Series",
-    "section": "",
-    "text": "In January and February 2024, R-Ladies Ottawa hosted a 3-part Introduction to R workshop series.\n\nYou can find the materials from the workshops below:\n\nIntroduction to R and RStudio [Event] [Recording] [Code]\nData Visualization I [Event] [Recording] [Code]\nData Visualization II [Event] [Recording] [Code]",
-    "crumbs": [
-      "Events",
-      "Introduction to R Workshop Series"
-    ]
-  },
-  {
-    "objectID": "feedback.html",
-    "href": "feedback.html",
-    "title": "Feedback",
-    "section": "",
-    "text": "We’re always looking to improve our events! Use the form below to let us know what’s working well, what we could do to improve, and any ideas you might have.\n\nLoading…",
-    "crumbs": [
-      "Feedback"
     ]
   }
 ]

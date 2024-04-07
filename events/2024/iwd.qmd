@@ -66,4 +66,58 @@ The date and time of the showcase event will be announced soon.
 
 ## Submissions
 
-Please use this section of the page to submit your entries. You can create a subheading with your name and include any materials you'd like to share with others!
+### Submissions of Islem Meherzi & Moufida Sidaoui
+
+#### Team Members
+
+Islem Meherzi: Data Scientist, Tunisia (Contact: meherziislem@gmail.com)
+Moufida Sidaoui: QA Tester, Canada (Contact: Sidaouimoufida@gmail.com)
+
+#### Project Overview
+This submission outlines our participation in the R-Ladies Ottawa data challenge, focusing on analyzing investments in women, specifically within data science research and women's health. Our project aims to explore women's contributions in data science, investigate global research content, and examine advancements in women's health research investments.
+
+#### Main Objectives
+
+1. Analyzing Women's Contributions in Data Science Research
+
+   * Identify authors of research papers in data science and assess the significance of women's contributions.
+   * Investigate the distribution of research publications conducted by women per country, considering the population size of each country.
+
+2. Investigating Research on Women's Health
+
+   * Analyze the distribution of research publications on women's health per country.
+   * Identify trends in research papers related to women's health.
+
+#### Main Steps
+
+1. Defining Relevant Keywords
+  * Identified keywords related to data science and data technologies for the first objective.
+  * Identified keywords related to women's health for the second objective.
+  
+2. Data Extraction from PubMed
+  * Focused on extracting data concerning the first author of the publication from PubMed.
+  
+3. Gender Detection Using APIs
+  * Utilized APIs to detect the gender of the first author by their name.
+  
+4. Country Extraction Algorithm
+Developed an algorithm and utilized other sources to extract the most likely and relevant country from the given affiliation in PubMed data.
+
+5. Data Enhancement
+  * Enhanced the dataset by incorporating additional information such as population and employment ratio.
+  
+6. Content Analysis
+  * Analyzed content based on keywords of the articles.
+  
+7. Dynamic Analysis and Visualization
+  * Performed dynamic analysis and visualization to provide insights into publication details and countries on a map.
+  
+8. Deployment
+  * Deployed the Shiny app using rsconnect (utilizing the free plan of shinyapps.io which permits 25 active hours per month).
+
+
+#### Shiny App
+We have developed a Shiny app to showcase our analysis and insights. The app dynamically presents details of publications, countries involved, and thematic analysis. You can access the app https://islemmeh.shinyapps.io/shinyappmapsearch/.
+
+#### Conclusion
+Our project involved a systematic approach, from data extraction to analysis and visualization, providing valuable insights into women's contributions to data science research and investments in women's health. We are confident that our idea can be further evolved, particularly through future optimizations, additional data gathering, and in-depth content and correlation analysis.This project contributes to ongoing efforts to advance the theme of investing in women and accelerating progress in these critical areas.

@@ -68,5 +68,8 @@ The date and time of the showcase event will be announced soon.
 
 Please use this section of the page to submit your entries. You can create a subheading with your name and include any materials you'd like to share with others!
 
+### Joy Liu
+Submission from Joy Liu can be found [here](https://github.com/joyliujoyliu/Woman-income-analysis).
+
 ### Alexandra McSween
 I created a [quarto presentation](https://alexmcsw.github.io/Rladies-IWD-2024/visualize.html#/title-slide) with some fun astrological analysis of the PWHL. Thank you to Brittny Vongdara for sharing the PWHL idea with me <3 ([code here](https://github.com/alexmcsw/Rladies-IWD-2024))

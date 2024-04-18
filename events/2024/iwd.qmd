@@ -68,6 +68,9 @@ The date and time of the showcase event will be announced soon.
 
 Please use this section of the page to submit your entries. You can create a subheading with your name and include any materials you'd like to share with others!
 
+### Nyamekye Asare
+I took on this new challenge to build a dashboard based on "flexdashboard". Nyamekye Asare's submission can be found [here](https://github.com/RLadies-Ottawa/IWD-2024-submissions)
+
 ### Joy Liu
 Submission from Joy Liu can be found [here](https://github.com/joyliujoyliu/Woman-income-analysis).
 

@@ -8,6 +8,10 @@ In honour of this theme, R-Ladies Ottawa is hosting a data challenge!
 
 ![](images/data_challenge_2024.svg)
 
+## Check out this year's submissions!
+
+See the 2024 submissions [here](https://rladies-ottawa.github.io/events/2024/iwd.html#submissions)
+
 ## Challenge
 
 The objective of this data challenge is to analyze *investing in women*. This is a very open-ended challenge, so be as creative as you'd like!

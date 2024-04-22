@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.24">
+<meta name="generator" content="quarto-1.5.30">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -177,7 +177,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#prizes" id="toc-prizes" class="nav-link" data-scroll-target="#prizes">Prizes</a></li>
   <li><a href="#how-to-submit-an-entry" id="toc-how-to-submit-an-entry" class="nav-link" data-scroll-target="#how-to-submit-an-entry">How to submit an entry</a></li>
   <li><a href="#showcasing-your-analysis" id="toc-showcasing-your-analysis" class="nav-link" data-scroll-target="#showcasing-your-analysis">Showcasing your analysis</a></li>
-  <li><a href="#submissions" id="toc-submissions" class="nav-link" data-scroll-target="#submissions">Submissions</a></li>
+  <li><a href="#submissions" id="toc-submissions" class="nav-link" data-scroll-target="#submissions">Submissions</a>
+  <ul class="collapse">
+  <li><a href="#brittnys-submission" id="toc-brittnys-submission" class="nav-link" data-scroll-target="#brittnys-submission">Brittny’s submission</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/RLadies-Ottawa/rladies-ottawa.github.io/edit/main/events/2024/iwd.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/RLadies-Ottawa/rladies-ottawa.github.io/blob/main/events/2024/iwd.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/RLadies-Ottawa/rladies-ottawa.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -257,8 +260,13 @@ ul.task-list li input[type="checkbox"] {
 <section id="submissions" class="level2">
 <h2 class="anchored" data-anchor-id="submissions">Submissions</h2>
 <p>Please use this section of the page to submit your entries. You can create a subheading with your name and include any materials you’d like to share with others!</p>
+<section id="brittnys-submission" class="level3">
+<h3 class="anchored" data-anchor-id="brittnys-submission">Brittny’s submission</h3>
+<p>You can find the link to my submission <a href="https://klaxonklaxoff.github.io/pwhl_dv.html#/title-slide">here</a>.</p>
+<p>It’s a quarto presentation with some visualizations using webscraped Professional Women’s Hockey League data using the <code>fastRhockey</code> R package. I go through some fun plots and walk through how to make my favourite one. Which plot is my favourite? You’ll have to look at my submission to find out ;)</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -441,18 +449,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -484,7 +481,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/www\.rladies-ottawa\.github\.io\/");

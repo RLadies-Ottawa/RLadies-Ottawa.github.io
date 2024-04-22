@@ -101,7 +101,7 @@
     "href": "events/2024/iwd.html#submissions",
     "title": "International Women’s Day Data Challenge 2024",
     "section": "Submissions",
-    "text": "Submissions\nPlease use this section of the page to submit your entries. You can create a subheading with your name and include any materials you’d like to share with others!\n\nBrittny’s submission\nYou can find the link to my submission here.\nIt’s a quarto presentation with some visualizations using webscraped Professional Women’s Hockey League data using the fastRhockey R package. I go through some fun plots and walk through how to make my favourite one. Which plot is my favourite? You’ll have to look at my submission to find out ;)",
+    "text": "Submissions\nPlease use this section of the page to submit your entries. You can create a subheading with your name and include any materials you’d like to share with others!\n\nNyamekye Asare\nI took on this new challenge to build a dashboard based on “flexdashboard”. Nyamekye Asare’s submission can be found here\n\n\nJoy Liu\nSubmission from Joy Liu can be found here.\n\n\nAlexandra McSween\nI created a quarto presentation with some fun astrological analysis of the PWHL. Thank you to Brittny Vongdara for sharing the PWHL idea with me &lt;3 (code here)\n\n\nBrittny’s submission\nYou can find the link to my submission here.\nIt’s a quarto presentation with some visualizations using webscraped Professional Women’s Hockey League data using the fastRhockey R package. I go through some fun plots and walk through how to make my favourite one. Which plot is my favourite? You’ll have to look at my submission to find out ;)",
     "crumbs": [
       "Events",
       "International Women's Day Coding Challenge"

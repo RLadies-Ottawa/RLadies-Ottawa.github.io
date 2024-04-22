@@ -67,3 +67,9 @@ The date and time of the showcase event will be announced soon.
 ## Submissions
 
 Please use this section of the page to submit your entries. You can create a subheading with your name and include any materials you'd like to share with others!
+
+### Brittny's submission
+
+You can find the link to my submission [here](https://klaxonklaxoff.github.io/pwhl_dv.html#/title-slide). 
+
+It's a quarto presentation with some visualizations using webscraped Professional Women's Hockey League data using the `fastRhockey` R package. I go through some fun plots and walk through how to make my favourite one. Which plot is my favourite? You'll have to look at my submission to find out ;)

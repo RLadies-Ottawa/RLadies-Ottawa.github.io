@@ -119,7 +119,7 @@ Developed an algorithm and utilized other sources to extract the most likely and
 
 
 #### Shiny App
-We have developed a Shiny app to showcase our analysis and insights. The app dynamically presents details of publications, countries involved, and thematic analysis. You can access the app https://islemmeh.shinyapps.io/shinyappmapsearch/.
+We have developed a Shiny app to showcase our analysis and insights. The app dynamically presents details of publications, countries involved, and thematic analysis. You can access the app <https://islemmeh.shinyapps.io/shinyappmapsearch/>.
 
 #### Conclusion
 Our project involved a systematic approach, from data extraction to analysis and visualization, providing valuable insights into women's contributions to data science research and investments in women's health. We are confident that our idea can be further evolved, particularly through future optimizations, additional data gathering, and in-depth content and correlation analysis.This project contributes to ongoing efforts to advance the theme of investing in women and accelerating progress in these critical areas.

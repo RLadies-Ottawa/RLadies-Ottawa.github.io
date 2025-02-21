@@ -2,10 +2,7 @@
 title: "International Women's Day Data Challenge 2025"
 ---
 
-International Women's Day takes place on March 8th, 2025. The theme for this year is "Accelerate Action".
-
-> At the current rate of progress, it will take until 2158, which is roughly five generations from now, to reach full gender parity, according to data from the World Economic Forum.^1
-
+R-Ladies Ottawa is hosting another data challenge to celebrate International Women's day 2025!!
 
 ::: {.callout-tip}
 ## Check out last year's submissions!
@@ -16,21 +13,12 @@ See the 2024 submissions and prompt [here](https://rladies-ottawa.github.io/even
 
 ## The Challenge
 
-In honour of this theme, R-Ladies Ottawa is hosting another data challenge!
+At our `Posit::Conf` 2025 watch party we watched "GitHub: How To Tell Your Professional Story" by Abigail Haddad. In this presentation Haddad highlighted the importance of building a compelling porfolio that not only highlights your skills but explains your professional identity.
 
-![CHALLENGE POSTER HERE](images/data_challenge_2025.svg)
+For this year's data challenge we encourage you to find YOUR passion project to round out your portfolio and develop your professional story! Take a look at your GitHub profile and ask yourself, *what type of project is missing here*? 
 
-This theme invites us to think about how far we have come and how far we have yet to go towards gender equality. For this challenge you are invited to use any longitudinal data source to create a visualization (ranging from a single plot to a full on shiny app) that shows how gender equality has evolved over time. 
+For example, if you participated in [last year's challenge](../events/2024/iwd.qmd) and created a traditional plot of some sort, this year try creating a visualization using a table, dashboard or another-outside-the-box presentation tool.
 
-This challenge is open ended and we strongly encourage creativity! However, here are a few samples to get you started:
-
-### 1. Labour force participation by gender
-  
-  Create a plot showing how gender ratios in the labour force has changed over time: [Labour force characteristics by age group, monthly, seasonally adjusted](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410028702&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=3.3&cubeTimeFrame.startMonth=09&cubeTimeFrame.startYear=2023&referencePeriods=20230901%2C20230901)
-
-### 2. Post-secondary education by gender
-
-  Investigate how gender equality in post-secondary education has changed over time: [Postsecondary enrolments, by registration status, institution type, status of student in Canada and gender](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710001801)
 
 ## Guidelines
 
@@ -64,5 +52,3 @@ The date and time of the showcase event will be announced soon.
 ## Submissions
 
 Stay tuned!
-
-[^1]: <https://www.internationalwomensday.com/2025theme>

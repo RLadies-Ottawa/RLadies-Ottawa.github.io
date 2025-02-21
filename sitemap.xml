@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.rladies-ottawa.github.io/sponsors.html</loc>
-    <lastmod>2024-04-29T15:25:55.431Z</lastmod>
-  </url>
-  <url>
     <loc>https://www.rladies-ottawa.github.io/feedback.html</loc>
-    <lastmod>2024-04-29T15:25:55.431Z</lastmod>
+    <lastmod>2025-02-21T14:09:07.889Z</lastmod>
   </url>
   <url>
-    <loc>https://www.rladies-ottawa.github.io/events/2024/iwd.html</loc>
-    <lastmod>2024-04-29T15:25:55.431Z</lastmod>
+    <loc>https://www.rladies-ottawa.github.io/sponsors.html</loc>
+    <lastmod>2025-02-21T14:09:07.891Z</lastmod>
   </url>
   <url>
     <loc>https://www.rladies-ottawa.github.io/events/2024/intro_to_r.html</loc>
-    <lastmod>2024-04-29T15:25:55.427Z</lastmod>
+    <lastmod>2025-02-21T14:09:07.889Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.rladies-ottawa.github.io/events/2024/iwd.html</loc>
+    <lastmod>2025-02-21T14:09:07.889Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.rladies-ottawa.github.io/events/2025/iwd.html</loc>
+    <lastmod>2025-02-21T14:09:07.889Z</lastmod>
   </url>
   <url>
     <loc>https://www.rladies-ottawa.github.io/index.html</loc>
-    <lastmod>2024-04-29T15:25:55.431Z</lastmod>
+    <lastmod>2025-02-21T14:09:07.890Z</lastmod>
   </url>
 </urlset>

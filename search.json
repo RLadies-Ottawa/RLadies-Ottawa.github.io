@@ -1,15 +1,5 @@
 [
   {
-    "objectID": "sponsors.html",
-    "href": "sponsors.html",
-    "title": "Sponsors",
-    "section": "",
-    "text": "Sponsoring R-Ladies Ottawa is a great way to show your support for gender diversity in our community. You can support our local chapter with:\n\nVenue space\nFood and beverages\nPrizes for coding challenges\nFunding for any of the above\n\nIf you’re interested in sponsoring us, please contact the organizers via a direct message on our Meetup Group.",
-    "crumbs": [
-      "Sponsors"
-    ]
-  },
-  {
     "objectID": "feedback.html",
     "href": "feedback.html",
     "title": "Feedback",
@@ -20,102 +10,13 @@
     ]
   },
   {
-    "objectID": "events/2024/iwd.html",
-    "href": "events/2024/iwd.html",
-    "title": "International Women’s Day Data Challenge 2024",
+    "objectID": "sponsors.html",
+    "href": "sponsors.html",
+    "title": "Sponsors",
     "section": "",
-    "text": "International Women’s Day takes place on March 8th, 2024. The theme for this year is “Invest in women: Accelerate progress”.\nIn honour of this theme, R-Ladies Ottawa is hosting a data challenge!",
+    "text": "Sponsoring R-Ladies Ottawa is a great way to show your support for gender diversity in our community. You can support our local chapter with:\n\nVenue space\nFood and beverages\nPrizes for coding challenges\nFunding for any of the above\n\nIf you’re interested in sponsoring us, please contact the organizers via a direct message on our Meetup Group.",
     "crumbs": [
-      "Events",
-      "International Women's Day Coding Challenge"
-    ]
-  },
-  {
-    "objectID": "events/2024/iwd.html#check-out-this-years-submissions",
-    "href": "events/2024/iwd.html#check-out-this-years-submissions",
-    "title": "International Women’s Day Data Challenge 2024",
-    "section": "Check out this year’s submissions!",
-    "text": "Check out this year’s submissions!\nSee the 2024 submissions here",
-    "crumbs": [
-      "Events",
-      "International Women's Day Coding Challenge"
-    ]
-  },
-  {
-    "objectID": "events/2024/iwd.html#challenge",
-    "href": "events/2024/iwd.html#challenge",
-    "title": "International Women’s Day Data Challenge 2024",
-    "section": "Challenge",
-    "text": "Challenge\nThe objective of this data challenge is to analyze investing in women. This is a very open-ended challenge, so be as creative as you’d like!\nSome examples include:\n\nAnalyze venture capital investment data to understand trends in funding for women-led startups.\nAnalyze businesses or organizations that promote women’s empowerment.\nAnalyze data on gender diversity in leadership positions.\n\nYou can use any data source, but the following are examples:\n\nMeasuring the value of women’s contribution to the Canadian economy: New insights based on recent work\nStatistics Canada’s Gender, Diversity and Inclusion Statistics Hub\nStatistics Canada’s Average percentage of women and men in management positions tables",
-    "crumbs": [
-      "Events",
-      "International Women's Day Coding Challenge"
-    ]
-  },
-  {
-    "objectID": "events/2024/iwd.html#guidelines",
-    "href": "events/2024/iwd.html#guidelines",
-    "title": "International Women’s Day Data Challenge 2024",
-    "section": "Guidelines",
-    "text": "Guidelines\nAlthough this challenge is hosted by R-Ladies Ottawa, you don’t have to use R to participate. You could use R, Python, a combination of the two, or anything you’re comfortable with!\nNo previous programming experience is required! If you’re interested in participating, but aren’t sure where to start, check out the recordings from our Introduction to R workshops that we hosted in early 2024. The workshops will give you a solid foundation in data analysis and data visualization using R.\nWhile anyone is welcome to participate in the challenge and submit an entry, only submissions by women and gender minorities who reside in Canada will be eligible for the prizes.\nYou can participate individually, or in teams of up to 5 people!",
-    "crumbs": [
-      "Events",
-      "International Women's Day Coding Challenge"
-    ]
-  },
-  {
-    "objectID": "events/2024/iwd.html#need-help-finding-a-team-member",
-    "href": "events/2024/iwd.html#need-help-finding-a-team-member",
-    "title": "International Women’s Day Data Challenge 2024",
-    "section": "Need help finding a team member?",
-    "text": "Need help finding a team member?\nIf you’re interested in participating in the challenge as part of a team, but need help finding team members, come to our International Women’s Day Networking Event and Data Challenge Kickoff on March 8th!\n \nThe slides from our March 8th event can be found below.\nThis browser does not support PDFs. Please download the PDF to view it: &lt;a href=\"images/iwd.pdf\"&gt;Download PDF&lt;/a&gt;",
-    "crumbs": [
-      "Events",
-      "International Women's Day Coding Challenge"
-    ]
-  },
-  {
-    "objectID": "events/2024/iwd.html#prizes",
-    "href": "events/2024/iwd.html#prizes",
-    "title": "International Women’s Day Data Challenge 2024",
-    "section": "Prizes",
-    "text": "Prizes\nPrize details will be released at a later date.",
-    "crumbs": [
-      "Events",
-      "International Women's Day Coding Challenge"
-    ]
-  },
-  {
-    "objectID": "events/2024/iwd.html#how-to-submit-an-entry",
-    "href": "events/2024/iwd.html#how-to-submit-an-entry",
-    "title": "International Women’s Day Data Challenge 2024",
-    "section": "How to submit an entry",
-    "text": "How to submit an entry\nThis will be a month-long data challenge, and you’ll have until April 7th to submit your entry. Your submission can be in any form you like – it can be a Quarto document, an image, a link to a webpage, or a link to a video, for example.\nThere are two options for submitting an entry:\n\nOption 1 (preferred option): If you have experience with GitHub and Quarto, you can create a pull request on this repository and add your submission to the “Submissions” part of this page\nOption 2: If you don’t have experience with GitHub, you can email ottawa@rladies.org a link to your submission materials and we will add the link to the “Submissions” part of this page",
-    "crumbs": [
-      "Events",
-      "International Women's Day Coding Challenge"
-    ]
-  },
-  {
-    "objectID": "events/2024/iwd.html#showcasing-your-analysis",
-    "href": "events/2024/iwd.html#showcasing-your-analysis",
-    "title": "International Women’s Day Data Challenge 2024",
-    "section": "Showcasing your analysis",
-    "text": "Showcasing your analysis\nAfter the submission deadline, R-Ladies Ottawa will host a virtual event where participants can showcase their work. This is a great way to learn from one another and to connect with other like-minded individuals!\nThe date and time of the showcase event will be announced soon.",
-    "crumbs": [
-      "Events",
-      "International Women's Day Coding Challenge"
-    ]
-  },
-  {
-    "objectID": "events/2024/iwd.html#submissions",
-    "href": "events/2024/iwd.html#submissions",
-    "title": "International Women’s Day Data Challenge 2024",
-    "section": "Submissions",
-    "text": "Submissions\n\nSubmissions of Islem Meherzi & Moufida Sidaoui\nThis submission outlines our participation in the R-Ladies Ottawa data challenge, focusing on analyzing investments in women, specifically within data science research and women’s health. Our project aims to explore women’s contributions in data science, investigate global research content, and examine advancements in women’s health research investments.\n\n\n\n\n\n\nMore info\n\n\n\n\n\n\nMain Objectives\n\nAnalyzing Women’s Contributions in Data Science Research\n\nIdentify authors of research papers in data science and assess the significance of women’s contributions.\nInvestigate the distribution of research publications conducted by women per country, considering the population size of each country.\n\nInvestigating Research on Women’s Health\n\nAnalyze the distribution of research publications on women’s health per country.\nIdentify trends in research papers related to women’s health.\n\n\n\n\nMain Steps\n\nDefining Relevant Keywords\n\n\nIdentified keywords related to data science and data technologies for the first objective.\nIdentified keywords related to women’s health for the second objective.\n\n\nData Extraction from PubMed\n\n\nFocused on extracting data concerning the first author of the publication from PubMed.\n\n\nGender Detection Using APIs\n\n\nUtilized APIs to detect the gender of the first author by their name.\n\n\nCountry Extraction Algorithm Developed an algorithm and utilized other sources to extract the most likely and relevant country from the given affiliation in PubMed data.\nData Enhancement\n\n\nEnhanced the dataset by incorporating additional information such as population and employment ratio.\n\n\nContent Analysis\n\n\nAnalyzed content based on keywords of the articles.\n\n\nDynamic Analysis and Visualization\n\n\nPerformed dynamic analysis and visualization to provide insights into publication details and countries on a map.\n\n\nDeployment\n\n\nDeployed the Shiny app using rsconnect (utilizing the free plan of shinyapps.io which permits 25 active hours per month).\n\n\n\nShiny App\nWe have developed a Shiny app to showcase our analysis and insights. The app dynamically presents details of publications, countries involved, and thematic analysis. You can access the app https://islemmeh.shinyapps.io/shinyappmapsearch/.\n\n\nConclusion\nOur project involved a systematic approach, from data extraction to analysis and visualization, providing valuable insights into women’s contributions to data science research and investments in women’s health. We are confident that our idea can be further evolved, particularly through future optimizations, additional data gathering, and in-depth content and correlation analysis.This project contributes to ongoing efforts to advance the theme of investing in women and accelerating progress in these critical areas.\n\n\n\n\n\n\nNyamekye Asare\nI took on this new challenge to build a dashboard based on “flexdashboard”. Nyamekye Asare’s submission can be found here\n\n\nJoy Liu\nSubmission from Joy Liu can be found here.\n\n\nAlexandra McSween\nI created a quarto presentation with some fun astrological analysis of the PWHL. Thank you to Brittny Vongdara for sharing the PWHL idea with me &lt;3 (code here)\n\n\nBrittny’s submission\nYou can find the link to my submission here.\nIt’s a quarto presentation with some visualizations using webscraped Professional Women’s Hockey League data using the fastRhockey R package. I go through some fun plots and walk through how to make my favourite one. Which plot is my favourite? You’ll have to look at my submission to find out ;)",
-    "crumbs": [
-      "Events",
-      "International Women's Day Coding Challenge"
+      "Sponsors"
     ]
   },
   {
@@ -127,6 +28,146 @@
     "crumbs": [
       "Events",
       "Introduction to R Workshop Series"
+    ]
+  },
+  {
+    "objectID": "events/2024/iwd.html",
+    "href": "events/2024/iwd.html",
+    "title": "International Women’s Day Data Challenge 2024",
+    "section": "",
+    "text": "International Women’s Day takes place on March 8th, 2024. The theme for this year is “Invest in women: Accelerate progress”.\nIn honour of this theme, R-Ladies Ottawa is hosting a data challenge!"
+  },
+  {
+    "objectID": "events/2024/iwd.html#check-out-this-years-submissions",
+    "href": "events/2024/iwd.html#check-out-this-years-submissions",
+    "title": "International Women’s Day Data Challenge 2024",
+    "section": "Check out this year’s submissions!",
+    "text": "Check out this year’s submissions!\nSee the 2024 submissions here"
+  },
+  {
+    "objectID": "events/2024/iwd.html#challenge",
+    "href": "events/2024/iwd.html#challenge",
+    "title": "International Women’s Day Data Challenge 2024",
+    "section": "Challenge",
+    "text": "Challenge\nThe objective of this data challenge is to analyze investing in women. This is a very open-ended challenge, so be as creative as you’d like!\nSome examples include:\n\nAnalyze venture capital investment data to understand trends in funding for women-led startups.\nAnalyze businesses or organizations that promote women’s empowerment.\nAnalyze data on gender diversity in leadership positions.\n\nYou can use any data source, but the following are examples:\n\nMeasuring the value of women’s contribution to the Canadian economy: New insights based on recent work\nStatistics Canada’s Gender, Diversity and Inclusion Statistics Hub\nStatistics Canada’s Average percentage of women and men in management positions tables"
+  },
+  {
+    "objectID": "events/2024/iwd.html#guidelines",
+    "href": "events/2024/iwd.html#guidelines",
+    "title": "International Women’s Day Data Challenge 2024",
+    "section": "Guidelines",
+    "text": "Guidelines\nAlthough this challenge is hosted by R-Ladies Ottawa, you don’t have to use R to participate. You could use R, Python, a combination of the two, or anything you’re comfortable with!\nNo previous programming experience is required! If you’re interested in participating, but aren’t sure where to start, check out the recordings from our Introduction to R workshops that we hosted in early 2024. The workshops will give you a solid foundation in data analysis and data visualization using R.\nWhile anyone is welcome to participate in the challenge and submit an entry, only submissions by women and gender minorities who reside in Canada will be eligible for the prizes.\nYou can participate individually, or in teams of up to 5 people!"
+  },
+  {
+    "objectID": "events/2024/iwd.html#need-help-finding-a-team-member",
+    "href": "events/2024/iwd.html#need-help-finding-a-team-member",
+    "title": "International Women’s Day Data Challenge 2024",
+    "section": "Need help finding a team member?",
+    "text": "Need help finding a team member?\nIf you’re interested in participating in the challenge as part of a team, but need help finding team members, come to our International Women’s Day Networking Event and Data Challenge Kickoff on March 8th!\n \nThe slides from our March 8th event can be found below.\nThis browser does not support PDFs. Please download the PDF to view it: &lt;a href=\"images/iwd.pdf\"&gt;Download PDF&lt;/a&gt;"
+  },
+  {
+    "objectID": "events/2024/iwd.html#prizes",
+    "href": "events/2024/iwd.html#prizes",
+    "title": "International Women’s Day Data Challenge 2024",
+    "section": "Prizes",
+    "text": "Prizes\nPrize details will be released at a later date."
+  },
+  {
+    "objectID": "events/2024/iwd.html#how-to-submit-an-entry",
+    "href": "events/2024/iwd.html#how-to-submit-an-entry",
+    "title": "International Women’s Day Data Challenge 2024",
+    "section": "How to submit an entry",
+    "text": "How to submit an entry\nThis will be a month-long data challenge, and you’ll have until April 7th to submit your entry. Your submission can be in any form you like – it can be a Quarto document, an image, a link to a webpage, or a link to a video, for example.\nThere are two options for submitting an entry:\n\nOption 1 (preferred option): If you have experience with GitHub and Quarto, you can create a pull request on this repository and add your submission to the “Submissions” part of this page\nOption 2: If you don’t have experience with GitHub, you can email ottawa@rladies.org a link to your submission materials and we will add the link to the “Submissions” part of this page"
+  },
+  {
+    "objectID": "events/2024/iwd.html#showcasing-your-analysis",
+    "href": "events/2024/iwd.html#showcasing-your-analysis",
+    "title": "International Women’s Day Data Challenge 2024",
+    "section": "Showcasing your analysis",
+    "text": "Showcasing your analysis\nAfter the submission deadline, R-Ladies Ottawa will host a virtual event where participants can showcase their work. This is a great way to learn from one another and to connect with other like-minded individuals!\nThe date and time of the showcase event will be announced soon."
+  },
+  {
+    "objectID": "events/2024/iwd.html#submissions",
+    "href": "events/2024/iwd.html#submissions",
+    "title": "International Women’s Day Data Challenge 2024",
+    "section": "Submissions",
+    "text": "Submissions\n\nSubmissions of Islem Meherzi & Moufida Sidaoui\nThis submission outlines our participation in the R-Ladies Ottawa data challenge, focusing on analyzing investments in women, specifically within data science research and women’s health. Our project aims to explore women’s contributions in data science, investigate global research content, and examine advancements in women’s health research investments.\n\n\n\n\n\n\nMore info\n\n\n\n\n\n\nMain Objectives\n\nAnalyzing Women’s Contributions in Data Science Research\n\nIdentify authors of research papers in data science and assess the significance of women’s contributions.\nInvestigate the distribution of research publications conducted by women per country, considering the population size of each country.\n\nInvestigating Research on Women’s Health\n\nAnalyze the distribution of research publications on women’s health per country.\nIdentify trends in research papers related to women’s health.\n\n\n\n\nMain Steps\n\nDefining Relevant Keywords\n\n\nIdentified keywords related to data science and data technologies for the first objective.\nIdentified keywords related to women’s health for the second objective.\n\n\nData Extraction from PubMed\n\n\nFocused on extracting data concerning the first author of the publication from PubMed.\n\n\nGender Detection Using APIs\n\n\nUtilized APIs to detect the gender of the first author by their name.\n\n\nCountry Extraction Algorithm Developed an algorithm and utilized other sources to extract the most likely and relevant country from the given affiliation in PubMed data.\nData Enhancement\n\n\nEnhanced the dataset by incorporating additional information such as population and employment ratio.\n\n\nContent Analysis\n\n\nAnalyzed content based on keywords of the articles.\n\n\nDynamic Analysis and Visualization\n\n\nPerformed dynamic analysis and visualization to provide insights into publication details and countries on a map.\n\n\nDeployment\n\n\nDeployed the Shiny app using rsconnect (utilizing the free plan of shinyapps.io which permits 25 active hours per month).\n\n\n\nShiny App\nWe have developed a Shiny app to showcase our analysis and insights. The app dynamically presents details of publications, countries involved, and thematic analysis. You can access the app https://islemmeh.shinyapps.io/shinyappmapsearch/.\n\n\nConclusion\nOur project involved a systematic approach, from data extraction to analysis and visualization, providing valuable insights into women’s contributions to data science research and investments in women’s health. We are confident that our idea can be further evolved, particularly through future optimizations, additional data gathering, and in-depth content and correlation analysis.This project contributes to ongoing efforts to advance the theme of investing in women and accelerating progress in these critical areas.\n\n\n\n\n\n\nNyamekye Asare\nI took on this new challenge to build a dashboard based on “flexdashboard”. Nyamekye Asare’s submission can be found here\n\n\nJoy Liu\nSubmission from Joy Liu can be found here.\n\n\nAlexandra McSween\nI created a quarto presentation with some fun astrological analysis of the PWHL. Thank you to Brittny Vongdara for sharing the PWHL idea with me &lt;3 (code here)\n\n\nBrittny’s submission\nYou can find the link to my submission here.\nIt’s a quarto presentation with some visualizations using webscraped Professional Women’s Hockey League data using the fastRhockey R package. I go through some fun plots and walk through how to make my favourite one. Which plot is my favourite? You’ll have to look at my submission to find out ;)"
+  },
+  {
+    "objectID": "events/2025/iwd.html",
+    "href": "events/2025/iwd.html",
+    "title": "International Women’s Day Data Challenge 2025",
+    "section": "",
+    "text": "R-Ladies Ottawa is hosting another data challenge to celebrate International Women’s day 2025!!",
+    "crumbs": [
+      "Events",
+      "International Women's Day Coding Challenge"
+    ]
+  },
+  {
+    "objectID": "events/2025/iwd.html#the-challenge",
+    "href": "events/2025/iwd.html#the-challenge",
+    "title": "International Women’s Day Data Challenge 2025",
+    "section": "The Challenge",
+    "text": "The Challenge\nAt our Posit::Conf 2025 watch party we watched “GitHub: How To Tell Your Professional Story” by Abigail Haddad. In this presentation Haddad highlighted the importance of building a compelling porfolio that not only highlights your skills but explains your professional identity.\nFor this year’s data challenge we encourage you to find YOUR passion project to round out your portfolio and develop your professional story! Take a look at your GitHub profile and ask yourself, what type of project is missing here?\nFor example, if you participated in last year’s challenge and created a traditional plot of some sort, this year try creating a visualization using a table, dashboard or another-outside-the-box presentation tool.",
+    "crumbs": [
+      "Events",
+      "International Women's Day Coding Challenge"
+    ]
+  },
+  {
+    "objectID": "events/2025/iwd.html#guidelines",
+    "href": "events/2025/iwd.html#guidelines",
+    "title": "International Women’s Day Data Challenge 2025",
+    "section": "Guidelines",
+    "text": "Guidelines\nAlthough this challenge is hosted by R-Ladies Ottawa, you don’t have to use R to participate. You could use R, Python, a combination of the two, or anything you’re comfortable with!\nNo previous programming experience is required! If you’re interested in participating, but aren’t sure where to start, check out the recordings from our Introduction to R workshops that we hosted in early 2024. The workshops will give you a solid foundation in data analysis and data visualization using R.\nWhile anyone is welcome to participate in the challenge and submit an entry, only submissions by women and gender minorities who reside in Canada will be eligible for the prizes.\nYou can participate individually, or in teams of up to 5 people!",
+    "crumbs": [
+      "Events",
+      "International Women's Day Coding Challenge"
+    ]
+  },
+  {
+    "objectID": "events/2025/iwd.html#prizes",
+    "href": "events/2025/iwd.html#prizes",
+    "title": "International Women’s Day Data Challenge 2025",
+    "section": "Prizes",
+    "text": "Prizes\nAll submissions from women and gender minorities based in the Canada will receive HexStickers! Among these, the most creative solution (selected by the R-Ladies Ottawa organizing team) will receive a $25 gift card to Maker House!",
+    "crumbs": [
+      "Events",
+      "International Women's Day Coding Challenge"
+    ]
+  },
+  {
+    "objectID": "events/2025/iwd.html#how-to-submit-an-entry",
+    "href": "events/2025/iwd.html#how-to-submit-an-entry",
+    "title": "International Women’s Day Data Challenge 2025",
+    "section": "How to submit an entry",
+    "text": "How to submit an entry\nThis will be a month-long data challenge, and you’ll have until April 4th to submit your entry. Your submission can be in any form you like – it can be a Quarto document, an image, a link to a webpage, or a link to a video, for example.\nThere are two options for submitting an entry:\n\nOption 1 (preferred option): If you have experience with GitHub and Quarto, you can create a pull request on this repository and add your submission to the “Submissions” part of this page\nOption 2: If you don’t have experience with GitHub, you can email ottawa@rladies.org a link to your submission materials and we will add the link to the “Submissions” part of this page",
+    "crumbs": [
+      "Events",
+      "International Women's Day Coding Challenge"
+    ]
+  },
+  {
+    "objectID": "events/2025/iwd.html#showcasing-your-analysis",
+    "href": "events/2025/iwd.html#showcasing-your-analysis",
+    "title": "International Women’s Day Data Challenge 2025",
+    "section": "Showcasing your analysis",
+    "text": "Showcasing your analysis\nAfter the submission deadline, R-Ladies Ottawa will host a virtual event where participants can showcase their work. This is a great way to learn from one another and to connect with other like-minded individuals!\nThe date and time of the showcase event will be announced soon.",
+    "crumbs": [
+      "Events",
+      "International Women's Day Coding Challenge"
+    ]
+  },
+  {
+    "objectID": "events/2025/iwd.html#submissions",
+    "href": "events/2025/iwd.html#submissions",
+    "title": "International Women’s Day Data Challenge 2025",
+    "section": "Submissions",
+    "text": "Submissions\nStay tuned!",
+    "crumbs": [
+      "Events",
+      "International Women's Day Coding Challenge"
     ]
   },
   {
@@ -154,7 +195,7 @@
     "href": "index.html#about-the-ottawa-chapter",
     "title": "R-Ladies Ottawa",
     "section": "About the Ottawa Chapter",
-    "text": "About the Ottawa Chapter\nThis website is for the Ottawa chapter of R-Ladies. The Ottawa chapter was founded in 2018. After the pandemic, R-Ladies Ottawa “rebooted” in September 2023. Today, the Ottawa chapter has 864 members on Meetup!",
+    "text": "About the Ottawa Chapter\nThis website is for the Ottawa chapter of R-Ladies. The Ottawa chapter was founded in 2018. After the pandemic, R-Ladies Ottawa “rebooted” in September 2023. Today, the Ottawa chapter has 926 members on Meetup!",
     "crumbs": [
       "About"
     ]

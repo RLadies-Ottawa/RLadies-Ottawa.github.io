@@ -13,11 +13,22 @@ See the 2024 submissions and prompt [here](https://rladies-ottawa.github.io/even
 
 ## The Challenge
 
-At our `Posit::Conf` 2025 watch party we watched "GitHub: How To Tell Your Professional Story" by Abigail Haddad. In this presentation Haddad highlighted the importance of building a compelling porfolio that not only highlights your skills but explains your professional identity.
+At our `posit::conf(2024)` watch party we watched ["GitHub: How To Tell Your Professional Story" by Abigail Haddad](https://www.youtube.com/watch?v=R-bPjavai5A&list=PL9HYL-VRX0oSFkdF4fJeY63eGDvgofcbn&index=21). In this presentation Haddad highlighted the importance of building a compelling porfolio that not only highlights your skills but explains your professional identity.
 
 For this year's data challenge we encourage you to find YOUR passion project to round out your portfolio and develop your professional story! Take a look at your GitHub profile and ask yourself, *what type of project is missing here*? 
 
-For example, if you participated in [last year's challenge](../events/2024/iwd.qmd) and created a traditional plot of some sort, this year try creating a visualization using a table, dashboard or another-outside-the-box presentation tool.
+For example, if you participated in [last year's challenge](../2024/iwd.qmd) and created a traditional plot of some sort, this year try creating a visualization using a table, dashboard or another-outside-the-box presentation tool.
+
+::: {.callout-tip appearance="simple"}
+
+For more inspo, be sure to check out our upcoming event [Coding for a Cause](https://www.meetup.com/rladies-ottawa/events/306232274/?eventOrigin=group_upcoming_events) with Claudie Larouche!
+
+:::
+
+
+Check out Haddad's presentation below:
+
+{{< video https://youtu.be/R-bPjavai5A?si=fEdG9fxdPdr4oqeK >}}
 
 
 ## Guidelines

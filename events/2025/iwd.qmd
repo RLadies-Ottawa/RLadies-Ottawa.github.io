@@ -4,6 +4,8 @@ title: "International Women's Day Data Challenge 2025"
 
 R-Ladies Ottawa is hosting another data challenge to celebrate International Women's day 2025!!
 
+![2025 IWD Code Challenge](./images/iwd-2025-coding-challenge.png)
+
 ::: {.callout-tip}
 ## Check out last year's submissions!
 

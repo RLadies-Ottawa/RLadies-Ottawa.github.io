@@ -3,6 +3,10 @@ img {
   border: 1px solid rgb(215, 215, 215);
   box-shadow: 10px 10px 5px #ccc;
 }
+.no-drop-shadow {
+  border: 0px solid rgb(215, 215, 215) !important;
+  box-shadow: 0px 0px 0px #ccc !important;
+}
 table {
   display: block;
   max-width: 100%;

@@ -17,12 +17,12 @@ Thank you to the following sponsors for generously donating prizes for R-Ladies 
 
 :::{.grid}
 ::::{.g-col-4}
-![](images/maker_house_logo.png)
+![](images/maker_house_logo.png){.no-drop-shadow}
 ::::
 ::::{.g-col-4}
-![](images/posit_logo.png)
+![](images/posit_logo.png){.no-drop-shadow}
 ::::
 ::::{.g-col-4}
-![](images/no_starch_press_logo.png)
+![](images/no_starch_press_logo.png){.no-drop-shadow}
 ::::
 :::

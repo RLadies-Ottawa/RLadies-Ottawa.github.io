@@ -9,7 +9,7 @@ R-Ladies Ottawa is hosting another data challenge to celebrate International Wom
 ::: {.callout-tip}
 ## Check out last year's submissions!
 
-See the 2024 submissions and prompt [here](https://rladies-ottawa.github.io/events/2024/iwd.html#submissions)
+See the 2024 submissions and prompt [here](https://rladies-ottawa.github.io/events/2024/iwd.html#submissions).
 :::
 
 
@@ -45,7 +45,7 @@ You can participate individually, or in teams of up to 5 people!
 
 ## Prizes
 
-All submissions from women and gender minorities based in the Canada will receive HexStickers! Among these, the most creative solution (selected by the R-Ladies Ottawa organizing team) will receive a $25 gift card to [Maker House](https://makerhouse.com/)!
+All submissions from women and gender minorities based in the Canada will receive free hex stickers, generously donated by [Posit](https://posit.co/)! Among these, the most creative solution (selected by the R-Ladies Ottawa organizing team) will receive a $25 virtual gift card to [Maker House](https://makerhouse.com/)! We'd like to express a huge thank you to Maker House, who offers a curated collection of gifts and homewares crafted locally in Ottawa and Canada 🍁, for donating this gift card.
 
 ## How to submit an entry
 

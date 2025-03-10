@@ -7,6 +7,7 @@
     "text": "R-Ladies Ottawa is hosting another data challenge to celebrate International Women’s day 2025!!",
     "crumbs": [
       "Events",
+      "2025",
       "International Women's Day Coding Challenge"
     ]
   },
@@ -18,6 +19,7 @@
     "text": "The Challenge\nAt our posit::conf(2024) watch party we watched “GitHub: How To Tell Your Professional Story” by Abigail Haddad. In this presentation Haddad highlighted the importance of building a compelling porfolio that not only highlights your skills but explains your professional identity.\nFor this year’s data challenge we encourage you to find YOUR passion project to round out your portfolio and develop your professional story! Take a look at your GitHub profile and ask yourself, what type of project is missing here?\nFor example, if you participated in last year’s challenge and created a traditional plot of some sort, this year try creating a visualization using a table, dashboard or another-outside-the-box presentation tool.\n\n\n\n\n\n\nFor more inspo, be sure to check out our upcoming event Coding for a Cause with Claudie Larouche!\n\n\n\nCheck out Haddad’s presentation below:",
     "crumbs": [
       "Events",
+      "2025",
       "International Women's Day Coding Challenge"
     ]
   },
@@ -29,6 +31,7 @@
     "text": "Guidelines\nAlthough this challenge is hosted by R-Ladies Ottawa, you don’t have to use R to participate. You could use R, Python, a combination of the two, or anything you’re comfortable with!\nNo previous programming experience is required! If you’re interested in participating, but aren’t sure where to start, check out the recordings from our Introduction to R workshops that we hosted in early 2024. The workshops will give you a solid foundation in data analysis and data visualization using R.\nWhile anyone is welcome to participate in the challenge and submit an entry, only submissions by women and gender minorities who reside in Canada will be eligible for the prizes.\nYou can participate individually, or in teams of up to 5 people!",
     "crumbs": [
       "Events",
+      "2025",
       "International Women's Day Coding Challenge"
     ]
   },
@@ -40,6 +43,7 @@
     "text": "Prizes\nAll submissions from women and gender minorities based in the Canada will receive free hex stickers, generously donated by Posit! Among these, the most creative solution (selected by the R-Ladies Ottawa organizing team) will receive a $25 virtual gift card to Maker House! We’d like to express a huge thank you to Maker House, who offers a curated collection of gifts and homewares crafted locally in Ottawa and Canada 🍁, for donating this gift card.",
     "crumbs": [
       "Events",
+      "2025",
       "International Women's Day Coding Challenge"
     ]
   },
@@ -51,6 +55,7 @@
     "text": "How to submit an entry\nThis will be a month-long data challenge, and you’ll have until April 4th to submit your entry. Your submission can be in any form you like – it can be a Quarto document, an image, a link to a webpage, or a link to a video, for example.\nThere are two options for submitting an entry:\n\nOption 1 (preferred option): If you have experience with GitHub and Quarto, you can create a pull request on this repository and add your submission to the “Submissions” part of this page\nOption 2: If you don’t have experience with GitHub, you can email ottawa@rladies.org a link to your submission materials and we will add the link to the “Submissions” part of this page",
     "crumbs": [
       "Events",
+      "2025",
       "International Women's Day Coding Challenge"
     ]
   },
@@ -62,6 +67,7 @@
     "text": "Showcasing your analysis\nAfter the submission deadline, R-Ladies Ottawa will host a virtual event where participants can showcase their work. This is a great way to learn from one another and to connect with other like-minded individuals!\nThe date and time of the showcase event will be announced soon.",
     "crumbs": [
       "Events",
+      "2025",
       "International Women's Day Coding Challenge"
     ]
   },
@@ -73,6 +79,7 @@
     "text": "Submissions\nStay tuned!",
     "crumbs": [
       "Events",
+      "2025",
       "International Women's Day Coding Challenge"
     ]
   },
@@ -207,6 +214,7 @@
     "text": "In January and February 2024, R-Ladies Ottawa hosted a 3-part Introduction to R workshop series.\n\nYou can find the materials from the workshops below:\n\nIntroduction to R and RStudio [Event] [Recording] [Code]\nData Visualization I [Event] [Recording] [Code]\nData Visualization II [Event] [Recording] [Code]",
     "crumbs": [
       "Events",
+      "2024",
       "Introduction to R Workshop Series"
     ]
   }

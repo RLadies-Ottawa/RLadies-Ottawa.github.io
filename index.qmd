@@ -37,3 +37,9 @@ The best way to keep up to date with our upcoming events is to join [our Meetup 
 If you are a woman or gender minority, we also recommend joining the [global R-Ladies directory](https://www.rladies.org/directory/) and the [R-Ladies Community Slack](https://guide.rladies.org/comm/slack/). This is a great way to connect with R-Ladies from other chapters!
 
 If you're interested in being an organizer for R-Ladies Ottawa, please contact us through a direct message on our Meetup.
+
+## Recordings of past events
+
+Some of our events are recorded and are posted on the [R-Ladies Global YouTube channel](https://www.youtube.com/@RLadiesGlobal). You can find the Ottawa chapter's videos under the ["R-Ladies Ottawa" playlist](https://www.youtube.com/watch?v=lFjjD0EEWX0&list=PLPwprT5wdzX5PwV2r0mAOw1CYkulwLpso).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=e1yczlCqLxeFCnpz&amp;list=PLPwprT5wdzX5PwV2r0mAOw1CYkulwLpso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

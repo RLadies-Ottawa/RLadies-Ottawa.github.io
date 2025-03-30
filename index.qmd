@@ -1,12 +1,12 @@
 ---
-title: "R-Ladies Ottawa"
+title: "👩‍💻 R-Ladies Ottawa"
 ---
 
-## About R-Ladies
+## 💜 About R-Ladies
 
 [R-Ladies](https://www.rladies.org) is a worldwide organization whose mission is to promote gender diversity in the R community. The R community suffers from an under-representation of minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators, or users.
 
-## About the Ottawa Chapter
+## 🍁 About the Ottawa Chapter
 
 ```{r}
 #| echo: false
@@ -22,7 +22,7 @@ num_members <- as.numeric(gsub("\\D", "", num_members))
 
 This website is for the Ottawa chapter of R-Ladies. The Ottawa chapter was founded in 2018. After the pandemic, R-Ladies Ottawa "rebooted" in September 2023. Today, the Ottawa chapter has `r num_members` members on [Meetup](https://www.meetup.com/rladies-ottawa/)!
 
-## Interested in joining?
+## 🤝 Interested in joining?
 
 :::{.callout-important}
 
@@ -38,7 +38,7 @@ If you are a woman or gender minority, we also recommend joining the [global R-L
 
 If you're interested in being an organizer for R-Ladies Ottawa, please contact us through a direct message on our Meetup.
 
-## Recordings of past events
+## 🎥 Recordings of past events
 
 Some of our events are recorded and are posted on the [R-Ladies Global YouTube channel](https://www.youtube.com/@RLadiesGlobal). You can find the Ottawa chapter's videos under the ["R-Ladies Ottawa" playlist](https://www.youtube.com/watch?v=lFjjD0EEWX0&list=PLPwprT5wdzX5PwV2r0mAOw1CYkulwLpso).
 

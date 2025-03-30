@@ -29,10 +29,14 @@ jobs:
         with:
           cache-version: 1
 
+      - name: Dynamically insert Google Analytics ID
+        run: sed -i "s/REPLACE_THE_TEXT_HERE/${GOOGLE_MEASUREMENT_ID}/g" _quarto.yml
+        env:
+          GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_MEASUREMENT_ID }}        
+
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_MEASUREMENT_ID }}

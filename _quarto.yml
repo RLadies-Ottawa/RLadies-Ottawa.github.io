@@ -3,7 +3,7 @@ project:
 
 website:
   cookie-consent: true
-  google-analytics: !expr Sys.getenv("GOOGLE_ANALYTICS_ID")
+  google-analytics: "REPLACE_THE_TEXT_HERE"
   title: "R-Ladies Ottawa"
   favicon: images/favicon.ico
   page-navigation: true

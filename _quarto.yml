@@ -2,6 +2,8 @@ project:
   type: website
 
 website:
+  cookie-consent: true
+  google-analytics: !expr Sys.getenv("GOOGLE_MEASUREMENT_ID")
   title: "R-Ladies Ottawa"
   favicon: images/favicon.ico
   page-navigation: true

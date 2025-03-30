@@ -61,6 +61,6 @@ On **April 8th, 2025 from 12pm-1pm**, R-Ladies Ottawa will host [a virtual event
 
 ## Submissions
 
-## Camy Kam
+### Camy Kam
 
-Camy's submission is titled *Evaluating Top Nail Salons Near Me in Ottawa*, and be found [here](https://github.com/CamyKam/Jupyter_Nail-Salons-in-Ottawa).
+Camy's submission is titled *Evaluating Top Nail Salons Near Me in Ottawa*, and can be found [here](https://github.com/CamyKam/Jupyter_Nail-Salons-in-Ottawa).

@@ -64,3 +64,7 @@ On **April 8th, 2025 from 12pm-1pm**, R-Ladies Ottawa will host [a virtual event
 ### Camy Kam
 
 Camy's submission is titled *Evaluating Top Nail Salons Near Me in Ottawa*, and can be found [here](https://github.com/CamyKam/Jupyter_Nail-Salons-in-Ottawa).
+
+### Tomas McNamer
+
+Tomas' submission is titled *Visualization of Ontario High School OSSLT and Math Scores*, and can be found [here](https://github.com/tommcn/ontario-hs-data/).

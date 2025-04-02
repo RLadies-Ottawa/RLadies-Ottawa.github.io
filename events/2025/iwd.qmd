@@ -64,3 +64,7 @@ On **April 8th, 2025 from 12pm-1pm**, R-Ladies Ottawa will host [a virtual event
 ### Camy Kam
 
 Camy's submission is titled *Evaluating Top Nail Salons Near Me in Ottawa*, and can be found [here](https://github.com/CamyKam/Jupyter_Nail-Salons-in-Ottawa).
+
+### Sofia Balaceanu
+
+Sofia's project is called *Visualizations of OC Transpo Data Against Canada Census Data* and can be found [here](https://github.com/topia05/bus-census-data-viz-ottawa).

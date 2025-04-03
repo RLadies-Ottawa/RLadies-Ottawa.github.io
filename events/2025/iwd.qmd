@@ -63,3 +63,7 @@ The date and time of the showcase event will be announced soon.
 ## Submissions
 
 Stay tuned!
+
+## Brittny Vongdara
+
+As a starting point to get familiar with scrollytelling, Brittny used the [closeread] extensions from Quarto to show a fun way to look at data and text about action movies. You can find her submission [here](https://klaxonklaxoff.github.io/action_movies.html).

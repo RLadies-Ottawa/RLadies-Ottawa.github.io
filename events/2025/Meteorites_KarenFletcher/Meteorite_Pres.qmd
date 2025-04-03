@@ -1,0 +1,192 @@
+---
+title: "Space Rocks"
+subtitle: "What can we learn about the mass of different types of Meteorites?"
+format: revealjs
+editor: visual
+---
+
+```{r}
+library(grid)
+library(png)
+library(brms)
+library(dplyr)
+```
+
+## Space Rocks {style="font-size: 50%;"}
+
+Meteorites are cool, they've been in space. They're also all over the place.
+
+```{r}
+#worldplot
+imRPN<-readPNG("Images/worldplot.png")
+grid.raster(imRPN)
+```
+
+The places without meteorites? The Amazon, deserts, Antarctica. More like places it's hard to find meteorites.
+
+## Meteorites aren't all the same. {style="font-size: 50%;"}
+
+Obviously there are a bunch of different kinds of meteorites. Some are spotted, some are striped, they come in different colours.
+
+```{r}
+
+imRPN<-readPNG("Images/Meteorite_pic.png")
+grid.raster(imRPN)
+
+#credit: https://www.nhm.ac.uk/discover/types-of-meteorites.html
+
+```
+
+But how else are they different?
+
+Photos from the [Natural History Museum](https://www.nhm.ac.uk/discover/types-of-meteorites.html).
+
+## Data {style="font-size: 50%;"}
+
+The data set used in this project is a record of over 45,000 meteorites with information collected from The Meteoritical Society, and downloaded from Kaggle.
+
+**The data set included:**
+
+-   A meteorites' name
+
+-   ID number
+
+-   Mass in grams
+
+-   Type
+
+-   Latitude where is was Ffound
+
+-   Longitude where it was found
+
+-   Information about weathering
+
+-   Date found
+
+-   Whether it was discovered on the ground or seen as it fell
+
+The data set can be downloaded [here](https://www.kaggle.com/datasets/nasa/meteorite-landings).
+
+## What are the different types of meteorites? {style="font-size: 50%;"}
+
+```{r}
+#tree diagram goes here
+imRPN<-readPNG("Images/Tree.png")
+grid.raster(imRPN)
+```
+
+As we can see there are a variety of different types which can be grouped together by different types of characteristics.
+
+## Are some more common than others? {style="font-size: 50%;"}
+
+Presumably Earth isn't more likely to attract one kind over another–we'll assume our sample is generally representative of what's flown through space over time, although it's possible some kinds are more likely to survive the journey through the atmosphere.
+
+```{r}
+#Number_of_each_type
+imRPN<-readPNG("Images/Number_of_each_type.png")
+grid.raster(imRPN)
+```
+
+## What else can we find out? {style="font-size: 50%;"}
+
+Our data set lists the mass in grams for the meteorites, as well as listing the types. So different types generally have different masses. We could create a model using just their type, but as we saw in our tree diagram those types are gathered into groups which are themselves split into two sections.
+
+```{r}
+#mass_density_plots
+imRPN<-readPNG("Images/mass_density_plots.png")
+grid.raster(imRPN)
+```
+
+We can see that different types of meteorites tend to have different masses, it would be interesting to know how each of these three levels of information impacts the mass of the type of meteorite.
+
+## Hierarchical Bayesian Linear Regression {style="font-size: 50%;"}
+
+Hierarchical Bayesian Linear Regression allows us to create a model that take into account different levels of information, recognizing that groups of similar objects will have group-characteristics that are different from other groups. In our case we're interested in creating a model that tries to understand the mass of meteorites based on whether they're differentiated or undifferentiated, and which group they're in, in addition to their type. I'm using a packaged called brm to fit the model.
+
+Before I was able to run the model, I had to do some data cleaning. In order to prepare to model the data I first standardized the abbreviations used in the data frame, which were in several different formats, and then filtered out types with 10 or less samples–since those are too small to effectively be included in the model. NA values, and types of meteorites that dont' fall into the main categories I am using, were also removed.
+
+## Running the Original Model {style="font-size: 50%;"}
+
+My first model converged (found an answer) and a summary of the model is below, the columns titled "Estimate" indicate the average value of the mass for that group, and the "Est. Error" is short for estimated error, a large estimated error means the model doesn't have high confidence in its estimate.
+
+```{r}
+#pretty-print summary chart
+
+bayes_space_rock_model<-readRDS("./space_rocks_model")
+summary(bayes_space_rock_model)
+```
+
+As we can see in the chart the estimated error for the coefficients it found are very large, so while this is a good first step, we want to change the model to make it work better.
+
+## Trying to Change the Model so It's Better {style="font-size: 50%;"}
+
+Once you have a model it's helpful to try to change a few things and see if things go better, I tried a number of things:
+
+| Strategy | Goal | Outcome |
+|------------------------|------------------------|------------------------|
+| Applying a log transform to mass | See if that helps address the wide range of values | The simulation immediately got stuck |
+| Adding scalar coefficients | Prevent the simulation from getting stuck near zero | The simulation immediately got stuck again |
+| Changing the acceptance rate | Make the simulation more tolerant of values it previously rejected | The simulation still got stuck |
+| Running the simulation with only Type and Differentiation Status | Perhaps having three levels of information is too much for our simulation | The simulation once again got stuck |
+| Running the simulation with only Type and Group | Perhaps having three levels of information is too much for our simulation, also Group and Differentiation Status might be too similar. | The simulation converged, and the error values are fairly small. |
+
+## What did we end up with? {style="font-size: 50%;"}
+
+We were able to arrive at a model that takes into account two levels of information (Type and Group) to tell us about the mass of the different types of meteorites.
+
+```{r}
+#mass_density_plots
+imRPN<-readPNG("Images/mass_density_plots2.png")
+grid.raster(imRPN)
+```
+
+Our model will have hyper-parameters that describe the impact of a meteorite's group from the plot on the left and parameters that describe the impact of the types from the plot on the right.
+
+## Getting Something that Works {style="font-size: 50%;"}
+
+We now have a model that takes into account two levels of information (Type and Group) to tell us about the mass of the different types of meteorites.
+
+::::: columns
+::: {.column width="50%"}
+```{r}
+bayes_space_rock_model2<-readRDS("./space_rocks_model2")
+
+hp_spacerocks2<-fixef(bayes_space_rock_model2)|>as.data.frame() 
+hp_spacerocks2<-hp_spacerocks2|>mutate(Level="Group") 
+myColNames<-colnames(hp_spacerocks2)
+
+p_spacerocks2<-ranef(bayes_space_rock_model2)|>as.data.frame() 
+p_spacerocks2<-p_spacerocks2|>mutate(Level="Type") 
+colnames(p_spacerocks2)<-myColNames
+
+spacerocks2_df<-rbind (hp_spacerocks2, p_spacerocks2)
+
+spacerocks2_df
+```
+:::
+
+::: {.column width="50%"}
+```{r}
+pp_check(bayes_space_rock_model2)
+```
+:::
+:::::
+
+After developing our model (on the left), it's important to check that it works. One way to do this is by comparing data replicated from the model to the data itself and compare them, which is what the plot on the right does. We can see that the model could be further improved, but it's pretty close.
+
+## Thanks for Reading! {style="font-size: 50%;"}
+
+::::: columns
+::: {.column width="50%"}
+I'm Karen Fletcher, a M.Sc. student at Carleton Univesity, studying Data Science. I've served as Vice-Chair of Policy for the Canadian Alliance of Students' Associations, and Chair of Policy for the Council of Alberta University Students and am interested in using data science to make good policy.
+
+Connect with me: [LinkedIn](https://www.linkedin.com/in/karenjfletcher/)
+:::
+
+::: {.column width="50%"}
+```{r}
+imRPN<-readPNG("Images/Photo.png") 
+grid.raster(imRPN)
+```
+:::
+:::::

@@ -1,0 +1,43 @@
+Meteorite Meta-Data
+
+https://www.kaggle.com/datasets/nasa/meteorite-landings
+
+The Meteoritical Society collects data on meteorites that have fallen to Earth from outer space. This dataset includes the location, mass, composition, and fall year for over 45,000 meteorites that have struck our planet.
+
+Notes on missing or incorrect data points:
+
+a few entries here contain date information that was incorrectly parsed into the NASA database. As a spot check: any date that is before 860 CE or after 2016 are incorrect; these should actually be BCE years. There may be other errors and we are looking for a way to identify them.
+a few entries have latitude and longitude of 0N/0E (off the western coast of Africa, where it would be quite difficult to recover meteorites). Many of these were actually discovered in Antarctica, but exact coordinates were not given. 0N/0E locations should probably be treated as NA.
+[The starter kernel]() for this dataset has a quick way to filter out these observations using dplyr in R, provided here for convenience:
+
+meteorites.geo <- meteorites.all %>% 
+filter(year>=860 & year<=2016) %>% # filter out weird years 
+filter(reclong<=180 & reclong>=-180 & (reclat!=0 | reclong!=0)) # filter out weird locations
+
+The Data
+
+Note that a few column names start with "rec" (e.g., recclass, reclat, reclon). These are the recommended values of these variables, according to The Meteoritical Society. In some cases, there were historical reclassification of a meteorite, or small changes in the data on where it was recovered; this dataset gives the currently recommended values.
+
+The dataset contains the following variables:
+
+name: the name of the meteorite (typically a location, often modified with a number, year, composition, etc)
+id: a unique identifier for the meteorite
+nametype: one of: 
+-- valid: a typical meteorite 
+-- relict: a meteorite that has been highly degraded by weather on Earth
+recclass: the class of the meteorite; one of a large number of classes based on physical, chemical, and other characteristics (see the Wikipedia article on meteorite classification for a primer)
+mass: the mass of the meteorite, in grams
+fall: whether the meteorite was seen falling, or was discovered after its impact; one of: 
+-- Fell: the meteorite's fall was observed 
+-- Found: the meteorite's fall was not observed
+year: the year the meteorite fell, or the year it was found (depending on the value of fell)
+reclat: the latitude of the meteorite's landing
+reclong: the longitude of the meteorite's landing
+GeoLocation: a parentheses-enclose, comma-separated tuple that combines reclat and reclong
+What can we do with this data?
+
+Here are a couple of thoughts on questions to ask and ways to look at this data:
+
+how does the geographical distribution of observed falls differ from that of found meteorites?
+-- this would be great overlaid on a cartogram or alongside a high-resolution population density map
+are there any geographical differences or differences over time in the class of meteorites that have fallen to Earth?

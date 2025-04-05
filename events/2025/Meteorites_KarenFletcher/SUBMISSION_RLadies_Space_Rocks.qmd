@@ -1,0 +1,692 @@
+---
+title: "Meteorites"
+format: html
+editor: visual
+---
+
+# Set-Up
+
+```{r}
+version
+```
+
+## Libraries
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(maps)
+library(sf)
+library(sp)
+library(rworldmap)
+library(rnaturalearth)
+library(brms)
+library(patchwork)
+library(ggraph)
+library(igraph)
+library(RColorBrewer)
+
+```
+
+## Load Data and Create Data Frames
+
+```{r}
+space_rocks<-readr::read_csv("~/Desktop/Meteorites/Meteorite_Landings_20250108.csv")
+
+#remove entries with years after 2016 or before 860, which are known errors in the data base
+space_rocks<-space_rocks|>subset(year>860 & year <2016)
+
+#fit column name
+space_rocks <- space_rocks |> rename(mass_g = `mass (g)`)
+
+#generally rocks with (0,0) coordinates were found somewhere in Antarctica and exact coordinates were not recorded, create flag to note the antarctic ones
+space_rocks<-space_rocks|> mutate (zeros = case_when(reclat==0 & reclong==0 ~ TRUE,
+                                            reclat!=0 & reclong!=0 ~ FALSE))
+
+#filter out one value with wonky lat
+space_rocks<-space_rocks |> filter (reclong <181)
+
+```
+
+# Data Exploration
+
+## World Map
+
+reference:
+
+<https://sarahpenir.github.io/r/making-maps/>
+
+```{r}
+#fiter out antartcic because they'll all look like they're in the water (0,0)
+world_map_df<-space_rocks|>filter(zeros==FALSE)
+
+world<-map_data("world")
+
+plain <- theme(
+  axis.text = element_blank(),
+  axis.line = element_blank(),
+  axis.ticks = element_blank(),
+  panel.border = element_blank(),
+  panel.grid = element_blank(),
+  axis.title = element_blank(),
+  panel.background = element_rect(fill = "white"),
+  plot.title = element_text(hjust = 0.5)
+)
+
+worldplot <- ggplot() +
+  geom_polygon(data = world, aes(x=long, y = lat, group = group), fill="#118ab2") + 
+  coord_fixed(1.3)+
+  theme(plot.margin = margin(0, 0, 0, 0))+
+  plain+
+  geom_point(data=world_map_df, 
+             aes(x=reclong, y=reclat), 
+             size=0.25, colour="#073b4c")+
+  labs(title="Locations of Found Meteorites")
+
+
+
+worldplot
+ggsave("Images/worldplot.png")
+
+```
+
+Most of the relics seem to be in Sweden and quite recent, some sort of samping difference
+
+The rainforest and northern Canada and Russia don't have a lot of finds, no surprise there–fewer people mean fewer finds. The areas in Africa also line up with population density. Again, that makes sense.
+
+## Investigate Meteorite Types
+
+<https://meteoritelab.com/about/meteorites/meteorite-classification/>
+
+```{r}
+
+#all chrondrites are undifferenciated
+
+
+#extra level of chrondrite sub-division
+chondrites<-c("Charbonaceous Chondrites", 
+              "Ordinary Chondrites", 
+              "Rhumuruti Chondrites", 
+              "Estatite Chondrites")
+
+
+#groups of chondrites and their sub-types
+carbonaceous_chondrites<-c("CI", "CM", "CO", "CV", "CK", "CR", "CH", "C")
+ordinary_chondrites<-c("H", "L", "LL")
+rhumuruti_chondrites<-c() #no code
+estatite_chondrites<-c("EH", "EL")
+
+#martian sub-types
+martian<-c("shergottite", "nakhlite", "Martian", "Shergottite", "Nakhlite", "chassignite ")
+
+#groups of differentiated meteorites and their subtypes
+iron<-c("I", "II", "III", "IV")
+achrondrites<-c("Martian", "Aubrites", "Urielites", "Angrites", "HED", "Lunar", "Achondrites", "Acapulcoites", "Winonaites", "Lodranites")
+stony<-c("R")
+stony_iron<-c("Pallasites", "Mesosiderites")
+```
+
+```{r}
+#first convert messy column into cleaner types
+space_rocks <- space_rocks |>
+  mutate(Type = case_when(
+    substr(recclass, 1, 2) == "EH" ~ "EH",
+    substr(recclass, 1, 2) == "EL" ~ "EL",
+    
+    substr(recclass, 1, 2) == "LL" ~ "LL",
+    grepl("^H[0-9]", substr(recclass, 1, 2)) ~ "H",
+    substr(recclass, 1, 2) == "H/" ~ "H",
+    substr(recclass, 1, 2) == "H-" ~ "H",
+    substr(recclass, 1, 2) == "H(" ~ "H",
+    substr(recclass, 1, 2) == "H~" ~ "H",
+    grepl("^H$", recclass) ~ "H", 
+    grepl("^L[0-9]", substr(recclass, 1, 2)) ~ "L",
+    grepl("^L$", recclass) ~ "L", 
+    substr(recclass, 1, 2) == "L/" ~ "L",
+    substr(recclass, 1, 2) == "L(" ~ "L",
+    substr(recclass, 1, 2) == "L~" ~ "L",
+    substr(recclass, 1, 2) == "L-" ~ "L",
+    
+    substr(recclass, 1, 2) == "CI" ~ "CI",
+    substr(recclass, 1, 2) == "CM" ~ "CM",
+    substr(recclass, 1, 2) == "CO" ~ "CO",
+    substr(recclass, 1, 2) == "CV" ~ "CV",
+    substr(recclass, 1, 2) == "CK" ~ "CK",
+    substr(recclass, 1, 2) == "CR" ~ "CR",
+    substr(recclass, 1, 2) == "CH" ~ "CH",
+    grepl("^C[0-9]", substr(recclass, 1, 2)) ~ "C",
+    
+    substr(recclass, 1, 3) == "How" ~ "Howardites",
+    substr(recclass, 1, 3) == "Euc" ~ "Eucrites",
+    substr(recclass, 1, 3) == "Dio" ~ "Diogenites",
+    
+    substr(recclass, 1, 3) == "Ach" ~ "Achondrites",
+    substr(recclass, 1, 3) == "Aca" ~ "Acapulcoites",
+    substr(recclass, 1, 3) == "Win" ~ "Winonaites",
+    substr(recclass, 1, 3) == "Lod" ~ "Lodranites",
+    
+    substr(recclass, 1, 3) == "Pal" ~ "Pallasites",
+    substr(recclass, 1, 3) == "Mes" ~ "Mesosiderites",
+    
+    substr(recclass, 1, 3) == "ALH" ~ "ALH 84001",
+    
+    substr(recclass, 1, 3) == "Aub" ~ "Aubrites",
+    substr(recclass, 1, 3) == "Ure" ~ "Ureilites",
+    substr(recclass, 1, 3) == "Ang" ~ "Angrites",
+    
+    substr(recclass, 1, 1) == "R" ~ "R",
+    
+    substr(recclass, 1, 3) == "Lun" ~ "Lunar",
+    
+    grepl("I{1,4}", recclass) ~ sub(".*?(I{1,4}).*", "\\1", recclass),
+    
+    substr(recclass, 1, 3) == "Unk" ~ "Unknown",
+    
+    grepl("^Martian$", recclass) ~ "Martian",
+    grepl("^Martian \\(.*\\)$", recclass) ~ sub("^Martian \\((.*)\\)$", "\\1", recclass),
+    
+    substr(recclass, 1, 3) == "she" ~ "Shergottites",
+    substr(recclass, 1, 3) == "nah" ~ "Nakhlites",
+    substr(recclass, 1, 3) == "cha" ~ "Chassigns",
+    
+    substr(recclass, 1, 3) == "She" ~ "Shergottites",
+    substr(recclass, 1, 3) == "Nah" ~ "Nakhlites",
+    substr(recclass, 1, 3) == "Cha" ~ "Chassigny",
+    
+    TRUE ~ "Other"
+  ))
+
+
+space_rocks$martian <- ifelse(space_rocks$Type %in% martian, "martian", NA)
+```
+
+```{r}
+#add labels for undifferentiated meteorites
+space_rocks <- space_rocks |>
+  mutate(chondrites = case_when(
+    Type %in% carbonaceous_chondrites ~ "carbonaceous_chondnrites",
+    Type %in% ordinary_chondrites ~ "ordinary_chrondrites",
+    Type %in% rhumuruti_chondrites ~ "rhumuruti_chrondrites",
+    Type %in% estatite_chondrites ~ "estatite_chrondrites",
+    TRUE ~ NA
+           )
+  )
+
+#add labels for differentiated meteorites
+space_rocks <- space_rocks |>
+  mutate(achondrites = case_when(
+    Type %in% achrondrites ~ "achrondrites",
+    Type %in% iron ~ "iron",
+    Type %in% stony ~ "stony",
+    Type %in% stony_iron ~ "stony_iron",
+    TRUE ~ NA
+           )
+  )
+
+#add labels for top category
+space_rocks <- space_rocks |>
+  mutate(differentiated = case_when(
+    Type %in% carbonaceous_chondrites ~ "undifferentiated",
+    Type %in% ordinary_chondrites ~ "undifferentiated",
+    Type %in% rhumuruti_chondrites ~ "undifferentiated",
+    Type %in% estatite_chondrites ~ "undifferentiated",
+    Type %in% achondrites ~ "differentiated",
+    Type %in% iron ~ "differentiated",
+    Type %in% stony ~ "differentiated",
+    Type %in% stony_iron ~ "differentiated",
+    TRUE ~ NA
+           )
+  )
+
+
+```
+
+## Mass: Differentiated vs Undifferentiated
+
+```{r}
+#| echo: false
+
+
+density_group_plot<-space_rocks|> filter (!is.na(mass_g) & !is.na(differentiated) )|>
+  ggplot(aes(x=mass_g, colour=differentiated))+
+  geom_density()+
+  scale_x_log10()+
+  ggtitle("Mass & Differentiation Status")+
+  labs(x="Mass in Grams [Log Scale]", y="Density", colour="Melted?")+
+  scale_color_manual(values=c("#ef476f", "#06d6a0"), labels=c("Differentiated", "Undifferentiated"))+
+  theme(legend.position = "bottom", 
+        legend.box = "horizontal")
+
+density_group_plot
+```
+
+## Mass: By Meteorite Type
+
+```{r}
+
+density_plot_df<-space_rocks|> filter (!is.na(mass_g) & !is.na(differentiated))
+
+density_plot_df$Type <- gsub("Mesosiderites", "Mes", density_plot_df$Type)
+density_plot_df$Type <- gsub("Pallasites", "Pal", density_plot_df$Type)
+
+density_group_plot_all<- density_plot_df|>
+  ggplot(aes(x=mass_g, colour=Type))+
+  geom_density()+
+  scale_x_log10()+
+  ggtitle("Mass & Meteorite Type")+
+  labs(x="Mass in Grams [Log Scale]", y="Density")+
+  theme(legend.position = "bottom", 
+        legend.box = "horizontal")
+
+
+density_group_plot_all
+```
+
+## Mass: Differentiation and Type
+
+```{r}
+mass_density_plots<-density_group_plot + density_group_plot_all
+
+mass_density_plots
+ggsave("Images/mass_density_plots.png")
+```
+
+## Prevalence of Meteorites by Type
+
+```{r}
+
+type_count_df<- space_rocks |>filter (Type != "Unknown" & Type != "Other") |> group_by(Type) |> summarise (count=n())
+
+Number_of_each_type<-type_count_df|>ggplot(aes(x=Type, y=count, colour=Type, fill=Type))+
+ geom_bar(stat="identity")+
+  labs(title="Prevalence of Meteorites by Type", x= "Type", y="Count")+
+  theme(legend.position = "bottom", 
+        legend.box = "horizontal")+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  
+Number_of_each_type
+ggsave("Images/Number_of_each_type.png")
+```
+
+## Exploring Other Differences in Mass
+
+```{r}
+density_group_plot_chondrites<-space_rocks|> filter (!is.na(mass_g) & !is.na(chondrites) )|>
+  ggplot(aes(x=mass_g, colour=chondrites))+
+  geom_density()+
+  scale_x_log10()+
+  ggtitle("Differences in Mass by Meteorite Type")
+
+density_group_plot_chondrites
+
+density_group_plot_achondrites<-space_rocks|> filter (!is.na(mass_g) & !is.na(achondrites) )|>
+  ggplot(aes(x=mass_g, colour=achondrites))+
+  geom_density()+
+  scale_x_log10()+
+  ggtitle("Differences in Mass by Meteorite Sub-Type")
+
+density_group_plot_achondrites
+
+
+density_group_plot_martian<-space_rocks|> filter (!is.na(mass_g) 
+                                                  & !is.na(martian) 
+                                                  & Type != "Martian")|>
+  ggplot(aes(x=mass_g, colour=Type))+
+  geom_density()+
+  scale_x_log10()+
+  ggtitle("Differences in Mass by Meteorite Type")
+
+density_group_plot_martian
+```
+
+## Boxplots: Mass with Different Categories
+
+```{r}
+
+boxplot_group_plot_chondrites<-space_rocks|> filter (!is.na(mass_g) & !is.na(chondrites))|>
+  ggplot(aes(x=differentiated, y=mass_g, colour=chondrites))+
+  geom_boxplot()+
+  ggtitle("Differences in Mass by Meteorite Type")
+
+boxplot_group_plot_chondrites
+
+space_rocks_less1000g<-space_rocks|>filter(mass_g<1000)
+
+
+boxplot_group_plot_chondrites<-space_rocks|> filter (!is.na(mass_g) & !is.na(chondrites))|>
+  ggplot(aes(x=differentiated, y=mass_g, colour=chondrites))+
+  geom_boxplot()+
+  ggtitle("Differences in Mass by Meteorite Type")
+
+boxplot_group_plot_chondrites
+
+space_rocks_less1000g<-space_rocks|>filter(mass_g<1000)
+
+
+
+boxplot_group_plot_chondrites_smaller<-space_rocks_less1000g|> filter (!is.na(mass_g) & !is.na(chondrites))|>
+  ggplot(aes(x=differentiated, y=mass_g, colour=chondrites))+
+  geom_boxplot()+
+  ggtitle("Differences in Mass by Meteorite Type")
+
+boxplot_group_plot_chondrites_smaller
+
+boxplot_group_plot_martian_smaller<-space_rocks_less1000g|> filter (!is.na(mass_g) &
+                                                                    !is.na(differentiated))|>
+  ggplot(aes(x=differentiated, y=mass_g, colour=differentiated))+
+  geom_boxplot()+
+  ggtitle("Differences in Mass by Meteorite Type: Mars")
+
+boxplot_group_plot_martian_smaller
+
+
+
+moon_vs_mars<-space_rocks|>filter(martian=="martian" | Type=="Lunar")
+moon_vs_mars<- moon_vs_mars|>mutate (martian = case_when(martian=="martian" ~ "martian",
+                                            is.na(martian) ~ "Lunar"))
+
+
+mars_vs_moon_boxplot<-moon_vs_mars|> filter (!is.na(mass_g))|>
+  ggplot(aes(x=martian, y=mass_g, colour=martian))+
+  geom_boxplot()+
+  ggtitle("Differences in Mass by Meteorite Type: Moon Vs Mars")
+
+mars_vs_moon_boxplot
+
+
+
+```
+
+## Mass: Lunar vs. Martian Meteorites
+
+```{r}
+#moon vs mars density plot
+
+density_group_plot_moon_vs_mars<-moon_vs_mars|> filter (!is.na(mass_g))|>
+  ggplot(aes(x=mass_g, colour=martian))+
+  geom_density()+
+  ggtitle("Differences in Mass by Meteorite Type")
+
+density_group_plot_moon_vs_mars
+
+density_group_plot_moon_vs_mars_log10<-moon_vs_mars|> filter (!is.na(mass_g))|>
+  ggplot(aes(x=mass_g, colour=martian))+
+  geom_density()+
+  scale_x_log10()+
+  ggtitle("Differences in Mass by Meteorite Type")
+
+density_group_plot_moon_vs_mars_log10
+```
+
+## Year of Discovery vs. Mass
+
+```{r}
+time_vs_mass<-space_rocks|>ggplot(aes(x=year, y=mass_g, colour=Type))+
+  geom_point()
+
+time_vs_mass
+```
+
+# Hierarchical Bayesian Linear Regression
+
+## Data Prep
+
+```{r}
+#prep data for Hierachial Bayesian Linear Regression
+
+#want 5-10 per group, check group counts
+
+#create data frame to count rock types occurances in original DF
+type_count_df<-data.frame(rock_types=space_rocks$Type|>unique(),
+                          sample_count=NA)
+
+type_count_df <- type_count_df |> mutate (sample_count = 
+                                            sapply(rock_types, function(x) sum(space_rocks$Type == x)))
+
+#flag anything with 10 or fewer samples
+type_count_df<- type_count_df |> mutate (include_flag = ifelse (sample_count>=10, 1, 0))
+
+#make list ofrock_type to include
+include_rocks<-type_count_df|>filter(include_flag==1)|>pull(rock_types)
+
+#filter out ones that aren't in the list
+bayes_prep_df<-space_rocks|>filter (Type %in% include_rocks)
+
+#recode things nicely
+bayes_prep_df <- bayes_prep_df |> mutate (group =  case_when(
+    Type %in% carbonaceous_chondrites ~ "chondrites",
+    Type %in% ordinary_chondrites ~ "chondrites",
+    Type %in% rhumuruti_chondrites ~ "chondrites",
+    Type %in% estatite_chondrites ~ "chondrites",
+    Type %in% achrondrites ~ "achrondrites",
+    Type %in% iron ~ "iron",
+    Type %in% stony ~ "stony",
+    Type %in% stony_iron ~ "stony_iron",
+    TRUE ~ NA
+           )
+  )
+
+#filter out NA values in differentiated
+bayes_prep_df <- bayes_prep_df |> filter (!is.na(differentiated ))
+
+#get DF ready
+#columns we want
+bayes_ready_df<- bayes_prep_df |> select ("name", "id", "mass_g", "Type", "group", "differentiated")
+
+#make sure there are no NAs
+bayes_ready_df <- na.omit(bayes_ready_df)
+
+bayes_ready_df <- bayes_ready_df |> mutate (across (c("Type", "group", "differentiated"), as.factor))
+
+#filter out ones that have zero as mass
+bayes_ready_df<- bayes_ready_df |>filter(mass_g !=0)
+```
+
+## Run Initial Model
+
+```{r}
+bayes_space_rock_model <-brm(
+  formula = mass_g ~ 1 + (1 | Type) + (1 + group) + (1 | differentiated), #fixed intercepts, all 3 factors as random effects
+  data = bayes_ready_df,
+  prior = c(
+    prior (normal (0,5), class = "b"), #fixed effects/the intercept
+    prior (normal (0, 5), class = "sd") #random effects
+  ),
+  chains = 4,
+  iter = 2000,
+  warmup =1000
+)
+```
+
+Note: can use control = list(adapt_delta = 0.95) if problems with convergence
+
+Model takes considerable time to run: save/load model as appopriate
+
+```{r}
+#save model
+#saveRDS(bayes_space_rock_model, "~/Desktop/space_rocks_model")
+
+bayes_space_rock_model<-readRDS("~/Desktop/Meteorites/space_rocks_model")
+
+
+```
+
+## Examine Initial Model
+
+```{r}
+#summary
+summary(bayes_space_rock_model)
+
+#post. samples
+posterior_samples(bayes_space_rock_model)
+```
+
+Notes:
+
+-   It converged, but there's a lot of uncertainty. Try again but with a log transform like in the charts.
+
+-   Log transform gets stuck immediately. Add scalar coefficient to try.
+
+-   Still gets stuck, change acceptance rate and try again
+
+-   Still gets stuck, try to get rid of middle level?
+
+-   didn't work, get rid of top level, put middle level back
+
+## Run Second Model 
+
+Note: models that did not work were discarded
+
+```{r}
+
+
+bayes_space_rock_model2 <-brm(
+  formula = 2*log10(mass_g) ~ 1 + (1 | Type) + (1 + group) , #fixed intercepts, all 3 factors as random effects
+  data = bayes_ready_df,
+  prior = c(
+    prior (normal (0,5), class = "b"), #fixed effects/the intercept
+    prior (normal (0, 5), class = "sd") #random effects
+  ),
+  chains = 4,
+  iter = 2000,
+  warmup =1000,
+  control = list(adapt_delta = 0.99)
+)
+```
+
+```{r}
+saveRDS(bayes_space_rock_model2, "~/space_rocks_model2")
+```
+
+## Examine Second Model
+
+```{r}
+
+bayes_space_rock_model2<-readRDS("./space_rocks_model2")
+
+fixef(bayes_space_rock_model2)
+
+ranef(bayes_space_rock_model2)
+
+pp_check(bayes_space_rock_model2)
+```
+
+Our estimates and C.I.s are much better than before but some are negative.
+
+## Run Third Model
+
+Try log-normal family.
+
+```{r}
+bayes_space_rock_model3 <-brm(
+  formula = mass_g ~ 1 + (1 | Type) + (1 + group) , #fixed intercepts, all 3 factors as random effects
+  data = bayes_ready_df,
+  family = lognormal(),
+  prior = c(
+    prior (normal (0,5), class = "b"), #fixed effects/the intercept
+    prior (normal (0, 5), class = "sd") #random effects
+  ),
+  chains = 4,
+  iter = 2000,
+  warmup =1000,
+  control = list(adapt_delta = 0.99)
+)
+```
+
+```{r}
+saveRDS(bayes_space_rock_model3, "~/space_rocks_model3")
+```
+
+```{r}
+#summary
+summary(bayes_space_rock_model3)
+
+#post. samples
+posterior_samples(bayes_space_rock_model3)
+
+pp_check(bayes_space_rock_model3)
+#posterior check not good, go with second model
+```
+
+```{r}
+#pull out group level effects
+ranef(bayes_space_rock_model3)
+```
+
+# Additional Graphics for Presentation
+
+## Tree Diagram
+
+```{r}
+
+#generate lists of edges in data frames
+first_split_from<-c("Meteorites", "Meteorites")
+first_split_to<-bayes_ready_df$differentiated|>unique()
+
+myDF1<-data_frame(first_split_from, first_split_to)
+myDF1|>colnames()<-c("from", "to")
+myDF1$to<-myDF1$to|>as.character()
+myDF1[]<-lapply(myDF1, function(x) tools::toTitleCase(x))
+myDF1$to<-myDF1$to|>as.factor()
+
+myDF2<-bayes_ready_df|>select("differentiated", "group")|>unique()
+myDF2|>colnames()<-c("from", "to")
+myDF2[]<-lapply(myDF2, function(x) as.character(x))
+myDF2[]<-lapply(myDF2, function(x) tools::toTitleCase(x))
+myDF2$to <- gsub("Stony_iron", "SI", myDF2$to)
+
+myDF3<-bayes_ready_df|>select("group", "Type")|>unique()
+myDF3|>colnames()<-c("from", "to")
+myDF3[]<-lapply(myDF3, function(x) as.character(x))
+myDF3[]<-lapply(myDF3, function(x) tools::toTitleCase(x))
+
+myDF3$to <- gsub("Mesosiderites", "Mes", myDF3$to)
+myDF3$to <- gsub("Pallasites", "Pal", myDF3$to)
+myDF3$from <- gsub("Stony_iron", "SI", myDF3$from)
+
+
+myEdges<-rbind(myDF1, myDF2, myDF3)
+myEdges$shades<-c("A", "B", "A", "C", "D", "E", "H", "I", "J", "K", "C", "l", "M", "N", "F", "P", "Q", "R", "S", "G", "E", "T")
+
+# Create a graph object
+myGraph <- graph_from_data_frame(myEdges)
+
+
+myTree<-ggraph(myGraph, layout = 'dendrogram', circular = FALSE) + 
+  geom_edge_diagonal(aes(color = shades)) +
+  ggtitle ("Meteorites by Type")+
+  scale_colour_identity()+
+  geom_node_text(aes( label=name) , angle=0 , hjust=0, nudge_y=-0.1, nudge_x = 0.05) +
+  geom_node_point(aes(filter=leaf) , alpha=0.6) +
+  ylim(-.5, NA)+
+  xlim(NA, 16)+
+  theme(legend.position = "none")
+  
+
+myTree
+ggsave("Images/Tree.png")
+```
+
+## Group Vs Type Density
+
+```{r}
+density_group_plot_group<-bayes_ready_df|> 
+  ggplot(aes(x=mass_g, colour=group))+
+  geom_density()+
+  scale_x_log10()+
+  ggtitle("Mass & Meteorite Group")+
+  labs(x="Mass in Grams [Log Scale]", y="Density", colour="group")+
+  scale_color_manual(values=c("#073B4C", "#06d6a0", "#FFD166", "#EF476F"), labels=c("Chond.", "Iron", "Stony", "S-I"))+
+  theme(legend.position = "bottom", 
+        legend.box = "horizontal")
+
+density_group_plot_group
+ggsave("Images/density_group_plot_group.png")
+
+
+mass_density_plots2<-density_group_plot_group + density_group_plot_all
+
+mass_density_plots2
+ggsave("Images/mass_density_plots2.png")
+
+```

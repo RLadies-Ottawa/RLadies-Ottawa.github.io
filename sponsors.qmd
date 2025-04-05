@@ -10,3 +10,19 @@ Sponsoring R-Ladies Ottawa is a great way to show your support for gender divers
 * Funding for any of the above
 
 If you're interested in sponsoring us, please contact the organizers via a direct message on our [Meetup Group](https://www.meetup.com/rladies-ottawa/).
+
+# Sponsors
+
+Thank you to the following sponsors for generously donating prizes for R-Ladies events.
+
+:::{.grid}
+::::{.g-col-4}
+![](images/maker_house_logo.png){.no-drop-shadow}
+::::
+::::{.g-col-4}
+![](images/posit_logo.png){.no-drop-shadow}
+::::
+::::{.g-col-4}
+![](images/no_starch_press_logo.png){.no-drop-shadow}
+::::
+:::

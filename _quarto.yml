@@ -2,6 +2,8 @@ project:
   type: website
 
 website:
+  cookie-consent: true
+  google-analytics: "REPLACE_THE_TEXT_HERE"
   title: "R-Ladies Ottawa"
   favicon: images/favicon.ico
   page-navigation: true
@@ -28,10 +30,30 @@ website:
         text: Feedback
       - section: Events
         contents:
-        - href: events/2025/iwd.qmd
-          text: "International Women's Day Coding Challenge"
-        - href: events/2024/intro_to_r.qmd
-          text: "Introduction to R Workshop Series"
+        - section: "2025"
+          contents:
+            - href: events/2025/iwd.qmd
+              text: "International Women's Day Coding Challenge"
+            - href: https://www.meetup.com/rladies-ottawa/events/306232274/
+              text: "Coding for a Cause with Claudie Larouche and ChatGPT"              
+        - section: "2024"
+          contents:            
+            - href: https://www.meetup.com/rladies-ottawa/events/303388919/
+              text: "posit::conf(2024) Watch Party"
+            - href: https://www.meetup.com/rladies-ottawa/events/302456736/
+              text: "Networking and 5 à 7 - August"
+            - href: https://www.meetup.com/rladies-ottawa/events/301714279/
+              text: "Networking and 5 à 7 - June"
+            - href: https://www.meetup.com/rladies-ottawa/events/299893466/
+              text: "Working with Big Data in R - Arrow Workshop"  
+            - href: events/2024/intro_to_r.qmd
+              text: "Introduction to R Workshop Series"
+        - section: "2023"
+          contents:
+            - href: https://www.meetup.com/rladies-ottawa/events/296797478/
+              text: "Lightning Talks"
+            - href: https://www.meetup.com/rladies-ottawa/events/295826281/
+              text: "In-person Networking Event"              
         
 format:
   html:

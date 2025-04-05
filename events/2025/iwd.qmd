@@ -2,29 +2,30 @@
 title: "International Women's Day Data Challenge 2025"
 ---
 
-R-Ladies Ottawa is hosting another data challenge to celebrate International Women's day 2025!!
+R-Ladies Ottawa is hosting another data challenge to celebrate International Women's Day 2025!
+
+![2025 IWD Data Challenge - Event advertisement poster](./images/iwd-2025-coding-challenge.png)
 
 ::: {.callout-tip}
 ## Check out last year's submissions!
 
-See the 2024 submissions and prompt [here](https://rladies-ottawa.github.io/events/2024/iwd.html#submissions)
+See the 2024 submissions and prompt [here](https://rladies-ottawa.github.io/events/2024/iwd.html#submissions).
 :::
 
 
 ## The Challenge
 
-At our `posit::conf(2024)` watch party we watched ["GitHub: How To Tell Your Professional Story" by Abigail Haddad](https://www.youtube.com/watch?v=R-bPjavai5A&list=PL9HYL-VRX0oSFkdF4fJeY63eGDvgofcbn&index=21). In this presentation Haddad highlighted the importance of building a compelling porfolio that not only highlights your skills but explains your professional identity.
+At our `posit::conf(2024)` watch party, we watched ["GitHub: How To Tell Your Professional Story" by Abigail Haddad](https://www.youtube.com/watch?v=R-bPjavai5A&list=PL9HYL-VRX0oSFkdF4fJeY63eGDvgofcbn&index=21). In this presentation, Haddad highlighted the importance of building a compelling porfolio that not only highlights your skills, but also explains your professional identity.
 
-For this year's data challenge we encourage you to find YOUR passion project to round out your portfolio and develop your professional story! Take a look at your GitHub profile and ask yourself, *what type of project is missing here*? 
+For this year's data challenge, we encourage you to find YOUR passion project to round out your portfolio and develop your professional story! Take a look at your GitHub profile and ask yourself, *what type of project is missing here*? 
 
 For example, if you participated in [last year's challenge](../2024/iwd.qmd) and created a traditional plot of some sort, this year try creating a visualization using a table, dashboard or another-outside-the-box presentation tool.
 
 ::: {.callout-tip appearance="simple"}
 
-For more inspo, be sure to check out our upcoming event [Coding for a Cause](https://www.meetup.com/rladies-ottawa/events/306232274/?eventOrigin=group_upcoming_events) with Claudie Larouche!
+For more inspo, be sure to check out our March 2025 event [Coding for a Cause](https://www.meetup.com/rladies-ottawa/events/306232274) with Claudie Larouche!
 
 :::
-
 
 Check out Haddad's presentation below:
 
@@ -43,27 +44,31 @@ You can participate individually, or in teams of up to 5 people!
 
 ## Prizes
 
-All submissions from women and gender minorities based in the Canada will receive HexStickers! Among these, the most creative solution (selected by the R-Ladies Ottawa organizing team) will receive a $25 gift card to [Maker House](https://makerhouse.com/)!
+All submissions from women and gender minorities based in Canada will receive free hex stickers, generously donated by [Posit](https://posit.co/)! Among these, the most creative solution (selected by the R-Ladies Ottawa organizing team) will receive a $25 virtual gift card to [Maker House](https://makerhouse.com/)! We'd like to express a huge thank you to Maker House, who offers a curated collection of gifts and homewares crafted locally in Ottawa and Canada 🍁, for donating this gift card.
 
 ## How to submit an entry
 
-This will be a month-long data challenge, and you'll have until **April 4th** to submit your entry. Your submission can be in any form you like -- it can be a Quarto document, an image, a link to a webpage, or a link to a video, for example.
+This will be a month-long data challenge, and you'll have until **April 4th, 2025** to submit your entry. Your submission can be in any form you like -- it can be a Quarto document, an image, a link to a webpage, or a link to a video, for example.
 
 There are two options for submitting an entry: 
 
-* Option 1 (preferred option): If you have experience with GitHub and Quarto, you can create a pull request on [this repository](https://github.com/RLadies-Ottawa/rladies-ottawa.github.io) and add your submission to the ["Submissions"](iwd.qmd#submissions) part of this page
-* Option 2: If you don't have experience with GitHub, you can email ottawa@rladies.org a link to your submission materials and we will add the link to the ["Submissions"](iwd.qmd#submissions) part of this page
+* **Option 1 (preferred option):** If you have experience with GitHub and Quarto, you can create a pull request on [this repository](https://github.com/RLadies-Ottawa/rladies-ottawa.github.io) and add your submission to the ["Submissions"](iwd.qmd#submissions) part of this page.
+* **Option 2:** If you don't have experience with GitHub, you can email ottawa@rladies.org a link to your submission materials and we will add the link to the ["Submissions"](iwd.qmd#submissions) part of this page.
 
 ## Showcasing your analysis
 
-After the submission deadline, R-Ladies Ottawa will host a virtual event where participants can showcase their work. This is a great way to learn from one another and to connect with other like-minded individuals!
-
-The date and time of the showcase event will be announced soon.
+On **April 8th, 2025 from 12pm-1pm**, R-Ladies Ottawa will host [a virtual event](https://www.meetup.com/rladies-ottawa/events/306979608) where participants can showcase their work. This is a great way to learn from one another and to connect with other like-minded individuals!
 
 ## Submissions
 
-Stay tuned!
+### Camy Kam
 
-## Brittny Vongdara
+Camy's submission is titled *Evaluating Top Nail Salons Near Me in Ottawa*, and can be found [here](https://github.com/CamyKam/Jupyter_Nail-Salons-in-Ottawa).
+
+### Alex McSween
+
+Alex's submission is a quarto dashboard of her knitting activity over time from [ravelry](https://www.ravelry.com/). Alex's submission is [here](https://alexmcsw.github.io/ravelry-in-review/) and her code is [here](https://github.com/alexmcsw/ravelry-in-review).
+
+### Brittny Vongdara
 
 As a starting point to get familiar with scrollytelling, Brittny used the [closeread] extensions from Quarto to show a fun way to look at data and text about action movies. You can find her submission [here](https://klaxonklaxoff.github.io/action_movies.html).

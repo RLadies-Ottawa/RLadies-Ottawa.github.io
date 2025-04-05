@@ -64,3 +64,7 @@ On **April 8th, 2025 from 12pm-1pm**, R-Ladies Ottawa will host [a virtual event
 ### Camy Kam
 
 Camy's submission is titled *Evaluating Top Nail Salons Near Me in Ottawa*, and can be found [here](https://github.com/CamyKam/Jupyter_Nail-Salons-in-Ottawa).
+
+### Alex McSween
+
+Alex's submission is a quarto dashboard of her knitting activity over time from [ravelry](https://www.ravelry.com/). Alex's submission is [here](https://alexmcsw.github.io/ravelry-in-review/) and her code is [here](https://github.com/alexmcsw/ravelry-in-review).

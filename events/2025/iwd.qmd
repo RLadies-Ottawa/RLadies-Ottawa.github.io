@@ -61,10 +61,19 @@ On **April 8th, 2025 from 12pm-1pm**, R-Ladies Ottawa will host [a virtual event
 
 ## Submissions
 
+### Sofia Balaceanu
+
+Sofia's project is called *Visualizations of OC Transpo Data Against Canada Census Data* and can be found [here](https://github.com/topia05/bus-census-data-viz-ottawa).
+
 ### Camy Kam
 
 Camy's submission is titled *Evaluating Top Nail Salons Near Me in Ottawa*, and can be found [here](https://github.com/CamyKam/Jupyter_Nail-Salons-in-Ottawa).
 
-### Sofia Balaceanu
+### Alex McSween
 
-Sofia's project is called *Visualizations of OC Transpo Data Against Canada Census Data* and can be found [here](https://github.com/topia05/bus-census-data-viz-ottawa).
+Alex's submission is a quarto dashboard of her knitting activity over time from [ravelry](https://www.ravelry.com/). Alex's submission is [here](https://alexmcsw.github.io/ravelry-in-review/) and her code is [here](https://github.com/alexmcsw/ravelry-in-review).
+
+### Brittny Vongdara
+
+As a starting point to get familiar with scrollytelling, Brittny used the [closeread] extensions from Quarto to show a fun way to look at data and text about action movies. You can find her submission [here](https://klaxonklaxoff.github.io/action_movies.html).
+

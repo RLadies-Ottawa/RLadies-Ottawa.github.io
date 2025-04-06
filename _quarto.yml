@@ -3,7 +3,7 @@ project:
 
 website:
   cookie-consent: true
-  google-analytics: "REPLACE_THE_TEXT_HERE"
+  google-analytics: " G-L488CG8H5G"
   title: "R-Ladies Ottawa"
   favicon: images/favicon.ico
   page-navigation: true

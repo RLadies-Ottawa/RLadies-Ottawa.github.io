@@ -69,6 +69,10 @@ Sofia's project is called *Visualizations of OC Transpo Data Against Canada Cens
 
 Camy's submission is titled *Evaluating Top Nail Salons Near Me in Ottawa*, and can be found [here](https://github.com/CamyKam/Jupyter_Nail-Salons-in-Ottawa).
 
+### Karen Fletcher
+
+Karen's submission is a project that performs a Hierarchical Bayesian Linear Regression to investigate how group and type of a meteorite impact their mass in grams and can be found [here](https://github.com/karenjuliaf/Meteorites/tree/main).
+
 ### Tomas McNamer
 
 Tomas' submission is titled *Visualization of Ontario High School OSSLT and Math Scores*, and can be found [here](https://github.com/tommcn/ontario-hs-data/).

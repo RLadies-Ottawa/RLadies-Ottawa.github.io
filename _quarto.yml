@@ -32,6 +32,8 @@ website:
         contents:
         - section: "2025"
           contents:
+            - href: https://www.meetup.com/rladies-ottawa/events/308541470/
+              text: "Networking and 5 à 7 - July"          
             - href: events/2025/iwd.qmd
               text: "International Women's Day Coding Challenge"
             - href: https://www.meetup.com/rladies-ottawa/events/306232274/

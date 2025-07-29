@@ -11,11 +11,14 @@ Sponsoring R-Ladies Ottawa is a great way to show your support for gender divers
 
 If you're interested in sponsoring us, please contact the organizers via a direct message on our [Meetup Group](https://www.meetup.com/rladies-ottawa/).
 
-# Sponsors
+# Thank you!
 
 Thank you to Invest Ottawa for generously providing accessible hybrid event space at Bayview Yards for R-Ladies Ottawa events!
 
 ![](images/invest_ottawa_logo.svg){.no-drop-shadow}
+
+<br>
+<br>
 
 Thank you to the following sponsors for generously donating prizes for R-Ladies Ottawa events.
 

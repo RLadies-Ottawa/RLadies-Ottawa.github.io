@@ -13,7 +13,11 @@ If you're interested in sponsoring us, please contact the organizers via a direc
 
 # Sponsors
 
-Thank you to the following sponsors for generously donating prizes for R-Ladies events.
+Thank you to Invest Ottawa for generously providing accessible hybrid event space at Bayview Yards for R-Ladies Ottawa events!
+
+![](images/invest_ottawa_logo.svg){.no-drop-shadow}
+
+Thank you to the following sponsors for generously donating prizes for R-Ladies Ottawa events.
 
 :::{.grid}
 ::::{.g-col-4}

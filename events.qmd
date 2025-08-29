@@ -1,0 +1,7 @@
+---
+title: "Events calendar"
+---
+
+Check out our upcoming events below:
+
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=UTC&showPrint=0&showCalendars=0&showTitle=0&src=b3R0YXdhQHJsYWRpZXMub3Jn&color=%23b39ddb" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>

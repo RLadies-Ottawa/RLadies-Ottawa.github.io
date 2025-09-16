@@ -28,6 +28,7 @@ website:
         text: About us
       - href: sponsors.qmd
       - href: events.qmd
+        text: "Events calendar"
       - section: Past events
         contents:
         - section: "2025"
@@ -57,6 +58,7 @@ website:
             - href: https://www.meetup.com/rladies-ottawa/events/295826281/
               text: "In-person Networking Event"              
         - href: feedback.qmd
+          text: Feedback
 
 format:
   html:

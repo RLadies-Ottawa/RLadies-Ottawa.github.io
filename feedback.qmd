@@ -1,5 +1,5 @@
 ---
-title: "Feedback"
+title: "📝 Feedback"
 ---
 
 We're always looking to improve our events! Use the form below to let us know what's working well, what we could do to improve, and any ideas you might have.

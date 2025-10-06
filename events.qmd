@@ -1,7 +1,11 @@
 ---
-title: "Events calendar"
+title: "🗓️ Events calendar"
 ---
 
 Check out our upcoming events below:
 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=UTC&showPrint=0&showCalendars=0&showTitle=0&src=b3R0YXdhQHJsYWRpZXMub3Jn&color=%23b39ddb" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=UTC&showPrint=0&showTitle=0&src=Y18zODk1MzgxMzgzOWVkZjRkMDQ2OTlmYTQyNTE2MGUxNTg1YjAwZWU0Y2I5MTRkNzUyYjBlZDJmMjY1OTJmYmE1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%237986cb" style="border:solid 2px #a991d4" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+:::{.callout-tip}
+Click 'Add to Google Calendar' to keep up-to-date with our upcoming events!
+:::

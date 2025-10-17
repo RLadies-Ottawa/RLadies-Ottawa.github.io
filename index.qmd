@@ -15,7 +15,7 @@ title: "👩‍💻 R-Ladies Ottawa"
 library(rvest)
 rladies <- read_html("https://www.meetup.com/rladies-ottawa/")
 num_members <- rladies %>% 
-  html_elements("h2#members-section") %>%
+  html_elements("a#member-count-link") %>%
   html_text()
 num_members <- as.numeric(gsub("\\D", "", num_members))
 ```

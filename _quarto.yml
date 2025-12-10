@@ -33,6 +33,8 @@ website:
         contents:
         - section: "2025"
           contents:
+            - href: https://www.meetup.com/rladies-ottawa/events/311779727/
+              text: "Custom city maps in R"
             - href: https://www.meetup.com/rladies-ottawa/events/311256371/
               text: "R package development with GitHub Pages and `pkgdown`"
             - href: https://www.meetup.com/rladies-ottawa/events/308541470/

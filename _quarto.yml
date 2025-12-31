@@ -31,6 +31,10 @@ website:
         text: "Events calendar"
       - section: Links to events
         contents:
+        - section: "2026"
+          contents:
+            - href: https://www.meetup.com/rladies-ottawa/events/312625100/
+              text: "TidyTuesday"
         - section: "2025"
           contents:
             - href: https://www.meetup.com/rladies-ottawa/events/311779727/

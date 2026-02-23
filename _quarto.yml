@@ -35,6 +35,8 @@ website:
           contents:
             - href: https://www.meetup.com/rladies-ottawa/events/312625100/
               text: "TidyTuesday"
+            - href: events/2026/iwd.qmd
+              text: "International Women's Day Coding Challenge"
         - section: "2025"
           contents:
             - href: https://www.meetup.com/rladies-ottawa/events/311779727/

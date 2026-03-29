@@ -57,4 +57,8 @@ On **Tuesday, April 28th, 2026 from 6pm-8pm**, R-Ladies Ottawa will host [a hybr
 
 ## Submissions
 
-Submissions from this year's data challenge will be added to this webpage, in the section below. Submissions from the previous year can be found [here](../2025/iwd.qmd).
+Submissions from this year's data challenge will be collected here. Submissions from the previous year can be found [here](../2025/iwd.qmd).
+
+### Brittny Vongdara
+
+She's at it again with her [closeread](https://closeread.dev/)--can she be stopped? Join her on her journey of making closeread her new personality with her submission: "Am I being gaslit?; there should be more street lamps all up in here". You can find her submission [here](https://klaxonklaxoff.github.io/gaslight.html).

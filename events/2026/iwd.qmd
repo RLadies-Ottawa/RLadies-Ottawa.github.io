@@ -38,7 +38,15 @@ You can participate individually, or in teams of up to 5 people!
 
 ## How to submit an entry
 
-We're launching a month-long data challenge starting **March 3, 2026** and you'll have until **April 3rd, 2026** to submit your entry. Your submission can be in any form you like -- it can be a Quarto document, an image, a link to a webpage, or a link to a video, for example.
+We're launching a month-long data challenge starting **March 3, 2026** and you'll have until ~~April 3rd, 2026~~ **April 17th, 2026** to submit your entry. Your submission can be in any form you like -- it can be a Quarto document, an image, a link to a webpage, or a link to a video, for example.
+
+::: {.callout-note}
+
+## Deadline extension
+
+The submission deadline for this year's data challenge has been extended to **April 17th, 2026.**
+
+:::
 
 There are two options for submitting an entry: 
 
@@ -57,8 +65,8 @@ On **Tuesday, April 28th, 2026 from 6pm-8pm**, R-Ladies Ottawa will host [a hybr
 
 ## Submissions
 
-Submissions from this year's data challenge will be collected here. Submissions from the previous year can be found [here](../2025/iwd.qmd).
+Submissions from this year's data challenge will be posted below. Submissions from the previous year can be found [here](../2025/iwd.qmd).
 
-### Brittny Vongdara
+### Brittny Vongdara's submission
 
 She's at it again with her [closeread](https://closeread.dev/)--can she be stopped? Join her on her journey of making closeread her new personality with her submission: "Am I being gaslit?; there should be more street lamps all up in here". You can find her submission [here](https://klaxonklaxoff.github.io/gaslight.html).

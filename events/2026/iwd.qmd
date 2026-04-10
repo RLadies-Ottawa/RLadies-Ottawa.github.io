@@ -67,6 +67,11 @@ On **Tuesday, April 28th, 2026 from 6pm-8pm**, R-Ladies Ottawa will host [a hybr
 
 Submissions from this year's data challenge will be posted below. Submissions from the previous year can be found [here](../2025/iwd.qmd).
 
+### Camy Kam's submission
+
+How are Ottawa/Gatineau residents feeling about their financial situation? Do they find it difficult to meet their household needs? This python project looks at their survey responses from 2021-2024 
+https://github.com/CamyKam/Financial-Security-Ottawa
+
 ### Brittny Vongdara's submission
 
 She's at it again with her [closeread](https://closeread.dev/)--can she be stopped? Join her on her journey of making closeread her new personality with her submission: "Am I being gaslit?; there should be more street lamps all up in here". You can find her submission [here](https://klaxonklaxoff.github.io/gaslight.html).

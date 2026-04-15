@@ -71,6 +71,10 @@ Submissions from this year's data challenge will be posted below. Submissions fr
 
 She's at it again with her [closeread](https://closeread.dev/)--can she be stopped? Join her on her journey of making closeread her new personality with her submission: "Am I being gaslit?; there should be more street lamps all up in here". You can find her submission [here](https://klaxonklaxoff.github.io/gaslight.html).
 
+### Sofia Balaceanu's submission
+
+Sofia created this walkthrough Quarto analysis to explore how respiratory outbreaks relate to Emergency Department visits in Ottawa. View her submission [here](https://topia05.github.io/Respiratory_Illness_Ottawa/).
+
 ### Alissa Vaziri's submission
 
 Alissa created an interactive Shiny app that uses the Human Mortality Database to analyze Cancer in Canada.

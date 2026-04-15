@@ -73,7 +73,7 @@ She's at it again with her [closeread](https://closeread.dev/)--can she be stopp
 
 ### Sofia Balaceanu's submission
 
-Sofia created this walkthrough Quarto analysis to explore how respiratory outbreaks relate to Emergency Department visits in Ottawa. View her submission [here](https://topia05.github.io/Respiratory_Illness_Ottawa/).
+Sofia took one regression analysis course and now can’t stop thinking about it. This is her process exploring how respiratory outbreaks relate to ED visits, documented in a Quarto report you can view [here](https://topia05.github.io/Respiratory_Illness_Ottawa/).
 
 ### Alissa Vaziri's submission
 

@@ -1,86 +1,52 @@
 [
   {
-    "objectID": "events/2026/iwd.html",
-    "href": "events/2026/iwd.html",
-    "title": "International Women’s Day Data Challenge 2026",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "👩‍💻 R-Ladies Ottawa",
     "section": "",
-    "text": "R-Ladies Ottawa is hosting another data challenge to celebrate International Women’s Day 2026!\nThe International Women’s Day 2026 theme is ‘Give To Gain’.\nYou can find out MeetUp event for our data challenge launch here.",
+    "text": "R-Ladies is a worldwide organization whose mission is to promote gender diversity in the R community. The R community suffers from an under-representation of minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators, or users.",
     "crumbs": [
-      "Links to events",
-      "2026",
-      "International Women's Day Coding Challenge"
+      "About us"
     ]
   },
   {
-    "objectID": "events/2026/iwd.html#the-challenge",
-    "href": "events/2026/iwd.html#the-challenge",
-    "title": "International Women’s Day Data Challenge 2026",
-    "section": "The Challenge",
-    "text": "The Challenge\nR‑Ladies Ottawa is excited to host our fourth annual data challenge in celebration of International Women’s Day. This year, we invite you to explore openly available data connected to your community. That could be Ottawa, Gatineau, another part of the National Capital Region, or any place in the world that feels meaningful to you. As a starting point, we encourage you to browse datasets available through Open Ottawa.\nFor example, if you participated in last year’s challenge and created a traditional plot of some sort, this year try creating a visualization using a table, dashboard or another-outside-the-box presentation tool.\n\n\n\n\n\n\nFor more inspo, be sure to check out our March 2025 event Coding for a Cause with Claudie Larouche!",
+    "objectID": "index.html#about-r-ladies",
+    "href": "index.html#about-r-ladies",
+    "title": "👩‍💻 R-Ladies Ottawa",
+    "section": "",
+    "text": "R-Ladies is a worldwide organization whose mission is to promote gender diversity in the R community. The R community suffers from an under-representation of minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators, or users.",
     "crumbs": [
-      "Links to events",
-      "2026",
-      "International Women's Day Coding Challenge"
+      "About us"
     ]
   },
   {
-    "objectID": "events/2026/iwd.html#guidelines",
-    "href": "events/2026/iwd.html#guidelines",
-    "title": "International Women’s Day Data Challenge 2026",
-    "section": "Guidelines",
-    "text": "Guidelines\nAlthough this challenge is hosted by R-Ladies Ottawa, you don’t have to use R to participate. You could use R, Python, a combination of the two, or anything you’re comfortable with!\nNo previous programming experience is required! If you’re interested in participating, but aren’t sure where to start, check out the recordings from our Introduction to R workshops that we hosted in early 2024. The workshops will give you a solid foundation in data analysis and data visualization using R.\nYou can participate individually, or in teams of up to 5 people!",
+    "objectID": "index.html#about-the-ottawa-chapter",
+    "href": "index.html#about-the-ottawa-chapter",
+    "title": "👩‍💻 R-Ladies Ottawa",
+    "section": "🍁 About the Ottawa Chapter",
+    "text": "🍁 About the Ottawa Chapter\nThis website is for the Ottawa chapter of R-Ladies. The Ottawa chapter was founded in 2018. After the pandemic, R-Ladies Ottawa “rebooted” in September 2023. Today, the Ottawa chapter has 1151 members on Meetup!",
     "crumbs": [
-      "Links to events",
-      "2026",
-      "International Women's Day Coding Challenge"
+      "About us"
     ]
   },
   {
-    "objectID": "events/2026/iwd.html#how-to-submit-an-entry",
-    "href": "events/2026/iwd.html#how-to-submit-an-entry",
-    "title": "International Women’s Day Data Challenge 2026",
-    "section": "How to submit an entry",
-    "text": "How to submit an entry\nWe’re launching a month-long data challenge starting March 3, 2026 and you’ll have until April 3rd, 2026 April 17th, 2026 to submit your entry. Your submission can be in any form you like – it can be a Quarto document, an image, a link to a webpage, or a link to a video, for example.\n\n\n\n\n\n\nNoteDeadline extension\n\n\n\nThe submission deadline for this year’s data challenge has been extended to April 17th, 2026.\n\n\nThere are two options for submitting an entry:\n\nOption 1 (preferred option): If you have experience with GitHub and Quarto, you can create a pull request on this repository and add your submission to the “Submissions” part of this page.\nOption 2: If you don’t have experience with GitHub, you can email ottawa@rladies.org a link to your submission materials and we will add the link to the “Submissions” part of this page.",
+    "objectID": "index.html#interested-in-joining",
+    "href": "index.html#interested-in-joining",
+    "title": "👩‍💻 R-Ladies Ottawa",
+    "section": "🤝 Interested in joining?",
+    "text": "🤝 Interested in joining?\n\n\n\n\n\n\nImportantImportant\n\n\n\nPlease note that the mission of R-Ladies is to increase gender diversity in the R community. While our Meetup Group is open to anyone to join, our events are intended to provide a safe space for women and gender minorities. Male allies may attend our in-person events if they are invited by and accompanied by a woman or gender minority.\n\n\nThe best way to keep up to date with our upcoming events is to join our Meetup Group. We post announcements regularly here!\nIf you are a woman or gender minority, we also recommend joining the global R-Ladies directory and the R-Ladies Community Slack. This is a great way to connect with R-Ladies from other chapters!\nIf you’re interested in being an organizer for R-Ladies Ottawa, please contact us through a direct message on our Meetup.",
     "crumbs": [
-      "Links to events",
-      "2026",
-      "International Women's Day Coding Challenge"
+      "About us"
     ]
   },
   {
-    "objectID": "events/2026/iwd.html#co-working-networking-opportunity",
-    "href": "events/2026/iwd.html#co-working-networking-opportunity",
-    "title": "International Women’s Day Data Challenge 2026",
-    "section": "Co-working & networking opportunity",
-    "text": "Co-working & networking opportunity\n\n\n\n2026 IWD Networking Event - Event advertisement poster\n\n\nWe’re kicking this data challenge off with a co-working party on March 9th, 2026 where you can network, ask questions or get some ideas for your submission! You can find out more about this event here.",
+    "objectID": "index.html#recordings-of-past-events",
+    "href": "index.html#recordings-of-past-events",
+    "title": "👩‍💻 R-Ladies Ottawa",
+    "section": "🎥 Recordings of past events",
+    "text": "🎥 Recordings of past events\nSome of our events are recorded and are posted on the R-Ladies Global YouTube channel. You can find the Ottawa chapter’s videos under the “R-Ladies Ottawa” playlist.",
     "crumbs": [
-      "Links to events",
-      "2026",
-      "International Women's Day Coding Challenge"
-    ]
-  },
-  {
-    "objectID": "events/2026/iwd.html#showcasing-your-analysis",
-    "href": "events/2026/iwd.html#showcasing-your-analysis",
-    "title": "International Women’s Day Data Challenge 2026",
-    "section": "Showcasing your analysis",
-    "text": "Showcasing your analysis\nOn Tuesday, April 28th, 2026 from 6pm-8pm, R-Ladies Ottawa will host a hybrid event where participants can showcase their work. This is a great way to learn from one another and to connect with other like-minded individuals!",
-    "crumbs": [
-      "Links to events",
-      "2026",
-      "International Women's Day Coding Challenge"
-    ]
-  },
-  {
-    "objectID": "events/2026/iwd.html#submissions",
-    "href": "events/2026/iwd.html#submissions",
-    "title": "International Women’s Day Data Challenge 2026",
-    "section": "Submissions",
-    "text": "Submissions\nSubmissions from this year’s data challenge will be posted below. Submissions from the previous year can be found here.\n\nBrittny Vongdara’s submission\nShe’s at it again with her closeread–can she be stopped? Join her on her journey of making closeread her new personality with her submission: “Am I being gaslit?; there should be more street lamps all up in here”. You can find her submission here.\n\n\nAlissa Vaziri’s submission\nAlissa created an interactive Shiny app that uses the Human Mortality Database to analyze Cancer in Canada.\n\n\n\nA screenshot of Alissa’s Shiny app\n\n\nTo run the Shiny app, see the code below and use the Age-specific death rates data, 1950-2022 (intermediate list) from the Human Mortality Database.\n\n\nExpand to see the code\n\n#### Canadian Cancer Application Using HMD Intermediate Age-specific Death Rates 1950-2022 ####\n# libraries\nlibrary(readr)\nlibrary(tidyverse)\nlibrary(ggplot2)\nlibrary(shiny)\nlibrary(bslib)\nlibrary(shinyWidgets)\nlibrary(plotly)\n\ncan_int_dat_raw &lt;- read_csv(\"CAN_m_interm_orig.csv\",\n  col_types = cols(\n    country = col_character(),\n    year = col_double(),\n    sex = col_character(),\n    agf = col_double(),\n    cause = col_character(),\n    m0 = col_character(), m1 = col_character(), m5 = col_character(), m10 = col_character(),\n    m15 = col_character(), m20 = col_character(), m25 = col_character(), m30 = col_character(),\n    m35 = col_character(), m40 = col_character(), m45 = col_character(), m50 = col_character(),\n    m55 = col_character(), m60 = col_character(), m65 = col_character(), m70 = col_character(),\n    m75 = col_character(), m80 = col_character(), m85p = col_character(), m85 = col_character(),\n    m90p = col_character(), m90 = col_character(), m95p = col_character(), m95 = col_character(),\n    m100p = col_character()\n  )\n)\n\n# add more rows with pivot longer to remove the raw age groups\ncan_int_dat &lt;- can_int_dat_raw %&gt;%\n  pivot_longer(\n    cols = starts_with(\"m\"),\n    names_to = \"age\",\n    values_to = \"deaths\"\n  ) %&gt;%\n  filter(!age %in% c(\"m85\", \"m90\", \"m95\", \"m90p\", \"m95p\", \"m100p\"))\n\ncan_int_dat &lt;- can_int_dat %&gt;%\n  mutate(\n    age_group = case_when(\n      age == \"m0\" ~ \"&lt;1\",\n      age == \"m1\" ~ \"1-4\",\n      age == \"m5\" ~ \"5-9\",\n      age == \"m10\" ~ \"10-14\",\n      age == \"m15\" ~ \"15-19\",\n      age == \"m20\" ~ \"20-24\",\n      age == \"m25\" ~ \"25-29\",\n      age == \"m30\" ~ \"30-34\",\n      age == \"m35\" ~ \"35-39\",\n      age == \"m40\" ~ \"40-44\",\n      age == \"m45\" ~ \"45-49\",\n      age == \"m50\" ~ \"50-54\",\n      age == \"m55\" ~ \"55-59\",\n      age == \"m60\" ~ \"60-64\",\n      age == \"m65\" ~ \"65-69\",\n      age == \"m70\" ~ \"70-74\",\n      age == \"m75\" ~ \"75-79\",\n      age == \"m80\" ~ \"80-84\",\n      age == \"m85p\" ~ \"85-100\",\n      TRUE ~ NA_character_\n    ),\n    age_start = case_when(\n      age == \"m0\" ~ 0,\n      age == \"m85p\" ~ 85,\n      TRUE ~ as.numeric(stringr::str_extract(age, \"\\\\d+\"))\n    ),\n    age_width = case_when(\n      age == \"m0\" ~ 1,\n      age == \"m1\" ~ 4,\n      age == \"m85p\" ~ 15,\n      TRUE ~ 5\n    ),\n    deaths_numeric = as.numeric(deaths)\n  ) %&gt;%\n  filter(\n    !is.na(age_group),\n    !cause %in% c(\n      \"I000\", \"I001\", \"I002\", \"I003\", \"I004\", \"I005\", \"I006\",\n      \"I024\", \"I025\", \"I026\", \"I027\", \"I028\", \"I029\", \"I030\", \"I031\", \"I032\",\n      \"I033\", \"I034\", \"I035\", \"I036\", \"I037\", \"I038\", \"I039\", \"I040\", \"I041\",\n      \"I042\", \"I043\", \"I044\", \"I045\", \"I046\", \"I047\", \"I048\", \"I049\", \"I050\",\n      \"I051\", \"I052\", \"I053\", \"I054\", \"I055\", \"I056\", \"I057\", \"I058\"\n    )\n  )\n\n# Creating death proportion (px)\ncan_int_tots &lt;- can_int_dat %&gt;%\n  group_by(year, age, sex) %&gt;%\n  summarise(total_deaths = sum(deaths_numeric, na.rm = TRUE))\n\ncan_int_dat_final &lt;- can_int_dat %&gt;%\n  left_join(can_int_tots, by = c(\"year\", \"age\", \"sex\")) %&gt;%\n  mutate(px = deaths_numeric / total_deaths)\n\n# Labeling causes of death\ncauses_int &lt;- c(\n  \"I007\" = \"Lip, oral cavity and pharynx\",\n  \"I008\" = \"Esophagus\",\n  \"I009\" = \"Stomach\",\n  \"I010\" = \"Colon, rectum and anus \",\n  \"I011\" = \"Pancreas\",\n  \"I012\" = \"Digestive System\",\n  \"I013\" = \"Larynx, trachea, bronchus and lung \",\n  \"I014\" = \"Skin\",\n  \"I015\" = \"Breast\",\n  \"I016\" = \"Uterus\",\n  \"I017\" = \"Ovary\",\n  \"I018\" = \"Prostate\",\n  \"I019\" = \"Genital organs\",\n  \"I020\" = \"Bladder\",\n  \"I021\" = \"Kidney and urinary organs\",\n  \"I022\" = \"Leukemia\",\n  \"I023\" = \"Other/unknown/benign neoplasms\"\n)\ncan_int_dat_final &lt;- can_int_dat_final %&gt;%\n  mutate(\n    causes_int_label = factor(causes_int[cause], levels = unname(causes_int))\n  )\n\n\n#### Shiny App Code ####\nui &lt;-\n  fluidPage(\n    theme = bs_theme(version = 5),\n    titlePanel(\"Cancer Mortality in Canada: An Analysis of Age, Sex, and Proportion of Death\"),\n    fluidRow(\n      # Left side\n      column(\n        width = 6,\n        selectInput(\n          \"cause_left\", \"Select cancer type:\",\n          choices = setNames(names(causes_int), causes_int),\n          selected = \"I015\"\n        ),\n        selectInput(\n          \"sex_left\", \"Select sex:\",\n          choices = c(\"Male\" = 1, \"Female\" = 2, \"Both\" = 3),\n          selected = 2\n        ),\n        plotlyOutput(\"heatmap1\", height = \"600px\")\n      ),\n      # Right side\n      column(\n        width = 6,\n        selectInput(\n          \"cause_right\", \"Select cancer type:\",\n          choices = setNames(names(causes_int), causes_int),\n          selected = \"I018\"\n        ),\n        selectInput(\n          \"sex_right\", \"Select sex:\",\n          choices = c(\"Male\" = 1, \"Female\" = 2, \"Both\" = 3),\n          selected = 1\n        ),\n        plotlyOutput(\"heatmap2\", height = \"600px\")\n      )\n    ),\n    br(),\n    br(),\n    fluidRow(\n      column(\n        width = 12,\n        card(\n          style = \"width: 100%;\",\n          card_header(h3(\"Key Findings 🩺\")),\n          card_body(\n            p(\"• Lung cancer would be the leading cause of cancer death in both males (10,100 deaths) and females (9,300 deaths), accounting for almost one-quarter of all cancer deaths.\"),\n            p(\"• Breast cancer is the second cancer-related cause of death for females (13.2%) whereas for males prostate cancer is the second cause of death (11.1%).\"),\n            p(\"• Colorectal cancer is the third cancer-related cause of death in both males and females (~10%). Pancreatic cancer is the fourth cause of death in both sexes (~7%).\"),\n            p(strong(\"Reference:\")),\n            p(\"https://cancer.ca/en/research/cancer-statistics/cancer-statistics-at-a-glance\")\n          )\n        )\n      )\n    )\n  )\n\nserver &lt;- function(input, output) {\n  # left side\n  output$heatmap1 &lt;- renderPlotly({\n    can_int_sm_left &lt;- can_int_dat_final %&gt;%\n      filter(\n        cause == input$cause_left,\n        sex == input$sex_left\n      )\n    plot_ly(\n      data = can_int_sm_left,\n      x = ~year,\n      y = ~age_start,\n      z = ~px,\n      customdata = ~sex,\n      type = \"heatmap\",\n      colors = rev(viridisLite::viridis(100)),\n      hovertemplate = paste(\n        \"Year: %{x}&lt;br&gt;\",\n        \"Age: %{y}&lt;br&gt;\",\n        \"Sex: %{customdata}&lt;br&gt;\",\n        \"Px: %{z:.3f}&lt;extra&gt;&lt;/extra&gt;\"\n      )\n    ) %&gt;%\n      layout(\n        xaxis = list(title = \"Year\", tickvals = seq(1950, 2022, 10)),\n        yaxis = list(title = \"Age\", tickvals = seq(0, 99, 10))\n      )\n  })\n\n  # right side\n  output$heatmap2 &lt;- renderPlotly({\n    can_int_sm_right &lt;- can_int_dat_final %&gt;%\n      filter(\n        cause == input$cause_right,\n        sex == input$sex_right\n      )\n    plot_ly(\n      data = can_int_sm_right,\n      x = ~year,\n      y = ~age_start,\n      z = ~px,\n      customdata = ~sex,\n      type = \"heatmap\",\n      colors = rev(viridisLite::viridis(100)),\n      hovertemplate = paste(\n        \"Year: %{x}&lt;br&gt;\",\n        \"Age: %{y}&lt;br&gt;\",\n        \"Sex: %{customdata}&lt;br&gt;\",\n        \"Px: %{z:.3f}&lt;extra&gt;&lt;/extra&gt;\"\n      )\n    ) %&gt;%\n      layout(\n        xaxis = list(title = \"Year\", tickvals = seq(1950, 2022, 10)),\n        yaxis = list(title = \"Age\", tickvals = seq(0, 99, 10))\n      )\n  })\n}\nshinyApp(ui = ui, server = server)",
-    "crumbs": [
-      "Links to events",
-      "2026",
-      "International Women's Day Coding Challenge"
+      "About us"
     ]
   },
   {
@@ -145,87 +111,6 @@
     "title": "International Women’s Day Data Challenge 2024",
     "section": "Submissions",
     "text": "Submissions\n\nSubmissions of Islem Meherzi & Moufida Sidaoui\nThis submission outlines our participation in the R-Ladies Ottawa data challenge, focusing on analyzing investments in women, specifically within data science research and women’s health. Our project aims to explore women’s contributions in data science, investigate global research content, and examine advancements in women’s health research investments.\n\n\n\n\n\n\nTipMore info\n\n\n\n\n\n\nMain Objectives\n\nAnalyzing Women’s Contributions in Data Science Research\n\nIdentify authors of research papers in data science and assess the significance of women’s contributions.\nInvestigate the distribution of research publications conducted by women per country, considering the population size of each country.\n\nInvestigating Research on Women’s Health\n\nAnalyze the distribution of research publications on women’s health per country.\nIdentify trends in research papers related to women’s health.\n\n\n\n\nMain Steps\n\nDefining Relevant Keywords\n\n\nIdentified keywords related to data science and data technologies for the first objective.\nIdentified keywords related to women’s health for the second objective.\n\n\nData Extraction from PubMed\n\n\nFocused on extracting data concerning the first author of the publication from PubMed.\n\n\nGender Detection Using APIs\n\n\nUtilized APIs to detect the gender of the first author by their name.\n\n\nCountry Extraction Algorithm Developed an algorithm and utilized other sources to extract the most likely and relevant country from the given affiliation in PubMed data.\nData Enhancement\n\n\nEnhanced the dataset by incorporating additional information such as population and employment ratio.\n\n\nContent Analysis\n\n\nAnalyzed content based on keywords of the articles.\n\n\nDynamic Analysis and Visualization\n\n\nPerformed dynamic analysis and visualization to provide insights into publication details and countries on a map.\n\n\nDeployment\n\n\nDeployed the Shiny app using rsconnect (utilizing the free plan of shinyapps.io which permits 25 active hours per month).\n\n\n\nShiny App\nWe have developed a Shiny app to showcase our analysis and insights. The app dynamically presents details of publications, countries involved, and thematic analysis. You can access the app https://islemmeh.shinyapps.io/shinyappmapsearch/.\n\n\nConclusion\nOur project involved a systematic approach, from data extraction to analysis and visualization, providing valuable insights into women’s contributions to data science research and investments in women’s health. We are confident that our idea can be further evolved, particularly through future optimizations, additional data gathering, and in-depth content and correlation analysis.This project contributes to ongoing efforts to advance the theme of investing in women and accelerating progress in these critical areas.\n\n\n\n\n\n\nNyamekye Asare\nI took on this new challenge to build a dashboard based on “flexdashboard”. Nyamekye Asare’s submission can be found here\n\n\nJoy Liu\nSubmission from Joy Liu can be found here.\n\n\nAlexandra McSween\nI created a quarto presentation with some fun astrological analysis of the PWHL. Thank you to Brittny Vongdara for sharing the PWHL idea with me &lt;3 (code here)\n\n\nBrittny’s submission\nYou can find the link to my submission here.\nIt’s a quarto presentation with some visualizations using webscraped Professional Women’s Hockey League data using the fastRhockey R package. I go through some fun plots and walk through how to make my favourite one. Which plot is my favourite? You’ll have to look at my submission to find out ;)"
-  },
-  {
-    "objectID": "sponsors.html",
-    "href": "sponsors.html",
-    "title": "Sponsors",
-    "section": "",
-    "text": "Sponsoring R-Ladies Ottawa is a great way to show your support for gender diversity in our community. You can support our local chapter with:\n\nVenue space\nFood and beverages\nPrizes for coding challenges\nFunding for any of the above\n\nIf you’re interested in sponsoring us, please contact the organizers via a direct message on our Meetup Group.\n\nThank you!\nThank you to our key sponsor, Bayview Yards, for making our in-person workshops possible by providing accessible hybrid event space for R-Ladies Ottawa events!\n\n \nThank you to the following sponsors for generously donating prizes for R-Ladies Ottawa events.",
-    "crumbs": [
-      "Sponsors"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "👩‍💻 R-Ladies Ottawa",
-    "section": "",
-    "text": "R-Ladies is a worldwide organization whose mission is to promote gender diversity in the R community. The R community suffers from an under-representation of minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators, or users.",
-    "crumbs": [
-      "About us"
-    ]
-  },
-  {
-    "objectID": "index.html#about-r-ladies",
-    "href": "index.html#about-r-ladies",
-    "title": "👩‍💻 R-Ladies Ottawa",
-    "section": "",
-    "text": "R-Ladies is a worldwide organization whose mission is to promote gender diversity in the R community. The R community suffers from an under-representation of minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators, or users.",
-    "crumbs": [
-      "About us"
-    ]
-  },
-  {
-    "objectID": "index.html#about-the-ottawa-chapter",
-    "href": "index.html#about-the-ottawa-chapter",
-    "title": "👩‍💻 R-Ladies Ottawa",
-    "section": "🍁 About the Ottawa Chapter",
-    "text": "🍁 About the Ottawa Chapter\nThis website is for the Ottawa chapter of R-Ladies. The Ottawa chapter was founded in 2018. After the pandemic, R-Ladies Ottawa “rebooted” in September 2023. Today, the Ottawa chapter has 1124 members on Meetup!",
-    "crumbs": [
-      "About us"
-    ]
-  },
-  {
-    "objectID": "index.html#interested-in-joining",
-    "href": "index.html#interested-in-joining",
-    "title": "👩‍💻 R-Ladies Ottawa",
-    "section": "🤝 Interested in joining?",
-    "text": "🤝 Interested in joining?\n\n\n\n\n\n\nImportantImportant\n\n\n\nPlease note that the mission of R-Ladies is to increase gender diversity in the R community. While our Meetup Group is open to anyone to join, our events are intended to provide a safe space for women and gender minorities. Male allies may attend our in-person events if they are invited by and accompanied by a woman or gender minority.\n\n\nThe best way to keep up to date with our upcoming events is to join our Meetup Group. We post announcements regularly here!\nIf you are a woman or gender minority, we also recommend joining the global R-Ladies directory and the R-Ladies Community Slack. This is a great way to connect with R-Ladies from other chapters!\nIf you’re interested in being an organizer for R-Ladies Ottawa, please contact us through a direct message on our Meetup.",
-    "crumbs": [
-      "About us"
-    ]
-  },
-  {
-    "objectID": "index.html#recordings-of-past-events",
-    "href": "index.html#recordings-of-past-events",
-    "title": "👩‍💻 R-Ladies Ottawa",
-    "section": "🎥 Recordings of past events",
-    "text": "🎥 Recordings of past events\nSome of our events are recorded and are posted on the R-Ladies Global YouTube channel. You can find the Ottawa chapter’s videos under the “R-Ladies Ottawa” playlist.",
-    "crumbs": [
-      "About us"
-    ]
-  },
-  {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "🗓️ Events calendar",
-    "section": "",
-    "text": "Check out our upcoming events below:\n\n\n\n\n\n\n\n\nTip\n\n\n\nClick ‘Add to Google Calendar’ to keep up-to-date with our upcoming events!",
-    "crumbs": [
-      "Events calendar"
-    ]
-  },
-  {
-    "objectID": "feedback.html",
-    "href": "feedback.html",
-    "title": "📝 Feedback",
-    "section": "",
-    "text": "We’re always looking to improve our events! Use the form below to let us know what’s working well, what we could do to improve, and any ideas you might have.\n\nLoading…",
-    "crumbs": [
-      "Links to events",
-      "Feedback"
-    ]
   },
   {
     "objectID": "events/2025/iwd.html",
@@ -312,6 +197,110 @@
     ]
   },
   {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "🗓️ Events calendar",
+    "section": "",
+    "text": "Check out our upcoming events below:\n\n\n\n\n\n\n\n\nTip\n\n\n\nClick ‘Add to Google Calendar’ to keep up-to-date with our upcoming events!",
+    "crumbs": [
+      "Events calendar"
+    ]
+  },
+  {
+    "objectID": "sponsors.html",
+    "href": "sponsors.html",
+    "title": "Sponsors",
+    "section": "",
+    "text": "Sponsoring R-Ladies Ottawa is a great way to show your support for gender diversity in our community. You can support our local chapter with:\n\nVenue space\nFood and beverages\nPrizes for coding challenges\nFunding for any of the above\n\nIf you’re interested in sponsoring us, please contact the organizers via a direct message on our Meetup Group.\n\nThank you!\nThank you to our key sponsor, Bayview Yards, for making our in-person workshops possible by providing accessible hybrid event space for R-Ladies Ottawa events!\n\n \nThank you to the following sponsors for generously donating prizes for R-Ladies Ottawa events.",
+    "crumbs": [
+      "Sponsors"
+    ]
+  },
+  {
+    "objectID": "events/2026/iwd.html",
+    "href": "events/2026/iwd.html",
+    "title": "International Women’s Day Data Challenge 2026",
+    "section": "",
+    "text": "R-Ladies Ottawa is hosting another data challenge to celebrate International Women’s Day 2026!\nThe International Women’s Day 2026 theme is ‘Give To Gain’.\nYou can find out MeetUp event for our data challenge launch here.",
+    "crumbs": [
+      "Links to events",
+      "2026",
+      "International Women's Day Coding Challenge"
+    ]
+  },
+  {
+    "objectID": "events/2026/iwd.html#the-challenge",
+    "href": "events/2026/iwd.html#the-challenge",
+    "title": "International Women’s Day Data Challenge 2026",
+    "section": "The Challenge",
+    "text": "The Challenge\nR‑Ladies Ottawa is excited to host our fourth annual data challenge in celebration of International Women’s Day. This year, we invite you to explore openly available data connected to your community. That could be Ottawa, Gatineau, another part of the National Capital Region, or any place in the world that feels meaningful to you. As a starting point, we encourage you to browse datasets available through Open Ottawa.\nFor example, if you participated in last year’s challenge and created a traditional plot of some sort, this year try creating a visualization using a table, dashboard or another-outside-the-box presentation tool.\n\n\n\n\n\n\nFor more inspo, be sure to check out our March 2025 event Coding for a Cause with Claudie Larouche!",
+    "crumbs": [
+      "Links to events",
+      "2026",
+      "International Women's Day Coding Challenge"
+    ]
+  },
+  {
+    "objectID": "events/2026/iwd.html#guidelines",
+    "href": "events/2026/iwd.html#guidelines",
+    "title": "International Women’s Day Data Challenge 2026",
+    "section": "Guidelines",
+    "text": "Guidelines\nAlthough this challenge is hosted by R-Ladies Ottawa, you don’t have to use R to participate. You could use R, Python, a combination of the two, or anything you’re comfortable with!\nNo previous programming experience is required! If you’re interested in participating, but aren’t sure where to start, check out the recordings from our Introduction to R workshops that we hosted in early 2024. The workshops will give you a solid foundation in data analysis and data visualization using R.\nYou can participate individually, or in teams of up to 5 people!",
+    "crumbs": [
+      "Links to events",
+      "2026",
+      "International Women's Day Coding Challenge"
+    ]
+  },
+  {
+    "objectID": "events/2026/iwd.html#how-to-submit-an-entry",
+    "href": "events/2026/iwd.html#how-to-submit-an-entry",
+    "title": "International Women’s Day Data Challenge 2026",
+    "section": "How to submit an entry",
+    "text": "How to submit an entry\nWe’re launching a month-long data challenge starting March 3, 2026 and you’ll have until April 3rd, 2026 April 17th, 2026 to submit your entry. Your submission can be in any form you like – it can be a Quarto document, an image, a link to a webpage, or a link to a video, for example.\n\n\n\n\n\n\nNoteDeadline extension\n\n\n\nThe submission deadline for this year’s data challenge has been extended to April 17th, 2026.\n\n\nThere are two options for submitting an entry:\n\nOption 1 (preferred option): If you have experience with GitHub and Quarto, you can create a pull request on this repository and add your submission to the “Submissions” part of this page.\nOption 2: If you don’t have experience with GitHub, you can email ottawa@rladies.org a link to your submission materials and we will add the link to the “Submissions” part of this page.",
+    "crumbs": [
+      "Links to events",
+      "2026",
+      "International Women's Day Coding Challenge"
+    ]
+  },
+  {
+    "objectID": "events/2026/iwd.html#co-working-networking-opportunity",
+    "href": "events/2026/iwd.html#co-working-networking-opportunity",
+    "title": "International Women’s Day Data Challenge 2026",
+    "section": "Co-working & networking opportunity",
+    "text": "Co-working & networking opportunity\n\n\n\n2026 IWD Networking Event - Event advertisement poster\n\n\nWe’re kicking this data challenge off with a co-working party on March 9th, 2026 where you can network, ask questions or get some ideas for your submission! You can find out more about this event here.",
+    "crumbs": [
+      "Links to events",
+      "2026",
+      "International Women's Day Coding Challenge"
+    ]
+  },
+  {
+    "objectID": "events/2026/iwd.html#showcasing-your-analysis",
+    "href": "events/2026/iwd.html#showcasing-your-analysis",
+    "title": "International Women’s Day Data Challenge 2026",
+    "section": "Showcasing your analysis",
+    "text": "Showcasing your analysis\nOn Tuesday, April 28th, 2026 from 6pm-8pm, R-Ladies Ottawa will host a hybrid event where participants can showcase their work. This is a great way to learn from one another and to connect with other like-minded individuals!",
+    "crumbs": [
+      "Links to events",
+      "2026",
+      "International Women's Day Coding Challenge"
+    ]
+  },
+  {
+    "objectID": "events/2026/iwd.html#submissions",
+    "href": "events/2026/iwd.html#submissions",
+    "title": "International Women’s Day Data Challenge 2026",
+    "section": "Submissions",
+    "text": "Submissions\nSubmissions from this year’s data challenge will be posted below. Submissions from the previous year can be found here.\n\nCamy Kam’s submission\nHow are Ottawa/Gatineau residents feeling about their financial situation? Do they find it difficult to meet their household needs? This python project looks at their survey responses from 2021-2024 https://github.com/CamyKam/Financial-Security-Ottawa\n\n\nBrittny Vongdara’s submission\nShe’s at it again with her closeread–can she be stopped? Join her on her journey of making closeread her new personality with her submission: “Am I being gaslit?; there should be more street lamps all up in here”. You can find her submission here.\n\n\nAlissa Vaziri’s submission\nAlissa created an interactive Shiny app that uses the Human Mortality Database to analyze Cancer in Canada.\n\n\n\nA screenshot of Alissa’s Shiny app\n\n\nTo run the Shiny app, see the code below and use the Age-specific death rates data, 1950-2022 (intermediate list) from the Human Mortality Database.\n\n\nExpand to see the code\n\n#### Canadian Cancer Application Using HMD Intermediate Age-specific Death Rates 1950-2022 ####\n# libraries\nlibrary(readr)\nlibrary(tidyverse)\nlibrary(ggplot2)\nlibrary(shiny)\nlibrary(bslib)\nlibrary(shinyWidgets)\nlibrary(plotly)\n\ncan_int_dat_raw &lt;- read_csv(\"CAN_m_interm_orig.csv\",\n  col_types = cols(\n    country = col_character(),\n    year = col_double(),\n    sex = col_character(),\n    agf = col_double(),\n    cause = col_character(),\n    m0 = col_character(), m1 = col_character(), m5 = col_character(), m10 = col_character(),\n    m15 = col_character(), m20 = col_character(), m25 = col_character(), m30 = col_character(),\n    m35 = col_character(), m40 = col_character(), m45 = col_character(), m50 = col_character(),\n    m55 = col_character(), m60 = col_character(), m65 = col_character(), m70 = col_character(),\n    m75 = col_character(), m80 = col_character(), m85p = col_character(), m85 = col_character(),\n    m90p = col_character(), m90 = col_character(), m95p = col_character(), m95 = col_character(),\n    m100p = col_character()\n  )\n)\n\n# add more rows with pivot longer to remove the raw age groups\ncan_int_dat &lt;- can_int_dat_raw %&gt;%\n  pivot_longer(\n    cols = starts_with(\"m\"),\n    names_to = \"age\",\n    values_to = \"deaths\"\n  ) %&gt;%\n  filter(!age %in% c(\"m85\", \"m90\", \"m95\", \"m90p\", \"m95p\", \"m100p\"))\n\ncan_int_dat &lt;- can_int_dat %&gt;%\n  mutate(\n    age_group = case_when(\n      age == \"m0\" ~ \"&lt;1\",\n      age == \"m1\" ~ \"1-4\",\n      age == \"m5\" ~ \"5-9\",\n      age == \"m10\" ~ \"10-14\",\n      age == \"m15\" ~ \"15-19\",\n      age == \"m20\" ~ \"20-24\",\n      age == \"m25\" ~ \"25-29\",\n      age == \"m30\" ~ \"30-34\",\n      age == \"m35\" ~ \"35-39\",\n      age == \"m40\" ~ \"40-44\",\n      age == \"m45\" ~ \"45-49\",\n      age == \"m50\" ~ \"50-54\",\n      age == \"m55\" ~ \"55-59\",\n      age == \"m60\" ~ \"60-64\",\n      age == \"m65\" ~ \"65-69\",\n      age == \"m70\" ~ \"70-74\",\n      age == \"m75\" ~ \"75-79\",\n      age == \"m80\" ~ \"80-84\",\n      age == \"m85p\" ~ \"85-100\",\n      TRUE ~ NA_character_\n    ),\n    age_start = case_when(\n      age == \"m0\" ~ 0,\n      age == \"m85p\" ~ 85,\n      TRUE ~ as.numeric(stringr::str_extract(age, \"\\\\d+\"))\n    ),\n    age_width = case_when(\n      age == \"m0\" ~ 1,\n      age == \"m1\" ~ 4,\n      age == \"m85p\" ~ 15,\n      TRUE ~ 5\n    ),\n    deaths_numeric = as.numeric(deaths)\n  ) %&gt;%\n  filter(\n    !is.na(age_group),\n    !cause %in% c(\n      \"I000\", \"I001\", \"I002\", \"I003\", \"I004\", \"I005\", \"I006\",\n      \"I024\", \"I025\", \"I026\", \"I027\", \"I028\", \"I029\", \"I030\", \"I031\", \"I032\",\n      \"I033\", \"I034\", \"I035\", \"I036\", \"I037\", \"I038\", \"I039\", \"I040\", \"I041\",\n      \"I042\", \"I043\", \"I044\", \"I045\", \"I046\", \"I047\", \"I048\", \"I049\", \"I050\",\n      \"I051\", \"I052\", \"I053\", \"I054\", \"I055\", \"I056\", \"I057\", \"I058\"\n    )\n  )\n\n# Creating death proportion (px)\ncan_int_tots &lt;- can_int_dat %&gt;%\n  group_by(year, age, sex) %&gt;%\n  summarise(total_deaths = sum(deaths_numeric, na.rm = TRUE))\n\ncan_int_dat_final &lt;- can_int_dat %&gt;%\n  left_join(can_int_tots, by = c(\"year\", \"age\", \"sex\")) %&gt;%\n  mutate(px = deaths_numeric / total_deaths)\n\n# Labeling causes of death\ncauses_int &lt;- c(\n  \"I007\" = \"Lip, oral cavity and pharynx\",\n  \"I008\" = \"Esophagus\",\n  \"I009\" = \"Stomach\",\n  \"I010\" = \"Colon, rectum and anus \",\n  \"I011\" = \"Pancreas\",\n  \"I012\" = \"Digestive System\",\n  \"I013\" = \"Larynx, trachea, bronchus and lung \",\n  \"I014\" = \"Skin\",\n  \"I015\" = \"Breast\",\n  \"I016\" = \"Uterus\",\n  \"I017\" = \"Ovary\",\n  \"I018\" = \"Prostate\",\n  \"I019\" = \"Genital organs\",\n  \"I020\" = \"Bladder\",\n  \"I021\" = \"Kidney and urinary organs\",\n  \"I022\" = \"Leukemia\",\n  \"I023\" = \"Other/unknown/benign neoplasms\"\n)\ncan_int_dat_final &lt;- can_int_dat_final %&gt;%\n  mutate(\n    causes_int_label = factor(causes_int[cause], levels = unname(causes_int))\n  )\n\n\n#### Shiny App Code ####\nui &lt;-\n  fluidPage(\n    theme = bs_theme(version = 5),\n    titlePanel(\"Cancer Mortality in Canada: An Analysis of Age, Sex, and Proportion of Death\"),\n    fluidRow(\n      # Left side\n      column(\n        width = 6,\n        selectInput(\n          \"cause_left\", \"Select cancer type:\",\n          choices = setNames(names(causes_int), causes_int),\n          selected = \"I015\"\n        ),\n        selectInput(\n          \"sex_left\", \"Select sex:\",\n          choices = c(\"Male\" = 1, \"Female\" = 2, \"Both\" = 3),\n          selected = 2\n        ),\n        plotlyOutput(\"heatmap1\", height = \"600px\")\n      ),\n      # Right side\n      column(\n        width = 6,\n        selectInput(\n          \"cause_right\", \"Select cancer type:\",\n          choices = setNames(names(causes_int), causes_int),\n          selected = \"I018\"\n        ),\n        selectInput(\n          \"sex_right\", \"Select sex:\",\n          choices = c(\"Male\" = 1, \"Female\" = 2, \"Both\" = 3),\n          selected = 1\n        ),\n        plotlyOutput(\"heatmap2\", height = \"600px\")\n      )\n    ),\n    br(),\n    br(),\n    fluidRow(\n      column(\n        width = 12,\n        card(\n          style = \"width: 100%;\",\n          card_header(h3(\"Key Findings 🩺\")),\n          card_body(\n            p(\"• Lung cancer would be the leading cause of cancer death in both males (10,100 deaths) and females (9,300 deaths), accounting for almost one-quarter of all cancer deaths.\"),\n            p(\"• Breast cancer is the second cancer-related cause of death for females (13.2%) whereas for males prostate cancer is the second cause of death (11.1%).\"),\n            p(\"• Colorectal cancer is the third cancer-related cause of death in both males and females (~10%). Pancreatic cancer is the fourth cause of death in both sexes (~7%).\"),\n            p(strong(\"Reference:\")),\n            p(\"https://cancer.ca/en/research/cancer-statistics/cancer-statistics-at-a-glance\")\n          )\n        )\n      )\n    )\n  )\n\nserver &lt;- function(input, output) {\n  # left side\n  output$heatmap1 &lt;- renderPlotly({\n    can_int_sm_left &lt;- can_int_dat_final %&gt;%\n      filter(\n        cause == input$cause_left,\n        sex == input$sex_left\n      )\n    plot_ly(\n      data = can_int_sm_left,\n      x = ~year,\n      y = ~age_start,\n      z = ~px,\n      customdata = ~sex,\n      type = \"heatmap\",\n      colors = rev(viridisLite::viridis(100)),\n      hovertemplate = paste(\n        \"Year: %{x}&lt;br&gt;\",\n        \"Age: %{y}&lt;br&gt;\",\n        \"Sex: %{customdata}&lt;br&gt;\",\n        \"Px: %{z:.3f}&lt;extra&gt;&lt;/extra&gt;\"\n      )\n    ) %&gt;%\n      layout(\n        xaxis = list(title = \"Year\", tickvals = seq(1950, 2022, 10)),\n        yaxis = list(title = \"Age\", tickvals = seq(0, 99, 10))\n      )\n  })\n\n  # right side\n  output$heatmap2 &lt;- renderPlotly({\n    can_int_sm_right &lt;- can_int_dat_final %&gt;%\n      filter(\n        cause == input$cause_right,\n        sex == input$sex_right\n      )\n    plot_ly(\n      data = can_int_sm_right,\n      x = ~year,\n      y = ~age_start,\n      z = ~px,\n      customdata = ~sex,\n      type = \"heatmap\",\n      colors = rev(viridisLite::viridis(100)),\n      hovertemplate = paste(\n        \"Year: %{x}&lt;br&gt;\",\n        \"Age: %{y}&lt;br&gt;\",\n        \"Sex: %{customdata}&lt;br&gt;\",\n        \"Px: %{z:.3f}&lt;extra&gt;&lt;/extra&gt;\"\n      )\n    ) %&gt;%\n      layout(\n        xaxis = list(title = \"Year\", tickvals = seq(1950, 2022, 10)),\n        yaxis = list(title = \"Age\", tickvals = seq(0, 99, 10))\n      )\n  })\n}\nshinyApp(ui = ui, server = server)",
+    "crumbs": [
+      "Links to events",
+      "2026",
+      "International Women's Day Coding Challenge"
+    ]
+  },
+  {
     "objectID": "events/2024/intro_to_r.html",
     "href": "events/2024/intro_to_r.html",
     "title": "Introduction to R Workshop Series",
@@ -321,6 +310,17 @@
       "Links to events",
       "2024",
       "Introduction to R Workshop Series"
+    ]
+  },
+  {
+    "objectID": "feedback.html",
+    "href": "feedback.html",
+    "title": "📝 Feedback",
+    "section": "",
+    "text": "We’re always looking to improve our events! Use the form below to let us know what’s working well, what we could do to improve, and any ideas you might have.\n\nLoading…",
+    "crumbs": [
+      "Links to events",
+      "Feedback"
     ]
   }
 ]

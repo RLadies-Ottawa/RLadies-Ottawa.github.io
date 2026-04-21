@@ -351,3 +351,12 @@ Valerie's project is a Shiny app in where the user provides their annual income,
 The full code can be found [here](https://github.com/vmfiguracion/Affordability-Calculator/tree/main).
 
 ![A screenshot of Valerie's Shiny app](./images/affordability_calculator.png)
+
+### Abibat Oki's submission
+
+OC Transpo operates Ottawa's bus and light‑rail network. Abibat's project analyzes how well the network meets its service standards, how ridership fluctuates throughout the year, and the events that drive those fluctuations. Raw monthly and daily reporting data were reshaped and modelled in Power BI to create interactive dashboards that help transit planners identify bottlenecks and target improvements.
+
+* **Live Dashboard:** [View Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYzhmMTgxYzEtZTcyNC00YzM1LTg5ZTAtOTY3YzA2MTZlYjc1IiwidCI6IjFlNjMzNjFkLTJhODktNGMyNy04MTcwLTExNGE4MTVkZDA0ZiJ9)
+* **README:** [View Project Repository & README](https://github.com/abibatoki/IWD-Data-Challenge-2026/blob/main/README.md)
+
+![A screenshot of Abibat's Power BI dashboard](./images/octranspo_powerbi.png)

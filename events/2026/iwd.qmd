@@ -69,8 +69,7 @@ Submissions from this year's data challenge will be posted below. Submissions fr
 
 ### Camy Kam's submission
 
-How are Ottawa/Gatineau residents feeling about their financial situation? Do they find it difficult to meet their household needs? This python project looks at their survey responses from 2021-2024 
-https://github.com/CamyKam/Financial-Security-Ottawa
+How are Ottawa/Gatineau residents feeling about their financial situation? Do they find it difficult to meet their household needs? [This Python project](https://github.com/CamyKam/Financial-Security-Ottawa) looks at their survey responses from 2021-2024.
 
 ### Brittny Vongdara's submission
 

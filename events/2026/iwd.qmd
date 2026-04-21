@@ -329,3 +329,13 @@ shinyApp(ui = ui, server = server)
 ```
 
 </details>
+
+### Afnan Madi's submission
+
+Afnan's project focuses on analyzing paramedic service demand in Ottawa (2021–2023), highlighting trends, seasonal patterns, and key insights that can support data-driven decision-making.
+
+The full project, including the dashboard and documentation, can be found at the following GitHub repository:
+
+👉 [https://github.com/Afnanmadi/ottawa-paramedic-demand-analysis](https://github.com/Afnanmadi/ottawa-paramedic-demand-analysis)
+
+![A screenshot of Afnan's Power BI dashboard](https://github.com/Afnanmadi/ottawa-paramedic-demand-analysis/raw/main/overview.png)

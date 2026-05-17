@@ -1,0 +1,55 @@
+title: Glamour
+author: RLadies+ Global
+version: 1.0.0
+quarto-required: ">=1.6.0"
+contributes:
+  metadata:
+    project:
+      brand: brand.yml
+  formats:
+    html:
+      theme:
+        light:
+          - cosmo
+          - brand
+          - html-theme.scss
+        dark:
+          - cosmo
+          - brand
+          - html-theme-dark.scss
+      filters:
+        - rlogo.lua
+    dashboard:
+      theme:
+        light:
+          - cosmo
+          - brand
+          - dashboard-theme.scss
+        dark:
+          - cosmo
+          - brand
+          - dashboard-theme-dark.scss
+      logo: logos/logo-horizontal-white.svg
+      filters:
+        - rlogo.lua
+    revealjs:
+      logo: logos/logo-horizontal.svg
+      theme:
+        - default
+        - brand
+        - revealjs-theme.scss
+      filters:
+        - rlogo.lua
+    typst:
+      brand: brand.yml
+      template-partials:
+        - typst-template.typ
+        - typst-show.typ
+      toc: false
+      toc-title: "Table of Contents"
+      toc-depth: 3
+      toc-indent: 1.5em
+      cols: 1
+      margin:
+        x: 2.5cm
+        y: 2.5cm

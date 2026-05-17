@@ -2,7 +2,7 @@
 title: "International Women's Day Data Challenge 2026"
 ---
 
-R-Ladies Ottawa is hosting another data challenge to celebrate International Women's Day 2026!
+RLadies+ Ottawa is hosting another data challenge to celebrate International Women's Day 2026!
 
 ![2026 IWD Data Challenge - Event advertisement poster](./images/data_challenge.png){width=1200}
 
@@ -30,7 +30,7 @@ For more inspo, be sure to check out our March 2025 event [Coding for a Cause](h
 
 ## Guidelines
 
-Although this challenge is hosted by *R-Ladies* Ottawa, you don't have to use R to participate. You could use R, Python, a combination of the two, or anything you're comfortable with! 
+Although this challenge is hosted by *RLadies+* Ottawa, you don't have to use R to participate. You could use R, Python, a combination of the two, or anything you're comfortable with! 
 
 No previous programming experience is required! If you're interested in participating, but aren't sure where to start, check out the recordings from our [Introduction to R workshops](https://rladies-ottawa.gitub.io/events/2024/intro_to_r.html) that we hosted in early 2024. The workshops will give you a solid foundation in data analysis and data visualization using R.
 
@@ -61,7 +61,7 @@ We're kicking this data challenge off with a co-working party on **March 9th, 20
 
 ## Showcasing your analysis
 
-On **Tuesday, April 28th, 2026 from 6pm-8pm**, R-Ladies Ottawa will host [a hybrid event](https://www.meetup.com/rladies-ottawa/events/313489859/?eventOrigin=your_events&utm_medium=referral&utm_campaign=event_card_savedevents_share_modal&utm_source=link&utm_version=v2&member_id=381181171) where participants can showcase their work. This is a great way to learn from one another and to connect with other like-minded individuals!
+On **Tuesday, April 28th, 2026 from 6pm-8pm**, RLadies+ Ottawa will host [a hybrid event](https://www.meetup.com/rladies-ottawa/events/313489859/?eventOrigin=your_events&utm_medium=referral&utm_campaign=event_card_savedevents_share_modal&utm_source=link&utm_version=v2&member_id=381181171) where participants can showcase their work. This is a great way to learn from one another and to connect with other like-minded individuals!
 
 ## Submissions
 

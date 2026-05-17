@@ -2,7 +2,7 @@
 title: "Introduction to R Workshop Series"
 ---
 
-In January and February 2024, R-Ladies Ottawa hosted a 3-part Introduction to R workshop series.
+In January and February 2024, RLadies+ Ottawa hosted a 3-part Introduction to R workshop series.
 
 ![](images/workshop_series.png)
 

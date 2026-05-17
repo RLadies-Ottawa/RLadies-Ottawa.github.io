@@ -1,0 +1,188 @@
+/*-- scss:defaults --*/
+
+$rladies-purple: #bb86f7 !default;
+$rladies-purple-light: #d4b9f5 !default;
+$rladies-purple-lighter: #e8daf9 !default;
+$rladies-blue: #81acf7 !default;
+$rladies-rose: #f6a4c3 !default;
+$rladies-charcoal: #121220 !default;
+$rladies-lavender: #ededf4 !default;
+$rladies-surface: #1a1a2e !default;
+
+$body-bg: $rladies-charcoal !default;
+$body-color: $rladies-lavender !default;
+$link-color: $rladies-purple-light !default;
+$link-decoration: underline !default;
+$border-radius: 0.5rem !default;
+
+$navbar-bg: #1e1e30 !default;
+$navbar-fg: $rladies-lavender !default;
+
+$card-bg: #1e1e30 !default;
+$card-border-color: rgba(255, 255, 255, 0.08) !default;
+$card-border-radius: 0.75rem !default;
+$card-cap-bg: transparent !default;
+
+$callout-color-note: $rladies-purple !default;
+$callout-color-tip: $rladies-blue !default;
+$callout-color-warning: $rladies-rose !default;
+$callout-color-important: $rladies-rose !default;
+$callout-color-caution: $rladies-rose !default;
+
+/*-- scss:rules --*/
+
+// ── Navbar ───────────────────────────────────────────────
+
+.quarto-dashboard .navbar {
+  border-bottom: 1px solid rgba($rladies-purple, 0.2);
+
+  .navbar-title-text {
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+
+  .nav-link {
+    font-weight: 500;
+    opacity: 0.85;
+    text-decoration: none;
+
+    &:hover, &.active { opacity: 1; }
+  }
+
+  .quarto-dashboard-links {
+    gap: 0.5rem;
+  }
+
+  .quarto-color-scheme-toggle {
+    margin-left: 0.25rem;
+  }
+}
+
+// ── Dashboard Content Area ───────────────────────────────
+
+.quarto-dashboard .dashboard-content {
+  background: $rladies-charcoal;
+}
+
+// ── Cards ────────────────────────────────────────────────
+
+.quarto-dashboard .card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba($rladies-purple, 0.1), 0 2px 6px rgba(0, 0, 0, 0.15);
+  }
+
+  .card-header {
+    font-weight: 600;
+    color: $rladies-lavender;
+    border-bottom: 2px solid rgba($rladies-purple, 0.15);
+  }
+
+  .card-body {
+    background: $card-bg;
+  }
+
+}
+
+// ── Value Boxes ──────────────────────────────────────────
+
+.quarto-dashboard .valuebox {
+  border-radius: $card-border-radius;
+
+  .value-box-value {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  .value-box-title {
+    font-weight: 500;
+    opacity: 0.9;
+  }
+}
+
+.quarto-dashboard .bslib-value-box.bg-primary {
+  background-color: rgba($rladies-purple, 0.25) !important;
+  color: $rladies-lavender;
+}
+
+.quarto-dashboard .bslib-value-box.bg-secondary {
+  background-color: rgba($rladies-blue, 0.2) !important;
+  color: $rladies-lavender;
+}
+
+.quarto-dashboard .bslib-value-box.bg-info {
+  background-color: rgba($rladies-rose, 0.2) !important;
+  color: $rladies-lavender;
+}
+
+.quarto-dashboard .bslib-value-box.bg-danger,
+.quarto-dashboard .bslib-value-box.bg-warning {
+  background-color: rgba($rladies-rose, 0.2) !important;
+  color: $rladies-lavender;
+}
+
+// ── Sidebar ──────────────────────────────────────────────
+
+.quarto-dashboard .sidebar {
+  background: $rladies-surface;
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+// ── Tabs ─────────────────────────────────────────────────
+
+.quarto-dashboard .nav-tabs .nav-link {
+  font-weight: 500;
+  color: $rladies-lavender;
+  text-decoration: none;
+
+  &:hover { color: $rladies-purple; }
+
+  &.active {
+    color: $rladies-purple;
+    border-bottom-color: $rladies-purple;
+    font-weight: 600;
+  }
+}
+
+// ── Tables ───────────────────────────────────────────────
+
+.quarto-dashboard table > tbody > tr:hover {
+  background-color: rgba($rladies-purple, 0.06);
+}
+
+// ── Code ─────────────────────────────────────────────────
+
+.quarto-dashboard code:not(pre code) {
+  background: rgba($rladies-purple, 0.15);
+}
+
+.quarto-dashboard div.sourceCode {
+  border-left: 3px solid rgba($rladies-purple, 0.4);
+}
+
+// ── Blockquotes ──────────────────────────────────────────
+
+.quarto-dashboard blockquote,
+.quarto-dashboard blockquote.blockquote {
+  border-left: 4px solid $rladies-purple;
+  background: rgba($rladies-purple, 0.1);
+  color: $rladies-lavender;
+
+  p, em, strong, span { color: $rladies-lavender; }
+}
+
+// ── Links ────────────────────────────────────────────────
+
+.quarto-dashboard a {
+  text-underline-offset: 0.2em;
+  &:hover { color: $rladies-purple-lighter; }
+}
+
+// ── R-Logo Submark Frame ─────────────────────────────────
+
+.rlogo-frame {
+  display: inline-block;
+  filter: drop-shadow(0 20px 60px rgba($rladies-purple, 0.15))
+          drop-shadow(0 8px 24px rgba(0, 0, 0, 0.2));
+}

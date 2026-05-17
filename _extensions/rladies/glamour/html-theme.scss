@@ -1,0 +1,117 @@
+/*-- scss:defaults --*/
+
+$link-decoration: underline !default;
+$border-radius: 0.5rem !default;
+
+$callout-color-note: #881ef9 !default;
+$callout-color-tip: #0f55cc !default;
+$callout-color-warning: #ff5b92 !default;
+$callout-color-important: #ff5b92 !default;
+$callout-color-caution: #ff5b92 !default;
+
+/*-- scss:rules --*/
+
+h1 {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  letter-spacing: -0.01em;
+}
+
+a {
+  transition: color 0.2s ease;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+blockquote {
+  border-left: 4px solid $primary;
+  background: rgba($primary, 0.06);
+  border-radius: 0 0.75rem 0.75rem 0;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.callout {
+  border-radius: 0.75rem;
+}
+
+
+code:not(pre code) {
+  border-radius: 0.25rem;
+  padding: 0.15em 0.4em;
+}
+
+div.sourceCode {
+  border-radius: 0.5rem;
+  border-left: 3px solid rgba($primary, 0.3);
+}
+
+.sidebar nav[role="doc-toc"] a:hover,
+.sidebar nav[role="doc-toc"] a.active {
+  color: $primary;
+}
+
+table {
+  border-radius: 0.5rem;
+}
+
+table > tbody > tr:hover {
+  background-color: rgba($primary, 0.04);
+}
+
+// ── R-Logo Submark Frame ─────────────────────────────────
+
+.rlogo-frame {
+  display: inline-block;
+  filter: drop-shadow(0 20px 60px rgba($primary, 0.2))
+          drop-shadow(0 8px 24px rgba(0, 0, 0, 0.1));
+}
+
+// ── Print ────────────────────────────────────────────────
+
+@media print {
+  body {
+    font-size: 11pt;
+    color: #000;
+    background: #fff;
+  }
+
+  a { color: #000; text-decoration: underline; }
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.8em; }
+
+  .sidebar, .quarto-nav, .quarto-footer, nav[role="doc-toc"] {
+    display: none !important;
+  }
+
+  #quarto-content {
+    margin: 0;
+    padding: 0;
+  }
+
+  blockquote {
+    border-left-color: #666;
+    background: none;
+  }
+
+  div.sourceCode {
+    border: 1px solid #ccc;
+    border-left-width: 3px;
+  }
+
+  .callout {
+    border: 1px solid #ccc;
+    break-inside: avoid;
+  }
+
+  table {
+    break-inside: avoid;
+  }
+
+  h1, h2, h3 {
+    break-after: avoid;
+    color: #000;
+  }
+}

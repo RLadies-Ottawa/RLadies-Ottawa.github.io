@@ -4,7 +4,7 @@ title: "International Women's Day Data Challenge 2024"
 
 International Women's Day takes place on March 8th, 2024. The theme for this year is "Invest in women: Accelerate progress".
 
-In honour of this theme, R-Ladies Ottawa is hosting a data challenge!
+In honour of this theme, RLadies+ Ottawa is hosting a data challenge!
 
 ![](images/data_challenge_2024.svg)
 
@@ -30,7 +30,7 @@ You can use any data source, but the following are examples:
 
 ## Guidelines
 
-Although this challenge is hosted by *R-Ladies* Ottawa, you don't have to use R to participate. You could use R, Python, a combination of the two, or anything you're comfortable with! 
+Although this challenge is hosted by *RLadies+* Ottawa, you don't have to use R to participate. You could use R, Python, a combination of the two, or anything you're comfortable with! 
 
 No previous programming experience is required! If you're interested in participating, but aren't sure where to start, check out the recordings from our [Introduction to R workshops](https://rladies-ottawa.gitub.io/events/2024/intro_to_r.html) that we hosted in early 2024. The workshops will give you a solid foundation in data analysis and data visualization using R.
 
@@ -64,7 +64,7 @@ There are two options for submitting an entry:
 
 ## Showcasing your analysis
 
-After the submission deadline, R-Ladies Ottawa will host a virtual event where participants can showcase their work. This is a great way to learn from one another and to connect with other like-minded individuals!
+After the submission deadline, RLadies+ Ottawa will host a virtual event where participants can showcase their work. This is a great way to learn from one another and to connect with other like-minded individuals!
 
 The date and time of the showcase event will be announced soon.
 
@@ -72,7 +72,7 @@ The date and time of the showcase event will be announced soon.
 
 ### Submissions of Islem Meherzi & Moufida Sidaoui
 
-This submission outlines our participation in the R-Ladies Ottawa data challenge, focusing on analyzing investments in women, specifically within data science research and women's health. Our project aims to explore women's contributions in data science, investigate global research content, and examine advancements in women's health research investments.
+This submission outlines our participation in the RLadies+ Ottawa data challenge, focusing on analyzing investments in women, specifically within data science research and women's health. Our project aims to explore women's contributions in data science, investigate global research content, and examine advancements in women's health research investments.
 
 ::: {.callout-tip collapse="true"}
 

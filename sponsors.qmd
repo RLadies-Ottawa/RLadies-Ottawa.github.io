@@ -2,7 +2,7 @@
 title: "Sponsors"
 ---
 
-Sponsoring R-Ladies Ottawa is a great way to show your support for gender diversity in our community. You can support our local chapter with:
+Sponsoring RLadies+ Ottawa is a great way to show your support for gender diversity in our community. You can support our local chapter with:
 
 * Venue space
 * Food and beverages
@@ -13,14 +13,14 @@ If you're interested in sponsoring us, please contact the organizers via a direc
 
 # Thank you!
 
-Thank you to our key sponsor, Bayview Yards, for making our in-person workshops possible by providing accessible hybrid event space for R-Ladies Ottawa events!
+Thank you to our key sponsor, Bayview Yards, for making our in-person workshops possible by providing accessible hybrid event space for RLadies+ Ottawa events!
 
 ![](images/bayview_yards_logo.png){.no-drop-shadow}
 
 <br>
 <br>
 
-Thank you to the following sponsors for generously donating prizes for R-Ladies Ottawa events.
+Thank you to the following sponsors for generously donating prizes for RLadies+ Ottawa events.
 
 :::{.grid}
 ::::{.g-col-4}

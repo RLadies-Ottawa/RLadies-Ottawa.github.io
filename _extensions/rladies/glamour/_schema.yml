@@ -1,0 +1,71 @@
+- id: glamour-typst
+  schema:
+    letterhead:
+      type: boolean
+      default: false
+      description: >
+        Enable letterhead mode with branded header and footer bands on every page.
+    letterhead-details:
+      type: string
+      description: >
+        Text displayed in the letterhead header (right side) and footer.
+        Use for chapter name, contact details, or regional info.
+    certificate:
+      type: boolean
+      default: false
+      description: >
+        Enable certificate mode for landscape completion certificates.
+    certificate-recipient:
+      type: string
+      description: >
+        Name of the certificate recipient, displayed prominently in purple.
+    certificate-description:
+      type: string
+      description: >
+        Description text for the certificate (e.g., workshop name, date, location).
+    certificate-footer:
+      type: string
+      description: >
+        Footer text for the certificate (e.g., website, email, chapter links).
+        Defaults to "Rladies.org - info@rladies.org" if not set.
+    title-style:
+      type: string
+      default: default
+      enum: [default, elaborate]
+      description: >
+        Title page style for reports. "default" is a simple centered layout.
+        "elaborate" adds certificate-style decorative elements with lavender
+        background, purple corner accents, and logo in a circular area.
+
+- id: glamour-revealjs
+  schema:
+    footer:
+      type: string
+      default: "RLadies+ | rladies.org"
+      description: Footer text shown on every slide.
+    slide-number:
+      type: boolean
+      default: true
+      description: Show slide numbers.
+    logo:
+      type: string
+      default: _extensions/glamour/logos/logo-horizontal.svg
+      description: Path to the logo displayed on slides.
+      completion:
+        type: file
+        extensions: [.svg, .png, .jpg]
+    title-slide-attributes:
+      type: object
+      description: Attributes for the title slide element.
+      properties:
+        class:
+          type: string
+          enum: [elaborate-title]
+          description: >
+            Title slide style. "elaborate-title" adds decorative header band,
+            purple accents, and geometric corner elements.
+        data-background-color:
+          type: string
+          enum: ["#881ef9", "#2f2f30"]
+          description: >
+            Background color for the title slide. Purple or dark charcoal.

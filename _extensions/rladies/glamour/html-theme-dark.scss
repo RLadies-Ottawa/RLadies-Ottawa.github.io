@@ -1,0 +1,104 @@
+/*-- scss:defaults --*/
+
+// Dark mode palette — lighter tints for contrast on dark backgrounds
+// Aligned with the RLadies++ website dark mode color scheme
+
+$rladies-purple: #bb86f7 !default;
+$rladies-purple-light: #d4b9f5 !default;
+$rladies-purple-lighter: #e8daf9 !default;
+$rladies-blue: #81acf7 !default;
+$rladies-rose: #f6a4c3 !default;
+$rladies-charcoal: #121220 !default;
+$rladies-lavender: #ededf4 !default;
+$rladies-surface: #1a1a2e !default;
+$rladies-muted: #9ca3af !default;
+
+$body-bg: $rladies-charcoal !default;
+$body-color: $rladies-lavender !default;
+$link-color: $rladies-purple-light !default;
+$link-decoration: underline !default;
+$border-radius: 0.5rem !default;
+
+$card-bg: #1e1e30 !default;
+$card-border-color: rgba(255, 255, 255, 0.1) !default;
+
+$callout-color-note: $rladies-purple !default;
+$callout-color-tip: $rladies-blue !default;
+$callout-color-warning: $rladies-rose !default;
+$callout-color-important: $rladies-rose !default;
+$callout-color-caution: $rladies-rose !default;
+
+/*-- scss:rules --*/
+
+h1 {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: $rladies-lavender;
+}
+
+h2 {
+  letter-spacing: -0.01em;
+  color: $rladies-lavender;
+}
+
+a {
+  transition: color 0.2s ease;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+
+  &:hover {
+    color: $rladies-purple-lighter;
+  }
+}
+
+blockquote,
+blockquote.blockquote {
+  border-left: 4px solid $rladies-purple;
+  background: rgba($rladies-purple, 0.1);
+  border-radius: 0 0.75rem 0.75rem 0;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  color: $rladies-lavender;
+
+  p,
+  em,
+  strong,
+  span {
+    color: $rladies-lavender;
+  }
+}
+
+.callout {
+  border-radius: 0.75rem;
+}
+
+code:not(pre code) {
+  border-radius: 0.25rem;
+  padding: 0.15em 0.4em;
+  background: rgba($rladies-purple, 0.15);
+}
+
+div.sourceCode {
+  border-radius: 0.5rem;
+  border-left: 3px solid rgba($rladies-purple, 0.4);
+}
+
+.sidebar nav[role="doc-toc"] a:hover,
+.sidebar nav[role="doc-toc"] a.active {
+  color: $rladies-purple-light;
+}
+
+table {
+  border-radius: 0.5rem;
+}
+
+table>tbody>tr:hover {
+  background-color: rgba($rladies-purple, 0.08);
+}
+
+// ── R-Logo Submark Frame ─────────────────────────────────
+
+.rlogo-frame {
+  display: inline-block;
+  filter: drop-shadow(0 20px 60px rgba($rladies-purple, 0.15)) drop-shadow(0 8px 24px rgba(0, 0, 0, 0.2));
+}

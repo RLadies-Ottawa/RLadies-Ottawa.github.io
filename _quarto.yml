@@ -6,7 +6,7 @@ website:
     content: "**New page alert** - Check out ['Events calender'](events.qmd) for upcoming events" 
   cookie-consent: true
   google-analytics: " G-L488CG8H5G"
-  title: "R-Ladies Ottawa"
+  title: "RLadies+ Ottawa"
   favicon: images/favicon.ico
   page-navigation: true
   site-url: https://www.rladies-ottawa.github.io/
@@ -18,17 +18,20 @@ website:
       - href: index.qmd
         text: Home
   sidebar:
-    title: R-Ladies Ottawa
+    title: RLadies+ Ottawa
     style: "docked"
     search: true
-    collapse-level: 3
+    collapse-level: 1
     logo: images/logo.png
     contents:
       - href: index.qmd
-        text: About us
+        text: "About us"
       - href: sponsors.qmd
+        text: "Sponsors"
       - href: events.qmd
         text: "Events calendar"
+      - href: feedback.qmd
+        text: "Feedback"        
       - section: Links to events
         contents:
         - section: "2026"
@@ -66,13 +69,7 @@ website:
             - href: https://www.meetup.com/rladies-ottawa/events/296797478/
               text: "Lightning Talks"
             - href: https://www.meetup.com/rladies-ottawa/events/295826281/
-              text: "In-person Networking Event"              
-        - href: feedback.qmd
-          text: Feedback
+              text: "In-person Networking Event"
 
 format:
-  html:
-    theme: 
-      light: [pulse, custom_light.scss]
-      dark: [darkly, custom_dark.scss]
-    toc: true
+  glamour-html: default

@@ -1,0 +1,488 @@
+/*-- scss:defaults --*/
+
+// RLadies+ brand palette
+$rladies-purple: #881ef9 !default;
+$rladies-purple-light: #a152f8 !default;
+$rladies-purple-50: #bb86f7 !default;
+$rladies-purple-lighter: #d4b9f5 !default;
+$rladies-blue: #0f55cc !default;
+$rladies-blue-75: #4a8bf8 !default;
+$rladies-blue-25: #b7ccf5 !default;
+$rladies-rose: #ff5b92 !default;
+$rladies-charcoal: #2f2f30 !default;
+$rladies-lavender: #ededf4 !default;
+$rladies-surface: #f8f8fc !default;
+$rladies-surface-alt: #f3f0fa !default;
+
+$body-bg: $rladies-lavender !default;
+$body-color: $rladies-charcoal !default;
+
+$presentation-font-size-root: 36px !default;
+$presentation-heading-font-weight: 600 !default;
+$presentation-heading-letter-spacing: -0.02em !default;
+$presentation-heading-line-height: 1.3 !default;
+$presentation-h1-font-size: 1.8em !default;
+$presentation-h2-font-size: 1.4em !default;
+$presentation-h3-font-size: 1.1em !default;
+$link-decoration: none !default;
+
+$callout-color-note: $rladies-purple !default;
+$callout-color-tip: $rladies-blue !default;
+$callout-color-warning: $rladies-rose !default;
+$callout-color-important: $rladies-rose !default;
+$callout-color-caution: $rladies-rose !default;
+
+/*-- scss:mixins --*/
+
+// Invert slide content for colored backgrounds
+@mixin inverted-slide($text, $link, $code-bg, $blockquote-border, $blockquote-bg, $title-bar-bg, $title-bar-color, $column-h3) {
+  color: $text;
+
+  h1, h2, h3, h4 { color: $text; }
+  p, li, span { color: $text; }
+
+  a {
+    color: $link;
+    border-bottom-color: rgba($link, 0.5);
+    &:hover { border-bottom-color: $link; }
+  }
+
+  code:not(pre code) {
+    background: rgba($text, 0.15);
+    color: $text;
+  }
+
+  blockquote {
+    border-left-color: $blockquote-border;
+    background: $blockquote-bg;
+    color: $text;
+  }
+
+  &.title-bar > h2 {
+    background: $title-bar-bg;
+    color: $title-bar-color;
+  }
+
+  &.statement {
+    h2 { color: $text; }
+    p { color: $text; }
+  }
+
+  .callout { color: $rladies-charcoal; }
+
+  .columns h3 { color: $column-h3; }
+
+  &.title-bar .columns h3 { color: $column-h3; }
+
+  .footer {
+    color: rgba($text, 0.6);
+    border-top-color: rgba($text, 0.15);
+  }
+}
+
+// Elaborate title 5-layer gradient background
+@mixin elaborate-title-bg($cutout, $stripe, $stripe-dot, $corner, $header) {
+  background:
+    radial-gradient(circle 40px at 0 28%,
+      $cutout 99%, transparent 100%),
+    radial-gradient(circle 2px at 2px calc(28% + 2px),
+      $stripe-dot 99%, transparent 100%),
+    linear-gradient($stripe, $stripe)
+      no-repeat 2px 28% / calc(100% - 2px) 4px,
+    radial-gradient(circle 70px at 0 100%,
+      $corner 99%, transparent 100%),
+    linear-gradient($header, $header)
+      no-repeat 0 0 / 100% 28%
+    !important;
+}
+
+/*-- scss:rules --*/
+
+// ── Title Slide ──────────────────────────────────────────
+
+#title-slide {
+  text-align: left;
+
+  h1.title {
+    color: $rladies-purple;
+    font-weight: 500;
+    font-size: 2.2em;
+    line-height: 1.2;
+    margin-bottom: 0.15em;
+  }
+
+  .subtitle {
+    color: $rladies-charcoal;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 0.8em;
+  }
+
+  .author,
+  .date,
+  .institute {
+    color: $rladies-charcoal;
+    font-size: 0.65em;
+  }
+}
+
+// ── Elaborate Title Slide ────────────────────────────────
+// Letterhead-inspired decorative title with header band, purple accents,
+// and geometric corner elements.
+// Usage: title-slide-attributes: { class: elaborate-title }
+//
+// Decorative elements:
+//   - Surface header band (background) with rounded bottom-left cutout
+//   - Purple accent block, top-right (::before, rounded bottom-left)
+//   - Purple stripe below header (background, with rounded left cap)
+//   - Left vertical accent bar (::after, pill-shaped)
+//   - Bottom-left corner accent (background, quarter circle)
+
+#title-slide.elaborate-title {
+  text-align: left;
+  padding: 32% 0 0 4%;
+  @include elaborate-title-bg(
+    $rladies-lavender,
+    $rladies-purple,
+    $rladies-purple,
+    $rladies-purple,
+    $rladies-surface
+  );
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 32%;
+    height: 14%;
+    background: $rladies-purple;
+    border-radius: 0 0 0 1.2rem;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 34%;
+    left: 0;
+    width: 6px;
+    height: 52%;
+    background: $rladies-purple;
+    border-radius: 3px;
+  }
+
+  &.center {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 32%;
+    padding-left: 4%;
+  }
+
+  > * {
+    position: relative;
+    z-index: 1;
+    max-width: 60%;
+  }
+
+  h1.title {
+    color: $rladies-purple;
+    font-weight: 500;
+    font-size: 2.4em;
+    line-height: 1.15;
+    margin-bottom: 0.2em;
+  }
+
+  .subtitle {
+    color: $rladies-charcoal;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 0.8em;
+  }
+
+  .quarto-title-authors, .date, .institute {
+    color: $rladies-charcoal;
+    font-size: 0.65em;
+  }
+}
+
+// Elaborate title on purple background
+#title-slide.elaborate-title[data-background-color="#881ef9"] {
+  @include elaborate-title-bg(
+    $rladies-purple,
+    rgba($rladies-lavender, 0.35),
+    rgba($rladies-lavender, 0.35),
+    rgba($rladies-lavender, 0.15),
+    rgba($rladies-lavender, 0.08)
+  );
+
+  &::before { background: rgba($rladies-lavender, 0.25); }
+  &::after { background: $rladies-lavender; }
+  h1.title { color: $rladies-lavender; }
+  .subtitle, .quarto-title-authors, .date, .institute { color: $rladies-lavender; }
+}
+
+// Elaborate title on dark background
+#title-slide.elaborate-title[data-background-color="#2f2f30"] {
+  @include elaborate-title-bg(
+    $rladies-charcoal,
+    rgba($rladies-purple, 0.5),
+    rgba($rladies-purple, 0.5),
+    rgba($rladies-purple, 0.12),
+    rgba($rladies-lavender, 0.04)
+  );
+
+  &::before { background: $rladies-purple; }
+  &::after { background: rgba($rladies-purple, 0.6); }
+  h1.title { color: $rladies-lavender; }
+  .subtitle, .quarto-title-authors, .date, .institute { color: $rladies-lavender; }
+}
+
+// ── Section Divider (h1 slides) ──────────────────────────
+
+.reveal .slides section > h1 {
+  color: $rladies-purple;
+  font-weight: 500;
+}
+
+// ── Elaborate Section Divider ────────────────────────────
+// Decorated h1 section slides with purple left accent bar.
+// Usage: # Section Title {.elaborate-section}
+
+.reveal section.elaborate-section {
+  text-align: left;
+  padding-left: 2em;
+  border-left: 6px solid $rladies-purple;
+
+  h1 {
+    color: $rladies-purple;
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 1.3;
+  }
+
+  p {
+    color: $rladies-charcoal;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+  }
+}
+
+.reveal section.elaborate-section[data-background-color="#881ef9"] {
+  border-left-color: $rladies-lavender;
+  h1 { color: $rladies-lavender; }
+  p { color: $rladies-lavender; }
+}
+
+.reveal section.elaborate-section[data-background-color="#2f2f30"] {
+  border-left-color: $rladies-purple;
+  h1 { color: $rladies-lavender; }
+  p { color: $rladies-lavender; }
+}
+
+// ── Title Bar ────────────────────────────────────────────
+// The signature purple heading bar from the PPTX template.
+// Usage: ## Slide Title {.title-bar}
+
+.reveal section.title-bar > h2 {
+  background: $rladies-purple;
+  color: $rladies-lavender;
+  font-weight: 600;
+  font-size: 1.15em;
+  padding: 0.35em 0.8em;
+  margin: -0.2em -2.5% 0.6em;
+  border-radius: 0 0 0.6rem 0;
+  text-align: left;
+  line-height: 1.3;
+}
+
+// ── Statement Slide ──────────────────────────────────────
+// Large text for impact or section transitions.
+// Usage: ## Big statement here {.statement}
+
+.reveal section.statement {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+
+  h2 {
+    font-size: 1.8em;
+    font-weight: 500;
+    color: $rladies-purple;
+    line-height: 1.3;
+  }
+
+  p {
+    font-size: 1.1em;
+    color: $rladies-charcoal;
+  }
+}
+
+// ── Image Slides ─────────────────────────────────────────
+// Full-bleed background image with purple title overlay.
+// Usage: ## Title {.image-slide background-image="photo.jpg" background-size="cover"}
+
+.reveal section.image-slide > h2 {
+  background: rgba($rladies-purple, 0.92);
+  color: $rladies-lavender;
+  padding: 0.35em 0.8em;
+  margin: -0.2em -2.5% 0;
+  border-radius: 0 0 0.6rem 0;
+  text-align: left;
+}
+
+.reveal section.image-slide > p,
+.reveal section.image-slide > ul {
+  background: rgba($rladies-charcoal, 0.7);
+  color: $rladies-lavender;
+  padding: 0.5em 0.8em;
+  border-radius: 0.4rem;
+}
+
+// Bottom overlay variant
+// Usage: ## Title {.image-slide-bottom background-image="photo.jpg" background-size="cover"}
+
+.reveal section.image-slide-bottom {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  h2 {
+    background: rgba($rladies-purple, 0.92);
+    color: $rladies-lavender;
+    padding: 0.35em 0.8em;
+    margin: 0 -2.5% -0.3em;
+    border-radius: 0.6rem 0 0 0;
+    text-align: left;
+  }
+}
+
+// ── Background Theme: Purple ─────────────────────────────
+// Usage: ## Title {background-color="#881ef9"}
+
+.reveal section[data-background-color="#881ef9"] {
+  @include inverted-slide(
+    $text: $rladies-lavender,
+    $link: $rladies-lavender,
+    $code-bg: rgba($rladies-lavender, 0.15),
+    $blockquote-border: $rladies-lavender,
+    $blockquote-bg: rgba($rladies-lavender, 0.08),
+    $title-bar-bg: $rladies-lavender,
+    $title-bar-color: $rladies-purple,
+    $column-h3: $rladies-lavender
+  );
+}
+
+// ── Background Theme: Dark ───────────────────────────────
+// Usage: ## Title {background-color="#2f2f30"}
+
+.reveal section[data-background-color="#2f2f30"] {
+  @include inverted-slide(
+    $text: $rladies-lavender,
+    $link: $rladies-purple-lighter,
+    $code-bg: rgba($rladies-lavender, 0.15),
+    $blockquote-border: $rladies-purple-50,
+    $blockquote-bg: rgba($rladies-purple, 0.15),
+    $title-bar-bg: $rladies-purple,
+    $title-bar-color: $rladies-lavender,
+    $column-h3: $rladies-blue-25
+  );
+}
+
+// ── Two-Column Titled ────────────────────────────────────
+// Column sub-headings in accent blue (matching PPTX layout)
+
+.reveal section.title-bar .columns h3 {
+  color: $rladies-blue;
+  font-weight: 600;
+  font-size: 0.85em;
+  margin-bottom: 0.3em;
+}
+
+// ── General Element Styling ──────────────────────────────
+
+.reveal .slide h1 {
+  font-weight: 500;
+}
+
+.reveal .slide blockquote {
+  border-left: 4px solid $rladies-purple;
+  background: rgba($rladies-purple, 0.06);
+  border-radius: 0 0.75rem 0.75rem 0;
+  padding: 1rem 1.5rem;
+  font-style: normal;
+}
+
+.reveal .slide a {
+  border-bottom: 2px solid rgba($rladies-purple, 0.3);
+  transition: border-color 0.2s ease;
+}
+
+.reveal .slide a:hover {
+  border-bottom-color: $rladies-purple;
+}
+
+.reveal .slide code:not(pre code) {
+  background: rgba($rladies-purple, 0.08);
+  border-radius: 0.25rem;
+  padding: 0.1em 0.35em;
+  font-size: 0.85em;
+}
+
+.reveal .slide .sourceCode {
+  border-radius: 0.5rem;
+  border-left: 3px solid rgba($rladies-purple, 0.3);
+}
+
+.reveal .slide .callout {
+  border-radius: 0.5rem;
+}
+
+.reveal .slide .footer,
+.reveal > .footer {
+  font-size: 0.5em;
+  color: $rladies-charcoal;
+  border-top: 1px solid rgba($rladies-purple, 0.15);
+  padding-top: 0.4em;
+
+  p { color: $rladies-charcoal; }
+}
+
+.reveal .slide-number,
+.reveal .slide-number a {
+  color: $rladies-charcoal !important;
+}
+
+// ── R-Logo Submark Frame ─────────────────────────────────
+// Image framed in the R+ submark shape via rlogo.lua filter.
+// Usage: ::: {.rlogo image="photo.jpg" width="280px"}
+//        :::
+// Place on title slides (top-right) or section slides.
+
+#title-slide .rlogo-frame {
+  position: absolute;
+  top: 8%;
+  right: 6%;
+}
+
+#title-slide.elaborate-title .rlogo-frame {
+  top: 2%;
+  right: 4%;
+}
+
+.reveal section .rlogo-frame {
+  display: inline-block;
+}
+
+// ── Logo ─────────────────────────────────────────────────
+
+.slide-logo {
+  position: fixed !important;
+}
+
+.reveal section[data-background-color="#881ef9"] .slide-logo,
+.reveal section[data-background-color="#2f2f30"] .slide-logo {
+  filter: brightness(0) invert(1) opacity(0.92);
+}

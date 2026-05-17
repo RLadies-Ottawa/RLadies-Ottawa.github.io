@@ -7,7 +7,6 @@ website:
   cookie-consent: true
   google-analytics: " G-L488CG8H5G"
   title: "RLadies+ Ottawa"
-  favicon: images/favicon.ico
   page-navigation: true
   site-url: https://www.rladies-ottawa.github.io/
   reader-mode: true
